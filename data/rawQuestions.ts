@@ -639,7 +639,7 @@ D) Sustituir los sistemas informáticos
 Respuesta correcta: B
 
 79.
-¿Cuál es la siguientes situaciones evidencia dolo en una operación de importación?
+¿Cuál de las siguientes situaciones evidencia dolo en una operación de importación?
 A) Error involuntario en la documentación
 B) Diferencia mínima en el peso declarado
 C) Declaración intencional de datos falsos para evadir tributos
@@ -779,7 +779,7 @@ El comercio exterior contribuye al bienestar social cuando:
 A) Se concentra en pocos sectores
 B) Genera empleo formal y desarrollo sostenible
 C) Elimina la inversión privada
-D) Sustituye políticas sociales
+D) Sustituir políticas sociales
 Respuesta correcta: B
 
 97.
@@ -814,7 +814,7 @@ C) Un sistema estratégico que articula economía, derecho y desarrollo
 D) Un proceso limitado a importaciones
 Respuesta correcta: C
 
-1. Caso práctico – Política comercial y desarrollo
+101.
 Ecuador mantiene una alta dependencia de exportaciones primarias como banano, camarón y 
 petróleo. Desde una perspectiva de política comercial y desarrollo económico, ¿cuál de las siguientes 
 estrategias sería la más coherente para reducir la vulnerabilidad externa del país?
@@ -824,7 +824,7 @@ C) Sustituir completamente las exportaciones por producción interna
 D) Limitar la firma de acuerdos comerciales para proteger la industria local
 Respuesta correcta: B
 
-2. Caso práctico – Tratados comerciales
+102.
 Una empresa ecuatoriana exportadora de cacao procesa parcialmente su producto antes de 
 venderlo a la Unión Europea. Para beneficiarse de las preferencias arancelarias del acuerdo 
 Ecuador–UE, la empresa debe principalmente:
@@ -834,7 +834,7 @@ C) Registrar la marca en el país importador
 D) Utilizar exclusivamente transporte marítimo
 Respuesta correcta: B
 
-3. Caso práctico – Subvaloración
+103.
 Una empresa importa maquinaria desde Asia y declara un valor FOB significativamente inferior al 
 promedio internacional. El sistema de riesgo del SENAE genera una alerta. Desde el punto de vista 
 aduanero, la medida más probable será:
@@ -844,7 +844,7 @@ C) Liberación inmediata por tratarse de bienes de capital
 D) Aceptación del valor declarado sin observaciones
 Respuesta correcta: B
 
-4. Contexto – Valoración aduanera
+104.
 En una importación bajo Incoterm CIF, el importador declara únicamente el valor de la factura 
 comercial, excluyendo el seguro internacional. ¿Cuál es la implicación legal y tributaria más 
 relevante?
@@ -854,7 +854,7 @@ C) El error se corrige automáticamente sin consecuencias
 D) Solo afecta al cálculo del IVA, no al arancel
 Respuesta correcta: B
 
-5. Caso práctico – Resolución anticipada
+105.
 Una empresa planea importar drones agrícolas con sensores y sistemas de fumigación. Antes de 
 cerrar la compra, solicita una resolución anticipada al SENAE. El principal beneficio de esta decisión 
 es:
@@ -864,7 +864,7 @@ C) Garantizar la exoneración del IVA
 D) Eliminar la inspección física
 Respuesta correcta: B
 
-6. Contexto – Aforo aduanero
+106.
 Un importador con antecedentes de incumplimiento presenta una declaración para importar 
 productos farmacéuticos. Considerando el análisis de riesgo, ¿qué tipo de aforo es más probable?
 A) Canal verde
@@ -873,7 +873,7 @@ C) Canal rojo con inspección física
 D) Liberación automática por tratarse de medicinas
 Respuesta correcta: C
 
-7. Caso práctico – Importación temporal
+107.
 Una empresa de construcción importa maquinaria pesada para un proyecto específico de seis 
 meses, con obligación de reexportación. Si la empresa no cumple con la reexportación en el plazo 
 establecido, la consecuencia será:
@@ -883,7 +883,7 @@ C) Abandono tácito inmediato
 D) Exoneración por tratarse de maquinaria
 Respuesta correcta: B
 
-8. Contexto – Abandono tácito
+108.
 Un importador no presenta la Declaración Aduanera de Importación dentro del plazo legal y 
 tampoco solicita prórroga. Según el COPCI, esta situación genera:
 A) Multa administrativa únicamente
@@ -892,7 +892,7 @@ C) Suspensión del RUC
 D) Cancelación automática del contrato comercial
 Respuesta correcta: B
 
-9. Caso práctico – Balanza comercial
+109.
 Si Ecuador registra un crecimiento sostenido de importaciones sin un aumento proporcional de 
 exportaciones, el efecto más probable en la balanza comercial será:
 A) Superávit comercial
@@ -901,7 +901,7 @@ C) Déficit comercial
 D) Incremento de reservas internacionales
 Respuesta correcta: C
 
-10. Contexto – Dolarización
+110.
 ¿Por qué el comercio exterior es especialmente relevante para economías dolarizadas como la 
 ecuatoriana?
 A) Porque reduce la inflación estructural
@@ -910,7 +910,7 @@ C) Porque elimina la política fiscal
 D) Porque sustituye el endeudamiento externo
 Respuesta correcta: B
 
-11. Caso práctico – Exportación de alimentos
+111.
 Una empresa exporta frutas frescas sin cumplir los requisitos fitosanitarios del país destino. ¿Cuál es 
 el escenario más probable?
 A) Pago de un arancel adicional
@@ -919,7 +919,7 @@ C) Reetiquetado automático en destino
 D) Exoneración por tratarse de productos agrícolas
 Respuesta correcta: B
 
-12. Contexto – Logística internacional
+112.
 Una mala planificación logística internacional impacta directamente en la competitividad porque:
 A) Incrementa la producción
 B) Genera retrasos, sobrecostos y pérdida de clientes
@@ -927,7 +927,7 @@ C) Elimina la necesidad de documentación
 D) Reduce el control aduanero
 Respuesta correcta: B
 
-13. Caso práctico – Incoterms
+113.
 Una empresa acuerda un Incoterm FOB sin comprender que el seguro corre por su cuenta. Durante 
 el transporte ocurre un siniestro. ¿Cuál es la consecuencia directa?
 A) El vendedor asume toda la pérdida
@@ -936,7 +936,7 @@ C) El seguro es obligatorio para el exportador
 D) La aduana cubre la pérdida
 Respuesta correcta: B
 
-14. Contexto – Instrumentos de pago
+114.
 Una empresa exportadora nueva busca minimizar el riesgo de impago en su primera operación 
 internacional. El instrumento más adecuado es:
 A) Transferencia bancaria posterior
@@ -945,7 +945,7 @@ C) Carta de crédito irrevocable
 D) Pago contra entrega
 Respuesta correcta: C
 
-15. Caso práctico – Incentivos a la exportación
+115.
 Una empresa importa insumos, produce bienes para exportación y luego solicita la devolución 
 parcial de tributos pagados por dichos insumos. Este mecanismo corresponde a:
 A) Exoneración fiscal
@@ -954,7 +954,8 @@ C) Subsidio directo
 D) Crédito tributario
 Respuesta correcta: B
 
-16. Contexto – Rol institucional
+116.
+Contexto – Rol institucional
 ¿Cuál es la diferencia fundamental entre el rol del COMEX y el SENAE?
 A) Ambos cumplen funciones idénticas
 B) COMEX define política comercial y SENAE ejecuta control aduanero
@@ -962,7 +963,7 @@ C) SENAE negocia tratados y COMEX recauda tributos
 D) COMEX administra ECUAPASS
 Respuesta correcta: B
 
-17. Caso práctico – Promoción de exportaciones
+117.
 Una empresa participa en una feria internacional organizada por PRO ECUADOR. El principal objetivo 
 estratégico de esta acción es:
 A) Reducir tributos
@@ -971,7 +972,7 @@ C) Sustituir estudios de mercado
 D) Eliminar requisitos técnicos
 Respuesta correcta: B
 
-18. Contexto – Diversificación
+118.
 ¿Por qué la diversificación de mercados de exportación reduce el riesgo económico?
 A) Porque elimina la competencia
 B) Porque reduce la dependencia de un solo socio comercial
@@ -979,7 +980,7 @@ C) Porque incrementa automáticamente los precios
 D) Porque sustituye la producción interna
 Respuesta correcta: B
 
-19. Caso práctico – Contrabando
+119.
 El contrabando afecta negativamente al comercio exterior formal porque:
 A) Reduce exportaciones
 B) Distorsiona la competencia y reduce la recaudación fiscal
@@ -987,7 +988,7 @@ C) Incrementa el empleo formal
 D) Elimina aranceles
 Respuesta correcta: B
 
-20. Contexto – Competitividad
+120.
 Desde el enfoque del Diamante de Porter, una empresa será más competitiva internacionalmente 
 cuando:
 A) Opera en un mercado interno poco exigente
@@ -996,7 +997,7 @@ C) Depende exclusivamente de incentivos estatales
 D) Evita la rivalidad empresarial
 Respuesta correcta: B
 
-21. Caso práctico – Clasificación arancelaria
+121.
 Una empresa ecuatoriana importa equipos electrónicos multifunción que incorporan cámara, 
 sensores y conectividad inalámbrica. El importador decide clasificarlos como accesorios informáticos 
 para pagar un arancel menor. Posteriormente, la Aduana determina que corresponden a una 
@@ -1008,7 +1009,7 @@ C) Abandono tácito inmediato
 D) Anulación del contrato internacional
 Respuesta correcta: B
 
-22. Contexto – Valoración aduanera
+122.
 ¿Por qué la valoración aduanera es uno de los elementos más sensibles en el control del comercio 
 exterior?
 A) Porque define el país de origen
@@ -1017,7 +1018,7 @@ C) Porque sustituye la clasificación arancelaria
 D) Porque elimina el riesgo aduanero
 Respuesta correcta: B
 
-23. Caso práctico – Seguro internacional
+123.
 Una empresa importa bajo Incoterm FOB y decide no contratar seguro para reducir costos. Durante 
 el transporte ocurre un siniestro total. Desde el punto de vista financiero y contractual, el error 
 principal fue:
@@ -1027,7 +1028,7 @@ C) No solicitar resolución anticipada
 D) No utilizar carta de crédito
 Respuesta correcta: B
 
-24. Contexto – Gestión del riesgo cambiario
+124.
 Una empresa ecuatoriana exporta a un país con moneda volátil. Para protegerse ante posibles 
 pérdidas por variaciones del tipo de cambio, la herramienta más adecuada sería:
 A) Carta de crédito
@@ -1036,7 +1037,7 @@ C) Certificado de origen
 D) Aforo anticipado
 Respuesta correcta: B
 
-25. Caso práctico – Importaciones y tributos
+125.
 Una empresa importa mercancía para consumo interno. Además del arancel y el IVA, debe pagar 
 obligatoriamente:
 A) ISD siempre
@@ -1045,7 +1046,8 @@ C) Impuesto a la Renta
 D) Drawback
 Respuesta correcta: B
 
-26. Contexto – ISD
+126.
+Contexto – ISD
 ¿Por qué el Impuesto a la Salida de Divisas (ISD) puede afectar la competitividad de las 
 importaciones?
 A) Porque incrementa el valor FOB
@@ -1054,7 +1056,7 @@ C) Porque sustituye al IVA
 D) Porque elimina aranceles
 Respuesta correcta: B
 
-27. Caso práctico – Exportación de servicios
+127.
 Una empresa ecuatoriana de software vende servicios digitales a clientes en el extranjero sin enviar 
 ningún bien físico. Desde el punto de vista del comercio exterior, esta operación se clasifica como:
 A) Importación indirecta
@@ -1063,7 +1065,7 @@ C) Exportación de servicios
 D) Operación interna
 Respuesta correcta: C
 
-28. Contexto – Requisitos del país destino
+128.
 Antes de exportar alimentos procesados a Europa, una empresa debe verificar requisitos de 
 etiquetado, trazabilidad y sanidad. ¿Por qué estos requisitos son considerados barreras no 
 arancelarias?
@@ -1073,7 +1075,7 @@ C) Porque sustituyen aranceles
 D) Porque son opcionales
 Respuesta correcta: B
 
-29. Caso práctico – Integración económica
+129.
 Ecuador forma parte de la Comunidad Andina. Una empresa exporta a Perú sin pagar aranceles. Este 
 beneficio se explica principalmente por:
 A) Política unilateral del Ecuador
@@ -1082,7 +1084,7 @@ C) Exoneración fiscal nacional
 D) Subsidio estatal
 Respuesta correcta: B
 
-30. Contexto – Competencia internacional
+130.
 La apertura comercial incrementa la competencia en el mercado interno. Desde el punto de vista 
 empresarial, el efecto más relevante es que:
 A) Reduce la innovación
@@ -1091,7 +1093,7 @@ C) Elimina empresas nacionales automáticamente
 D) Reduce el empleo formal
 Respuesta correcta: B
 
-31. Caso práctico – Logística y costos
+131.
 Una empresa exportadora pierde clientes por retrasos constantes en la entrega. Tras un análisis, se 
 identifica deficiente coordinación logística. ¿Cuál es el impacto directo más relevante?
 A) Incremento del arancel
@@ -1100,7 +1102,7 @@ C) Eliminación de preferencias arancelarias
 D) Cancelación del registro de exportador
 Respuesta correcta: B
 
-32. Contexto – Planificación exportadora
+132.
 ¿Por qué la selección del mercado objetivo es una etapa crítica en el proceso de exportación?
 A) Porque determina el tipo de transporte únicamente
 B) Porque define requisitos, costos, riesgos y viabilidad comercial
@@ -1108,7 +1110,7 @@ C) Porque sustituye el análisis financiero
 D) Porque elimina barreras no arancelarias
 Respuesta correcta: B
 
-33. Caso práctico – Incentivos fiscales
+133.
 Una empresa exportadora no paga IVA por sus ventas al exterior y solicita devolución del IVA pagado 
 en insumos. Este mecanismo busca principalmente:
 A) Incrementar recaudación
@@ -1117,7 +1119,7 @@ C) Sustituir el drawback
 D) Eliminar la contabilidad tributaria
 Respuesta correcta: B
 
-34. Contexto – Desarrollo regional
+134.
 El crecimiento de exportaciones agrícolas en zonas rurales impacta positivamente porque:
 A) Reduce la inversión privada
 B) Genera empleo, ingresos y desarrollo local
@@ -1125,7 +1127,7 @@ C) Elimina la migración
 D) Sustituye políticas sociales
 Respuesta correcta: B
 
-35. Caso práctico – Aforo documental
+135.
 Una importación es asignada a canal amarillo. ¿Qué implica este tipo de aforo?
 A) Inspección física completa
 B) Revisión documental sin apertura de bultos
@@ -1133,7 +1135,7 @@ C) Liberación automática
 D) Abandono tácito
 Respuesta correcta: B
 
-36. Contexto – Abandono tácito
+136.
 Una mercancía permanece en depósito aduanero más allá del plazo legal sin que el importador 
 actúe. La Aduana procede conforme a:
 A) Aforo físico
@@ -1142,7 +1144,7 @@ C) Reexportación automática
 D) Exoneración tributaria
 Respuesta correcta: B
 
-37. Caso práctico – Política pública
+137.
 El Estado ecuatoriano promueve exportaciones no petroleras para:
 A) Sustituir la dolarización
 B) Diversificar la economía y reducir dependencia de commodities
@@ -1150,7 +1152,7 @@ C) Eliminar importaciones
 D) Reducir el comercio exterior
 Respuesta correcta: B
 
-38. Contexto – Comercio sostenible
+138.
 El comercio exterior sostenible se caracteriza principalmente por:
 A) Maximizar volumen exportado sin control
 B) Integrar criterios económicos, sociales y ambientales
@@ -1158,7 +1160,7 @@ C) Eliminar normas ambientales
 D) Priorizar solo el beneficio empresarial
 Respuesta correcta: B
 
-39. Caso práctico – Planeación financiera
+139.
 Una empresa no considera todos los costos logísticos y tributarios al importar. El resultado más 
 probable será:
 A) Mayor rentabilidad
@@ -1167,7 +1169,7 @@ C) Eliminación de impuestos
 D) Aumento de exportaciones
 Respuesta correcta: B
 
-40. Contexto – Visión estratégica
+140.
 Desde una visión integral, el comercio exterior debe ser gestionado como:
 A) Una actividad operativa aislada
 B) Un proceso estratégico alineado al desarrollo empresarial y nacional
@@ -1175,7 +1177,7 @@ C) Una obligación legal únicamente
 D) Un mecanismo exclusivo del Estado
 Respuesta correcta: B
 
-41. Caso práctico – Reglas de origen
+141.
 Una empresa ecuatoriana importa insumos desde un país no miembro de la Unión Europea, procesa 
 el producto en Ecuador y lo exporta a Europa. Para que el producto final califique como originario y 
 acceda a preferencias arancelarias, la empresa debe demostrar principalmente que:
@@ -1185,7 +1187,7 @@ C) El transporte fue directo
 D) El importador europeo lo solicite
 Respuesta correcta: B
 
-42. Contexto – Pérdida de preferencias
+142.
 Si una exportación se beneficia inicialmente de un tratado comercial pero luego se comprueba 
 incumplimiento de reglas de origen, la consecuencia más probable será:
 A) Multa únicamente al importador
@@ -1194,7 +1196,7 @@ C) Cancelación del acuerdo comercial
 D) Abandono tácito
 Respuesta correcta: B
 
-43. Caso práctico – Evaluación de mercados
+143.
 Una empresa planea exportar alimentos procesados y debe elegir entre dos mercados: uno con alta 
 demanda pero estrictas regulaciones sanitarias, y otro con menor demanda pero requisitos más 
 flexibles. Desde una perspectiva estratégica, la decisión debe basarse principalmente en:
@@ -1204,7 +1206,7 @@ C) Distancia geográfica
 D) Tipo de transporte disponible
 Respuesta correcta: B
 
-44. Contexto – Barreras no arancelarias
+144.
 ¿Por qué las barreras no arancelarias son consideradas más complejas que los aranceles 
 tradicionales?
 A) Porque generan recaudación
@@ -1213,7 +1215,7 @@ C) Porque requieren adaptación técnica, sanitaria y normativa
 D) Porque eliminan la competencia
 Respuesta correcta: C
 
-45. Caso práctico – Planeación logística
+145.
 Una empresa exportadora no coordina adecuadamente tiempos de producción, transporte y 
 despacho aduanero. Como resultado, incumple plazos contractuales. Desde el punto de vista del 
 comercio internacional, este problema se origina principalmente en:
@@ -1223,7 +1225,7 @@ C) Errores en el certificado de origen
 D) Falta de incentivos estatales
 Respuesta correcta: B
 
-46. Contexto – Incoterms y riesgo
+146.
 ¿Cuál es el criterio principal que debe considerarse al seleccionar un Incoterm en una operación 
 internacional?
 A) El país de origen
@@ -1232,7 +1234,7 @@ C) El tipo de producto únicamente
 D) El arancel aplicable
 Respuesta correcta: B
 
-47. Caso práctico – Instrumentos de pago
+147.
 Una empresa exportadora acepta una cobranza documentaria contra aceptación (D/A). El riesgo 
 principal de este instrumento es que:
 A) El importador no reciba la mercancía
@@ -1241,15 +1243,15 @@ C) El banco garantice el pago
 D) El arancel se incremente
 Respuesta correcta: B
 
-48. Contexto – Seguridad jurídica
+148.
 La seguridad jurídica en el comercio exterior es fundamental porque:
 A) Elimina el riesgo comercial
 B) Permite previsibilidad, planificación y reducción de conflictos
-C) Sustituye la normativa aduanera
+C) Sustituir la normativa aduanera
 D) Elimina el control estatal
 Respuesta correcta: B
 
-49. Caso práctico – Inversión extranjera
+149.
 Una empresa extranjera evalúa invertir en Ecuador para producir bienes de exportación. Desde su 
 perspectiva, el factor más relevante será:
 A) El tamaño del mercado interno
@@ -1258,7 +1260,7 @@ C) El nivel de aranceles internos
 D) La competencia local
 Respuesta correcta: B
 
-50. Contexto – Integración regional
+150.
 Los procesos de integración regional, como la CAN, buscan principalmente:
 A) Eliminar la soberanía nacional
 B) Facilitar el comercio intrarregional y el desarrollo conjunto
@@ -1266,7 +1268,7 @@ C) Aumentar barreras al comercio
 D) Sustituir acuerdos multilaterales
 Respuesta correcta: B
 
-51. Caso práctico – Política arancelaria
+151.
 El COMEX decide aumentar temporalmente aranceles a ciertos productos importados para proteger 
 la industria nacional. Desde la teoría económica, esta medida responde principalmente a una 
 política:
@@ -1276,7 +1278,7 @@ C) Monetaria
 D) Cambiaria
 Respuesta correcta: B
 
-52. Contexto – Efectos del proteccionismo
+152.
 ¿Cuál es uno de los principales riesgos del uso prolongado de medidas proteccionistas?
 A) Incremento de competitividad
 B) Reducción de incentivos para innovar
@@ -1284,7 +1286,7 @@ C) Diversificación productiva automática
 D) Aumento del comercio internacional
 Respuesta correcta: B
 
-53. Caso práctico – Valor agregado
+153.
 Una empresa decide transformar materia prima agrícola en productos procesados para exportación. 
 Desde la perspectiva del desarrollo económico, el beneficio principal es:
 A) Eliminación de impuestos
@@ -1293,7 +1295,7 @@ C) Reducción de exportaciones
 D) Sustitución de importaciones
 Respuesta correcta: B
 
-54. Contexto – Competitividad sistémica
+154.
 La competitividad de un país en comercio exterior depende de:
 A) Empresas aisladas
 B) Interacción entre infraestructura, instituciones, empresas y capital humano
@@ -1301,7 +1303,7 @@ C) Eliminación de regulaciones
 D) Exclusivamente del tipo de cambio
 Respuesta correcta: B
 
-55. Caso práctico – Control aduanero
+155.
 Una empresa incurre reiteradamente en errores de declaración. ¿Cuál será el efecto más probable 
 en futuras operaciones?
 A) Menor control
@@ -1310,7 +1312,7 @@ C) Exoneración de aforo
 D) Eliminación del registro
 Respuesta correcta: B
 
-56. Contexto – Facilitación del comercio
+156.
 La facilitación del comercio busca equilibrar:
 A) Liberalización total y ausencia de control
 B) Control aduanero y agilidad operativa
@@ -1318,7 +1320,7 @@ C) Recaudación y eliminación de tributos
 D) Comercio interno y externo
 Respuesta correcta: B
 
-57. Caso práctico – Comercio digital
+157.
 Una empresa ecuatoriana ofrece servicios de consultoría a clientes extranjeros mediante 
 plataformas digitales. Este tipo de comercio plantea como principal desafío:
 A) Transporte físico
@@ -1327,7 +1329,7 @@ C) Aforo aduanero
 D) Certificado fitosanitario
 Respuesta correcta: B
 
-58. Contexto – Desarrollo sostenible
+158.
 El comercio exterior contribuye al desarrollo sostenible cuando:
 A) Se maximiza el volumen exportado
 B) Se integran prácticas responsables económicas, sociales y ambientales
@@ -1335,7 +1337,7 @@ C) Se eliminan regulaciones ambientales
 D) Se reduce la trazabilidad
 Respuesta correcta: B
 
-59. Caso práctico – Estrategia empresarial
+159.
 Una empresa depende de un solo cliente extranjero. Desde una perspectiva estratégica, la principal 
 recomendación es:
 A) Incrementar precios
@@ -1344,7 +1346,7 @@ C) Reducir producción
 D) Abandonar exportaciones
 Respuesta correcta: B
 
-60. Contexto – Visión integral
+160.
 ¿Por qué el comercio exterior debe ser gestionado de forma interdisciplinaria?
 A) Porque solo involucra logística
 B) Porque integra economía, derecho, finanzas y gestión empresarial
@@ -1352,7 +1354,7 @@ C) Porque elimina la planificación
 D) Porque depende únicamente del Estado
 Respuesta correcta: B
 
-61. Caso práctico – Valoración y control aduanero
+161.
 Una empresa importa repuestos industriales declarando un valor muy por debajo del precio 
 internacional, justificándolo como “descuento especial del proveedor”. Durante el aforo, la Aduana 
 detecta precios de referencia superiores. Desde el punto de vista legal, la Aduana debe 
@@ -1363,7 +1365,7 @@ C) Liberar la mercancía sin observaciones
 D) Proceder automáticamente al abandono tácito
 Respuesta correcta: B
 
-62. Contexto – Métodos de valoración
+162.
 ¿Por qué la normativa aduanera establece métodos secundarios de valoración cuando el valor de 
 transacción no es aceptable?
 A) Para incrementar aranceles
@@ -1372,7 +1374,7 @@ C) Para sancionar al importador
 D) Para sustituir la clasificación arancelaria
 Respuesta correcta: B
 
-63. Caso práctico – Planeación tributaria
+163.
 Una empresa planifica importar insumos que luego serán utilizados en productos de exportación. 
 Desde una perspectiva de planeación tributaria lícita, la mejor decisión sería:
 A) Omitir tributos en la importación
@@ -1381,7 +1383,7 @@ C) Declarar menor cantidad
 D) Evitar el registro en ECUAPASS
 Respuesta correcta: B
 
-64. Contexto – Regímenes especiales
+164.
 Los regímenes aduaneros especiales buscan principalmente:
 A) Aumentar la recaudación
 B) Facilitar operaciones productivas y comerciales específicas
@@ -1389,7 +1391,7 @@ C) Eliminar controles
 D) Sustituir el régimen general
 Respuesta correcta: B
 
-65. Caso práctico – Importación temporal
+165.
 Una empresa importa moldes para fabricar productos destinados exclusivamente a exportación. Al 
 finalizar el proceso productivo, decide vender los moldes en el mercado interno sin cambiar el 
 régimen. Esta acción implica:
@@ -1399,7 +1401,7 @@ C) Beneficio tributario adicional
 D) Exoneración automática
 Respuesta correcta: B
 
-66. Contexto – Control posterior
+166.
 El control posterior en aduanas tiene como finalidad principal:
 A) Reemplazar el aforo
 B) Verificar cumplimiento luego del despacho
@@ -1407,7 +1409,7 @@ C) Eliminar sanciones
 D) Sustituir el análisis de riesgo
 Respuesta correcta: B
 
-67. Caso práctico – Auditoría aduanera
+167.
 Durante una auditoría posterior, se detecta que una empresa clasificó incorrectamente mercancías 
 durante varios años. La Aduana puede:
 A) Ignorar los períodos anteriores
@@ -1416,7 +1418,7 @@ C) Cancelar tratados comerciales
 D) Proceder a abandono tácito retroactivo
 Respuesta correcta: B
 
-68. Contexto – Facilitación del comercio
+168.
 ¿Por qué la facilitación del comercio no implica ausencia de control?
 A) Porque elimina riesgos
 B) Porque debe equilibrar agilidad con fiscalización efectiva
@@ -1424,7 +1426,7 @@ C) Porque sustituye la normativa
 D) Porque elimina el análisis de riesgo
 Respuesta correcta: B
 
-69. Caso práctico – Logística y competitividad
+169.
 Una empresa ecuatoriana exporta flores frescas. Retrasos en transporte afectan la calidad del 
 producto al llegar al destino. Desde una perspectiva estratégica, la prioridad debe ser:
 A) Reducir costos eliminando seguros
@@ -1433,7 +1435,7 @@ C) Cambiar de producto
 D) Eliminar intermediarios aduaneros
 Respuesta correcta: B
 
-70. Contexto – Comercio de servicios
+170.
 ¿Por qué el comercio internacional de servicios presenta desafíos distintos al comercio de bienes?
 A) Porque no genera divisas
 B) Porque implica regulación, tributación y reconocimiento transfronterizo
@@ -1441,7 +1443,7 @@ C) Porque no requiere contratos
 D) Porque no está sujeto a normas
 Respuesta correcta: B
 
-71. Caso práctico – Inversión y comercio
+171.
 Una empresa multinacional decide instalar una planta en Ecuador para exportar a la región. El factor 
 más determinante para esta decisión será:
 A) El clima
@@ -1450,7 +1452,7 @@ C) La cercanía al mercado interno
 D) El nivel de consumo local
 Respuesta correcta: B
 
-72. Contexto – Acuerdos comerciales
+172.
 Los acuerdos comerciales modernos incluyen capítulos sobre servicios, inversiones y propiedad 
 intelectual porque:
 A) Buscan limitar el comercio
@@ -1459,7 +1461,7 @@ C) Sustituyen la OMC
 D) Eliminan regulaciones nacionales
 Respuesta correcta: B
 
-73. Caso práctico – Política pública
+173.
 El Estado implementa programas de capacitación a exportadores y apoyo técnico. Desde la política 
 económica, esta medida busca:
 A) Sustituir a las empresas
@@ -1468,7 +1470,7 @@ C) Incrementar tributos
 D) Reducir exportaciones
 Respuesta correcta: B
 
-74. Contexto – Empleo y exportaciones
+174.
 ¿Por qué las exportaciones generan empleo formal de mejor calidad?
 A) Porque eliminan informalidad automáticamente
 B) Porque exigen estándares, trazabilidad y cumplimiento normativo
@@ -1476,7 +1478,7 @@ C) Porque reducen salarios
 D) Porque eliminan competencia
 Respuesta correcta: B
 
-75. Caso práctico – Sostenibilidad
+175.
 Una empresa exportadora enfrenta exigencias ambientales más estrictas en mercados desarrollados. 
 Para mantener acceso al mercado, la estrategia correcta es:
 A) Ignorar las normas
@@ -1485,7 +1487,7 @@ C) Abandonar el mercado
 D) Solicitar exoneraciones
 Respuesta correcta: B
 
-76. Contexto – Riesgo país
+176.
 El riesgo país influye en el comercio exterior porque:
 A) No afecta a exportaciones
 B) Incide en costos financieros e inversión extranjera
@@ -1493,7 +1495,7 @@ C) Elimina tratados comerciales
 D) Sustituye la política fiscal
 Respuesta correcta: B
 
-77. Caso práctico – Planeación estratégica
+177.
 Una empresa exportadora crece rápidamente pero sin planificación financiera. El mayor riesgo es:
 A) Mayor participación de mercado
 B) Problemas de liquidez y sostenibilidad
@@ -1501,15 +1503,15 @@ C) Eliminación de impuestos
 D) Incremento automático de utilidades
 Respuesta correcta: B
 
-78. Contexto – Integración económica
+178.
 La integración económica regional favorece a las empresas porque:
 A) Elimina competencia
 B) Amplía mercados y reduce barreras comerciales
-C) Sustituye la política comercial
+C) Sustituir la política comercial
 D) Reduce la producción
 Respuesta correcta: B
 
-79. Caso práctico – Ética y cumplimiento
+179.
 Una empresa decide falsear información para obtener beneficios arancelarios. Además de sanciones 
 legales, el mayor riesgo a largo plazo es:
 A) Incremento de utilidades
@@ -1518,7 +1520,7 @@ C) Eliminación de competencia
 D) Exoneración futura
 Respuesta correcta: B
 
-80. Contexto – Visión sistémica
+180.
 Desde una visión sistémica, el éxito del comercio exterior depende de:
 A) Empresas aisladas
 B) Coordinación entre Estado, empresas e instituciones
@@ -1526,7 +1528,7 @@ C) Eliminación de normas
 D) Exclusivamente del comercio interno
 Respuesta correcta: B
 
-81. Caso práctico – Gestión integral
+181.
 Una empresa ecuatoriana decide iniciar operaciones de exportación sin contar con un plan de 
 comercio exterior. Posteriormente enfrenta problemas de costos, incumplimiento normativo y 
 pérdida de clientes. Desde una perspectiva integral, el error principal fue:
@@ -1536,7 +1538,7 @@ C) Elegir mal el medio de transporte
 D) No solicitar incentivos estatales
 Respuesta correcta: B
 
-82. Contexto – Planeación estratégica
+182.
 ¿Por qué la planeación estratégica en comercio exterior debe alinearse con la estrategia general de 
 la empresa?
 A) Porque sustituye la estrategia corporativa
@@ -1545,7 +1547,7 @@ C) Porque elimina riesgos
 D) Porque depende únicamente del Estado
 Respuesta correcta: B
 
-83. Caso práctico – Cambios regulatorios
+183.
 Un país destino endurece repentinamente sus requisitos técnicos para productos importados. ¿Cuál 
 debe ser la respuesta más adecuada de la empresa exportadora?
 A) Continuar exportando sin cambios
@@ -1554,7 +1556,7 @@ C) Abandonar inmediatamente el mercado
 D) Solicitar eliminación del tratado
 Respuesta correcta: B
 
-84. Contexto – Gestión del riesgo
+184.
 La identificación temprana de riesgos en comercio exterior permite principalmente:
 A) Eliminar totalmente la incertidumbre
 B) Anticipar escenarios y tomar decisiones preventivas
@@ -1562,7 +1564,7 @@ C) Sustituir seguros
 D) Eliminar controles aduaneros
 Respuesta correcta: B
 
-85. Caso práctico – Ética empresarial
+185.
 Una empresa ofrece pagos irregulares para acelerar despachos aduaneros. Además de las sanciones 
 legales, el impacto más grave a largo plazo será:
 A) Ahorro de costos
@@ -1571,7 +1573,7 @@ C) Eliminación de trámites
 D) Mayor competitividad
 Respuesta correcta: B
 
-86. Contexto – Comercio justo
+186.
 El concepto de comercio justo en el ámbito internacional implica:
 A) Maximizar ganancias sin restricciones
 B) Condiciones comerciales equitativas, sostenibles y éticas
@@ -1579,7 +1581,7 @@ C) Eliminación de intermediarios
 D) Sustitución de tratados
 Respuesta correcta: B
 
-87. Caso práctico – Innovación exportadora
+187.
 Una empresa introduce mejoras tecnológicas y certificaciones internacionales en sus productos de 
 exportación. El beneficio estratégico principal será:
 A) Incremento de costos
@@ -1588,7 +1590,7 @@ C) Eliminación de impuestos
 D) Reducción de producción
 Respuesta correcta: B
 
-88. Contexto – Certificaciones
+188.
 ¿Por qué las certificaciones internacionales son cada vez más relevantes en el comercio exterior?
 A) Porque sustituyen los tratados comerciales
 B) Porque facilitan el acceso a mercados y generan confianza
@@ -1596,7 +1598,7 @@ C) Porque eliminan aranceles
 D) Porque reducen el control aduanero
 Respuesta correcta: B
 
-89. Caso práctico – Digitalización
+189.
 Una empresa implementa sistemas digitales para trazabilidad y gestión documental en 
 exportaciones. El impacto más relevante será:
 A) Incremento de trámites
@@ -1605,7 +1607,7 @@ C) Eliminación de regulaciones
 D) Reducción del comercio
 Respuesta correcta: B
 
-90. Contexto – Comercio electrónico internacional
+190.
 El crecimiento del comercio electrónico transfronterizo exige principalmente:
 A) Eliminación de normas
 B) Adaptación normativa, logística y tributaria
@@ -1613,7 +1615,7 @@ C) Sustitución del comercio tradicional
 D) Reducción de controles
 Respuesta correcta: B
 
-91. Caso práctico – Crisis internacional
+191.
 Ante una crisis económica global que reduce la demanda externa, la mejor estrategia para una 
 empresa exportadora sería:
 A) Mantener dependencia de un solo mercado
@@ -1622,7 +1624,7 @@ C) Reducir calidad del producto
 D) Abandonar exportaciones
 Respuesta correcta: B
 
-92. Contexto – Resiliencia empresarial
+192.
 La resiliencia en comercio exterior se manifiesta cuando una empresa:
 A) Depende de incentivos
 B) Se adapta rápidamente a cambios del entorno internacional
@@ -1630,16 +1632,16 @@ C) Elimina planificación
 D) Reduce su presencia internacional
 Respuesta correcta: B
 
-93. Caso práctico – Responsabilidad social
+193.
 Una empresa exportadora invierte en buenas prácticas laborales y ambientales. Desde el punto de 
 vista del comercio internacional, esta decisión:
 A) Reduce competitividad
 B) Mejora acceso a mercados y sostenibilidad
 C) Elimina costos
-D) Sustituye políticas públicas
+D) Sustituir políticas públicas
 Respuesta correcta: B
 
-94. Contexto – Economía global
+194.
 ¿Por qué los choques externos afectan directamente al comercio exterior de países abiertos?
 A) Porque no tienen políticas internas
 B) Porque están integrados a los mercados internacionales
@@ -1647,7 +1649,7 @@ C) Porque eliminan exportaciones
 D) Porque sustituyen la producción local
 Respuesta correcta: B
 
-95. Caso práctico – Estrategia país
+195.
 Un país busca posicionarse como exportador confiable. La política más coherente sería:
 A) Reducir controles aduaneros
 B) Fortalecer institucionalidad, calidad y cumplimiento normativo
@@ -1655,7 +1657,7 @@ C) Eliminar requisitos sanitarios
 D) Limitar exportaciones
 Respuesta correcta: B
 
-96. Contexto – Marca país
+196.
 La marca país en comercio exterior cumple principalmente la función de:
 A) Incrementar aranceles
 B) Posicionar productos y generar confianza internacional
@@ -1663,7 +1665,7 @@ C) Sustituir tratados
 D) Eliminar competencia
 Respuesta correcta: B
 
-97. Caso práctico – Largo plazo
+197.
 Una empresa exportadora prioriza solo beneficios inmediatos y descuida sostenibilidad y 
 cumplimiento. A largo plazo, el riesgo principal será:
 A) Mayor rentabilidad
@@ -1672,7 +1674,7 @@ C) Eliminación de impuestos
 D) Incremento de demanda
 Respuesta correcta: B
 
-98. Contexto – Valor estratégico
+198.
 ¿Por qué el comercio exterior debe evaluarse con una visión de largo plazo?
 A) Porque elimina riesgos inmediatos
 B) Porque define posicionamiento, crecimiento y sostenibilidad
@@ -1680,7 +1682,7 @@ C) Porque sustituye la producción local
 D) Porque depende solo del mercado externo
 Respuesta correcta: B
 
-99. Caso práctico – Coordinación público-privada
+199.
 La coordinación entre sector público y privado es clave porque:
 A) Elimina la competencia
 B) Permite diseñar políticas y estrategias más efectivas
@@ -1688,7 +1690,7 @@ C) Sustituye la inversión privada
 D) Centraliza decisiones
 Respuesta correcta: B
 
-100. Contexto – Evaluación final
+200.
 Desde una visión integral, el éxito del comercio exterior se mide principalmente por:
 A) El volumen de exportaciones únicamente
 B) El equilibrio entre crecimiento económico, desarrollo social y sostenibilidad

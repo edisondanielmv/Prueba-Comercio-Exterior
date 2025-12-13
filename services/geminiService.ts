@@ -2,12 +2,15 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { Question } from "../types";
 import { RAW_QUESTION_BANK } from "../data/rawQuestions";
 
-// Helper to parse the raw text locally if API fails (Robust parsing)
-const parseLocalBank = (): Question[] => {
+/**
+ * Parses the entire raw question bank (200 questions) into structured objects.
+ * This runs locally to ensure we have the full pool of questions available.
+ */
+const parseFullBankLocal = (): Question[] => {
     const questions: Question[] = [];
     
     // Split by regex that looks for newline followed by number and dot (e.g. "\n1.")
-    // This effectively separates the raw text into blocks for each question.
+    // We filter out small blocks to avoid empty splits.
     const blocks = RAW_QUESTION_BANK.split(/\n\d+\./).filter(b => b.trim().length > 10);
     
     blocks.forEach((block, index) => {
@@ -22,10 +25,13 @@ const parseLocalBank = (): Question[] => {
             const cleanLine = line.trim();
             if (!cleanLine) return;
 
-            // Check if it's an option start (A) B) C) D))
-            if (cleanLine.match(/^[A-D]\)/)) {
+            // Check if it's an option start like "A)" or "A."
+            const optionMatch = cleanLine.match(/^([A-D])[).]/);
+            if (optionMatch) {
                 parsingOptions = true;
-                options.push(cleanLine.replace(/^[A-D]\)\s*/, '').trim());
+                // Remove the "A)" prefix to get clean text
+                const optionText = cleanLine.substring(optionMatch[0].length).trim();
+                options.push(optionText);
             }
             // Match "Respuesta correcta: B" or similar
             else if (cleanLine.toLowerCase().includes('respuesta correcta:')) {
@@ -52,7 +58,8 @@ const parseLocalBank = (): Question[] => {
         // Ensure we have 4 options and a valid answer
         if (options.length === 4 && correctIndex >= 0 && correctIndex <= 3) {
             questions.push({
-                id: index + 1, // Temporary ID
+                // We use the index from the raw bank temporarily, but this will be re-indexed later
+                id: index, 
                 text: fullText,
                 options,
                 correctOptionIndex: correctIndex
@@ -60,47 +67,53 @@ const parseLocalBank = (): Question[] => {
         }
     });
 
-    // Shuffle and pick 30
-    const shuffled = questions.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 30);
+    return questions;
 };
 
 export const generateExamQuestions = async (): Promise<Question[]> => {
-    // 1. First try to use Gemini to generate rephrased questions
+    // 1. Parse the FULL bank of 200 questions locally
+    const allQuestions = parseFullBankLocal();
+
+    // 2. Randomly select 30 UNIQUE questions from the 200 available.
+    // This ensures every student gets a different exam subset.
+    const selectedQuestions = allQuestions
+        .sort(() => 0.5 - Math.random()) // Shuffle full bank
+        .slice(0, 30) // Take first 30
+        .map((q, idx) => ({ ...q, id: idx + 1 })); // Re-index 1 to 30
+
+    // 3. Try to use Gemini to rephrase these specific 30 questions
     try {
         if (!process.env.API_KEY) {
-            console.warn("No API Key found, using local parser.");
-            return parseLocalBank();
+            console.warn("No API Key found, using local random selection.");
+            return selectedQuestions;
         }
 
         const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
         
-        const systemInstruction = `
-        You are an expert academic examiner in International Trade. 
-        Your task is to generate a unique exam for a student based strictly on the provided question bank.
-        
-        Rules:
-        1. OUTPUT LANGUAGE: STRICTLY SPANISH. Do not generate any English text.
-        2. Randomly select exactly 30 questions from the provided text.
-        3. CRITICAL: Ensure the selection is distributed across the entire text (beginning, middle, end).
-        4. FULL CONTEXT REQUIRED: Many questions are "Case Studies" (Caso práctico) or have introductory paragraphs. You MUST INCLUDE THE FULL CONTEXT/SCENARIO in the 'text' field. Do not truncate the description. The student needs the full info to answer.
-        5. REPHRASE: Rewrite the question and the case scenario slightly to prevent exact-match copying (anti-cheating), but PRESERVE ALL INFORMATION necessary to answer. Do not change the meaning or the logic of the correct answer. The rephrased text must be in natural, academic Spanish.
-        6. Shuffle the order of the options (a, b, c, d) for each question.
-        7. Return strictly JSON format.
-        `;
-
         const prompt = `
-        Here is the Question Bank:
-        ${RAW_QUESTION_BANK}
-
-        Generate 30 rephrased questions in Spanish. Ensure the language is natural and academic Spanish.
+        You are an expert academic examiner in International Trade.
+        
+        I have selected 30 specific questions for a student's exam. Your task is to process these questions to prevent cheating while ensuring clarity.
+        
+        INSTRUCTIONS FOR EACH QUESTION:
+        1.  **Rephrase the 'text'**: Rewrite the question scenario and context. 
+            *   **CRITICAL**: You MUST PRESERVE ALL DETAILS, case study facts, numbers, and context required to answer. Do not summarize or shorten the question. Make it extensive if necessary to be clear.
+            *   Goal: Make the text different from the original so it cannot be found easily with "CTRL+F", but keep the meaning identical.
+        2.  **Shuffle 'options'**: Randomize the order of the 4 options (A, B, C, D).
+        3.  **Update 'correctOptionIndex'**: Ensure the correct answer index (0-3) matches the new position of the correct option.
+        4.  **Language**: Strictly Spanish.
+        
+        INPUT DATA (JSON):
+        ${JSON.stringify(selectedQuestions)}
+        
+        OUTPUT:
+        Return ONLY the JSON array of the processed questions.
         `;
 
         const response = await ai.models.generateContent({
             model: "gemini-2.5-flash",
             contents: prompt,
             config: {
-                systemInstruction: systemInstruction,
                 responseMimeType: "application/json",
                 responseSchema: {
                     type: Type.ARRAY,
@@ -108,16 +121,12 @@ export const generateExamQuestions = async (): Promise<Question[]> => {
                         type: Type.OBJECT,
                         properties: {
                             id: { type: Type.INTEGER },
-                            text: { type: Type.STRING, description: "The full rephrased question text including any case study context in Spanish." },
+                            text: { type: Type.STRING, description: "The extensive rephrased question text." },
                             options: { 
                                 type: Type.ARRAY, 
-                                items: { type: Type.STRING },
-                                description: "Array of 4 options in Spanish" 
+                                items: { type: Type.STRING } 
                             },
-                            correctOptionIndex: { 
-                                type: Type.INTEGER, 
-                                description: "Index (0-3) of the correct option in the provided options array" 
-                            }
+                            correctOptionIndex: { type: Type.INTEGER }
                         },
                         required: ["id", "text", "options", "correctOptionIndex"]
                     }
@@ -135,8 +144,8 @@ export const generateExamQuestions = async (): Promise<Question[]> => {
         throw new Error("Invalid API response format");
 
     } catch (error) {
-        console.error("Gemini API failed or key missing, falling back to local shuffle.", error);
-        // Fallback: Parse the string locally, shuffle, and return 30.
-        return parseLocalBank();
+        console.error("Gemini API failed or key missing, falling back to local random selection.", error);
+        // Fallback: Return the 30 locally selected unique questions (without rephrasing)
+        return selectedQuestions;
     }
 };

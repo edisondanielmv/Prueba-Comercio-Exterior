@@ -10,7 +10,10 @@ export const Header: React.FC = () => {
             </div>
             <div>
                 <h1 className="text-xl font-bold">Examen de Comercio Exterior</h1>
-                <p className="text-xs text-sky-100">Evaluación Oficial</p>
+                <div className="flex items-center gap-2">
+                    <p className="text-xs text-sky-100">Evaluación Oficial</p>
+                    <span className="text-[10px] bg-sky-500 px-2 py-0.5 rounded-full border border-sky-400">Examen Único Generado</span>
+                </div>
             </div>
         </div>
       </div>
