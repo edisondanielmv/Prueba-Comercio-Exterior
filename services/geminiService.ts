@@ -2,45 +2,58 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { Question } from "../types";
 import { RAW_QUESTION_BANK } from "../data/rawQuestions";
 
-const fallbackQuestions: Question[] = [
-    // A small subset fallback in case API fails completely/offline
-    { id: 1, text: "¿Cuál de los siguientes elementos explica mejor por qué el comercio exterior fue determinante en la transición hacia la globalización moderna?", options: ["La eliminación total de los aranceles a nivel mundial", "El desarrollo simultáneo de rutas comerciales, revolución industrial y avances tecnológicos", "La creación de monedas únicas internacionales", "La sustitución del comercio terrestre por el comercio marítimo"], correctOptionIndex: 1 },
-    { id: 2, text: "Desde la perspectiva económica, ¿cuál es la diferencia clave entre comercio exterior y comercio internacional?", options: ["El comercio exterior solo incluye exportaciones", "El comercio internacional se limita a bienes y no a servicios", "El comercio exterior se analiza desde la política económica de un país específico", "No existe ninguna diferencia conceptual entre ambos"], correctOptionIndex: 2 },
-];
-
-// Helper to parse the raw text locally if API fails (Basic parsing)
+// Helper to parse the raw text locally if API fails (Robust parsing)
 const parseLocalBank = (): Question[] => {
     const questions: Question[] = [];
-    // Split by Number dot Space (e.g., "1. ") or Number dot Newline
-    const blocks = RAW_QUESTION_BANK.split(/\n\d+\.[\s\n]/).filter(b => b.trim().length > 10);
+    
+    // Split by regex that looks for newline followed by number and dot (e.g. "\n1.")
+    // This effectively separates the raw text into blocks for each question.
+    const blocks = RAW_QUESTION_BANK.split(/\n\d+\./).filter(b => b.trim().length > 10);
     
     blocks.forEach((block, index) => {
         const lines = block.trim().split('\n');
-        const text = lines[0].trim();
+        
+        let questionTextLines: string[] = [];
         const options: string[] = [];
         let correctIndex = -1;
+        let parsingOptions = false;
 
-        // Iterate through lines to find options (A) B) C) D)) and answer
         lines.forEach(line => {
             const cleanLine = line.trim();
+            if (!cleanLine) return;
+
+            // Check if it's an option start (A) B) C) D))
             if (cleanLine.match(/^[A-D]\)/)) {
+                parsingOptions = true;
                 options.push(cleanLine.replace(/^[A-D]\)\s*/, '').trim());
             }
             // Match "Respuesta correcta: B" or similar
-            if (cleanLine.toLowerCase().includes('respuesta correcta:')) {
+            else if (cleanLine.toLowerCase().includes('respuesta correcta:')) {
                 const parts = cleanLine.split(':');
                 if (parts.length > 1) {
                     const char = parts[1].trim().toLowerCase();
-                    correctIndex = char.charCodeAt(0) - 97; // 'a' -> 0, 'b' -> 1
+                    // Convert 'a'->0, 'b'->1, etc.
+                    if (char.length >= 1) {
+                        const code = char.charCodeAt(0);
+                        if (code >= 97 && code <= 100) { // a-d
+                             correctIndex = code - 97;
+                        }
+                    }
                 }
             }
+            // If it's not an option and not the answer line, it's part of the question text/context
+            else if (!parsingOptions) {
+                questionTextLines.push(cleanLine);
+            }
         });
+
+        const fullText = questionTextLines.join(' ');
 
         // Ensure we have 4 options and a valid answer
         if (options.length === 4 && correctIndex >= 0 && correctIndex <= 3) {
             questions.push({
-                id: index + 1,
-                text,
+                id: index + 1, // Temporary ID
+                text: fullText,
                 options,
                 correctOptionIndex: correctIndex
             });
@@ -67,18 +80,20 @@ export const generateExamQuestions = async (): Promise<Question[]> => {
         Your task is to generate a unique exam for a student based strictly on the provided question bank.
         
         Rules:
-        1. Randomly select exactly 30 questions from the provided text.
-        2. CRITICAL: Ensure the selection is distributed across the entire text (e.g. pick some from the beginning, some from the middle, some from the end). Do not just pick the first 30.
-        3. REPHRASE the question stem and the options slightly to prevent students from simply searching for the exact text, but KEEP the meaning and correct answer logic identical.
-        4. Shuffle the order of the options (a, b, c, d) for each question so the position of the correct answer varies.
-        5. Return strictly JSON format.
+        1. OUTPUT LANGUAGE: STRICTLY SPANISH. Do not generate any English text.
+        2. Randomly select exactly 30 questions from the provided text.
+        3. CRITICAL: Ensure the selection is distributed across the entire text (beginning, middle, end).
+        4. FULL CONTEXT REQUIRED: Many questions are "Case Studies" (Caso práctico) or have introductory paragraphs. You MUST INCLUDE THE FULL CONTEXT/SCENARIO in the 'text' field. Do not truncate the description. The student needs the full info to answer.
+        5. REPHRASE: Rewrite the question and the case scenario slightly to prevent exact-match copying (anti-cheating), but PRESERVE ALL INFORMATION necessary to answer. Do not change the meaning or the logic of the correct answer. The rephrased text must be in natural, academic Spanish.
+        6. Shuffle the order of the options (a, b, c, d) for each question.
+        7. Return strictly JSON format.
         `;
 
         const prompt = `
         Here is the Question Bank:
         ${RAW_QUESTION_BANK}
 
-        Generate 30 rephrased questions in Spanish.
+        Generate 30 rephrased questions in Spanish. Ensure the language is natural and academic Spanish.
         `;
 
         const response = await ai.models.generateContent({
@@ -93,11 +108,11 @@ export const generateExamQuestions = async (): Promise<Question[]> => {
                         type: Type.OBJECT,
                         properties: {
                             id: { type: Type.INTEGER },
-                            text: { type: Type.STRING, description: "The rephrased question text" },
+                            text: { type: Type.STRING, description: "The full rephrased question text including any case study context in Spanish." },
                             options: { 
                                 type: Type.ARRAY, 
                                 items: { type: Type.STRING },
-                                description: "Array of 4 options" 
+                                description: "Array of 4 options in Spanish" 
                             },
                             correctOptionIndex: { 
                                 type: Type.INTEGER, 
