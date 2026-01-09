@@ -1,11 +1,12 @@
 import { SheetPayload } from "../types";
 
 // =========================================================================================
-// URL DE GOOGLE APPS SCRIPT CONFIGURADA
+// CONFIGURACIÓN DE CONEXIÓN A GOOGLE SHEETS
+// =========================================================================================
+// URL proporcionada para el script de Google Apps
 // =========================================================================================
 
-// 👇👇👇 URL CONFIGURADA 👇👇👇
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx4R6rZfE1IvkiZNG6ritTqAacNT1bdm3lv9HD-jn8cAJ66fyvaaGRNmBH-vu9sqtPkjg/exec"; 
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzoiKC7FPoxRVTe5loAI8dx4_oA_96RhiulZ_WZkVN3s7p01k36wqoYt3k1v4IgWs2i/exec"; 
 
 /**
  * Helper to download results as a local file if cloud upload is not configured or fails.
@@ -37,21 +38,17 @@ const downloadLocalBackup = (data: SheetPayload) => {
 export const submitToGoogleSheets = async (data: SheetPayload): Promise<boolean> => {
   console.log("Procesando envío de datos...", data);
 
-  // Check if the URL is still the placeholder or empty
-  const isPlaceholderUrl = !GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL.includes("PON_AQUI");
-
-  if (isPlaceholderUrl) {
+  // Check if the URL is properly configured
+  if (!GOOGLE_SCRIPT_URL || GOOGLE_SCRIPT_URL.includes("PON_AQUI")) {
       console.warn("Google Sheet URL no configurada. Descargando respaldo local.");
-      // If the user hasn't set up the backend, we download the file locally
+      alert("ATENCIÓN: La conexión a la base de datos no está configurada.\n\nSe descargará un archivo CSV local con tu nota para que se lo envíes a tu profesor.");
       downloadLocalBackup(data);
-      return new Promise(resolve => setTimeout(() => resolve(true), 1500));
+      return new Promise(resolve => setTimeout(() => resolve(true), 1000));
   }
 
   // Real submission logic
   try {
-      // Note: Google Apps Script Web Apps often have CORS issues with fetch directly from browser.
-      // Standard practice involves 'no-cors'. 
-      // With 'no-cors', we can't read the response JSON to confirm success, but the request goes through opaque.
+      // Using no-cors mode for Google Apps Script Web App compatibility
       await fetch(GOOGLE_SCRIPT_URL, {
         method: "POST",
         body: JSON.stringify(data),
@@ -67,6 +64,6 @@ export const submitToGoogleSheets = async (data: SheetPayload): Promise<boolean>
       alert("Hubo un problema de conexión con el servidor de notas. Se descargará una copia local de respaldo.");
       // Fallback to local download if network fails
       downloadLocalBackup(data);
-      return true; // We return true because we saved it locally
+      return true; 
   }
 };

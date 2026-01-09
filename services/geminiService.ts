@@ -1,151 +1,121 @@
-import { GoogleGenAI, Type } from "@google/genai";
 import { Question } from "../types";
 import { RAW_QUESTION_BANK } from "../data/rawQuestions";
 
 /**
- * Parses the entire raw question bank (200 questions) into structured objects.
- * This runs locally to ensure we have the full pool of questions available.
+ * Parses the raw question bank into structured objects.
+ * This version is adapted for the "Case Study" format provided in the raw data.
+ * It does NOT use AI to rephrase, preserving the exact text.
  */
 const parseFullBankLocal = (): Question[] => {
     const questions: Question[] = [];
     
-    // Split by regex that looks for newline followed by number and dot (e.g. "\n1.")
-    // We filter out small blocks to avoid empty splits.
-    const blocks = RAW_QUESTION_BANK.split(/\n\d+\./).filter(b => b.trim().length > 10);
+    // The dataset is a large string. We can split by "Respuesta correcta:" which appears at the end of each block.
+    // However, splitting by "CASO" might be safer to get the start, but some don't have "CASO".
+    // Strategy: Split by "Respuesta correcta:", then process the chunk backwards to find options.
     
-    blocks.forEach((block, index) => {
-        const lines = block.trim().split('\n');
-        
-        let questionTextLines: string[] = [];
-        const options: string[] = [];
-        let correctIndex = -1;
-        let parsingOptions = false;
+    const blocks = RAW_QUESTION_BANK.split(/Respuesta correcta:\s*/i);
+    
+    // The split removes the separator. The last part of the previous block + the separator + start of next block
+    // actually, split creates an array where the end of one question is tied to the start of the next.
+    // Let's refine: The raw text has cases separated roughly by newlines.
+    
+    // Better approach: Iterate line by line to build questions statefully.
+    const lines = RAW_QUESTION_BANK.split('\n');
+    
+    let currentTextLines: string[] = [];
+    let currentOptions: string[] = [];
+    let currentAnswerChar = '';
+    
+    let state: 'READING_TEXT' | 'READING_OPTIONS' = 'READING_TEXT';
 
-        lines.forEach(line => {
-            const cleanLine = line.trim();
-            if (!cleanLine) return;
+    const saveCurrentQuestion = () => {
+        if (currentTextLines.length > 0 && currentOptions.length === 4 && currentAnswerChar) {
+            // Map answer char (A, B, C, D) to index (0, 1, 2, 3)
+            const code = currentAnswerChar.toUpperCase().charCodeAt(0);
+            const correctIndex = code - 65; // A=65 -> 0
 
-            // Check if it's an option start like "A)" or "A."
-            const optionMatch = cleanLine.match(/^([A-D])[).]/);
-            if (optionMatch) {
-                parsingOptions = true;
-                // Remove the "A)" prefix to get clean text
-                const optionText = cleanLine.substring(optionMatch[0].length).trim();
-                options.push(optionText);
+            if (correctIndex >= 0 && correctIndex <= 3) {
+                // Clean up text lines (remove empty headers if any)
+                const fullText = currentTextLines
+                    .map(l => l.trim())
+                    .filter(l => l.length > 0)
+                    .join(' ')
+                    // Remove artifacts like "CASO X —" if desired, but user said "no modificar texto",
+                    // so we keep it mostly as is, maybe just trimming extra spaces.
+                    .trim();
+
+                questions.push({
+                    id: questions.length + 1,
+                    text: fullText,
+                    options: [...currentOptions],
+                    correctOptionIndex: correctIndex
+                });
             }
-            // Match "Respuesta correcta: B" or similar
-            else if (cleanLine.toLowerCase().includes('respuesta correcta:')) {
-                const parts = cleanLine.split(':');
-                if (parts.length > 1) {
-                    const char = parts[1].trim().toLowerCase();
-                    // Convert 'a'->0, 'b'->1, etc.
-                    if (char.length >= 1) {
-                        const code = char.charCodeAt(0);
-                        if (code >= 97 && code <= 100) { // a-d
-                             correctIndex = code - 97;
-                        }
-                    }
-                }
-            }
-            // If it's not an option and not the answer line, it's part of the question text/context
-            else if (!parsingOptions) {
-                questionTextLines.push(cleanLine);
-            }
-        });
-
-        const fullText = questionTextLines.join(' ');
-
-        // Ensure we have 4 options and a valid answer
-        if (options.length === 4 && correctIndex >= 0 && correctIndex <= 3) {
-            questions.push({
-                // We use the index from the raw bank temporarily, but this will be re-indexed later
-                id: index, 
-                text: fullText,
-                options,
-                correctOptionIndex: correctIndex
-            });
         }
-    });
+        // Reset
+        currentTextLines = [];
+        currentOptions = [];
+        currentAnswerChar = '';
+        state = 'READING_TEXT';
+    };
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        if (!line) continue;
+
+        // Check for Answer line
+        if (line.match(/^Respuesta correcta:/i)) {
+            // Extract the letter (A, B, C, D)
+            // Format is usually "Respuesta correcta: B" or "Respuesta correcta: B. EXW"
+            const match = line.match(/Respuesta correcta:\s*([A-D])/i);
+            if (match) {
+                currentAnswerChar = match[1];
+                saveCurrentQuestion();
+                continue; 
+            }
+        }
+
+        // Check for Options Start
+        // Options usually start with "A.", "A)", "Opciones:", etc.
+        if (line.match(/^Opciones:/i)) {
+            state = 'READING_OPTIONS';
+            continue;
+        }
+
+        // Check for specific option lines
+        const optionMatch = line.match(/^([A-D])[\.\)]\s*(.*)/); // Matches "A. text" or "A) text"
+        if (optionMatch) {
+            state = 'READING_OPTIONS';
+            // optionMatch[2] is the text content of the option
+            // If the text is just "A. FCA", content is "FCA"
+            currentOptions.push(optionMatch[2].trim() || optionMatch[0].trim());
+            continue;
+        }
+
+        // If not answer and not option, it's text context (unless we are in options mode and it's a continuation?)
+        // The format provided is very clean: Description -> Opciones -> A,B,C,D -> Answer.
+        if (state === 'READING_TEXT') {
+            // Ignore pagination markers or headers if needed, but user said keep text.
+            // We might filter out "PÁGINA X" headers to keep it clean.
+            if (!line.match(/^PÁGINA \d+/i) && !line.match(/^✔/)) {
+                 currentTextLines.push(line);
+            }
+        }
+    }
 
     return questions;
 };
 
 export const generateExamQuestions = async (): Promise<Question[]> => {
-    // 1. Parse the FULL bank of 200 questions locally
+    // 1. Parse the FULL bank locally
     const allQuestions = parseFullBankLocal();
 
-    // 2. Randomly select 30 UNIQUE questions from the 200 available.
-    // This ensures every student gets a different exam subset.
+    // 2. Randomly select 20 UNIQUE questions
     const selectedQuestions = allQuestions
         .sort(() => 0.5 - Math.random()) // Shuffle full bank
-        .slice(0, 30) // Take first 30
-        .map((q, idx) => ({ ...q, id: idx + 1 })); // Re-index 1 to 30
+        .slice(0, 20) // Take first 20
+        .map((q, idx) => ({ ...q, id: idx + 1 })); // Re-index 1 to 20 for the current exam session
 
-    // 3. Try to use Gemini to rephrase these specific 30 questions
-    try {
-        if (!process.env.API_KEY) {
-            console.warn("No API Key found, using local random selection.");
-            return selectedQuestions;
-        }
-
-        const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
-        
-        const prompt = `
-        You are an expert academic examiner in International Trade.
-        
-        I have selected 30 specific questions for a student's exam. Your task is to process these questions to prevent cheating while ensuring clarity.
-        
-        INSTRUCTIONS FOR EACH QUESTION:
-        1.  **Rephrase the 'text'**: Rewrite the question scenario and context. 
-            *   **CRITICAL**: You MUST PRESERVE ALL DETAILS, case study facts, numbers, and context required to answer. Do not summarize or shorten the question. Make it extensive if necessary to be clear.
-            *   Goal: Make the text different from the original so it cannot be found easily with "CTRL+F", but keep the meaning identical.
-        2.  **Shuffle 'options'**: Randomize the order of the 4 options (A, B, C, D).
-        3.  **Update 'correctOptionIndex'**: Ensure the correct answer index (0-3) matches the new position of the correct option.
-        4.  **Language**: Strictly Spanish.
-        
-        INPUT DATA (JSON):
-        ${JSON.stringify(selectedQuestions)}
-        
-        OUTPUT:
-        Return ONLY the JSON array of the processed questions.
-        `;
-
-        const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash",
-            contents: prompt,
-            config: {
-                responseMimeType: "application/json",
-                responseSchema: {
-                    type: Type.ARRAY,
-                    items: {
-                        type: Type.OBJECT,
-                        properties: {
-                            id: { type: Type.INTEGER },
-                            text: { type: Type.STRING, description: "The extensive rephrased question text." },
-                            options: { 
-                                type: Type.ARRAY, 
-                                items: { type: Type.STRING } 
-                            },
-                            correctOptionIndex: { type: Type.INTEGER }
-                        },
-                        required: ["id", "text", "options", "correctOptionIndex"]
-                    }
-                }
-            }
-        });
-
-        if (response.text) {
-            const data = JSON.parse(response.text);
-            if (Array.isArray(data) && data.length > 0) {
-                return data as Question[];
-            }
-        }
-        
-        throw new Error("Invalid API response format");
-
-    } catch (error) {
-        console.error("Gemini API failed or key missing, falling back to local random selection.", error);
-        // Fallback: Return the 30 locally selected unique questions (without rephrasing)
-        return selectedQuestions;
-    }
+    // Return directly without AI rephrasing as requested
+    return selectedQuestions;
 };

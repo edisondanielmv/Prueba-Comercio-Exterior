@@ -1,9 +1,9 @@
+
 import React, { useState, useCallback } from 'react';
 import { AppState, Question, StudentData, SheetPayload } from './types';
 import { generateExamQuestions } from './services/geminiService';
 import { submitToGoogleSheets } from './services/googleSheets';
 import { Header } from './components/Header';
-import { Timer } from './components/Timer';
 import { ProgressBar } from './components/ProgressBar';
 import { ResultsChart } from './components/ResultsChart';
 
@@ -74,13 +74,27 @@ const App: React.FC = () => {
         const gradeOver20 = (finalRawScore / totalQuestions) * 20;
         const formattedGrade = parseFloat(gradeOver20.toFixed(2));
 
+        // Generate detailed answer report with validity
+        const detailedAnswers = questions.map((q, index) => {
+            const selectedOptionIndex = answers[q.id];
+            const isCorrect = selectedOptionIndex === q.correctOptionIndex;
+            // Map index 0-3 to A-D
+            const letter = selectedOptionIndex !== undefined ? String.fromCharCode(65 + selectedOptionIndex) : "-";
+            
+            return {
+                num: index + 1,
+                resp: letter,
+                estado: isCorrect ? "CORRECTA" : "INCORRECTA"
+            };
+        });
+
         const payload: SheetPayload = {
             timestamp: new Date().toISOString(),
             studentName: studentData.name,
             studentId: studentData.idNumber,
             score: formattedGrade, // Sending the grade over 20
             total: 20, // Explicitly stating the total score base is 20
-            details: JSON.stringify(answers)
+            details: JSON.stringify(detailedAnswers)
         };
 
         await submitToGoogleSheets(payload);
@@ -102,13 +116,6 @@ const App: React.FC = () => {
         // Even if it fails, show results, don't trap student
         setAppState(AppState.RESULTS);
       }
-  };
-
-  const handleTimeUp = () => {
-      alert("El tiempo ha terminado. Tu examen se enviará automáticamente con las respuestas actuales.");
-      setAppState(AppState.SUBMITTING);
-      const score = calculateRawScore();
-      processSubmission(score);
   };
 
   const handleReset = () => {
@@ -157,7 +164,7 @@ const App: React.FC = () => {
             </form>
             <p className="mt-4 text-xs text-gray-500 text-center">
                 La evaluación se calificará sobre <strong>20 puntos</strong>.
-                <br/>Tendrás 20 minutos para responder 30 preguntas.
+                <br/>Responde 20 casos de Incoterms seleccionados al azar.
             </p>
         </div>
     </div>
@@ -172,7 +179,7 @@ const App: React.FC = () => {
             </svg>
         </div>
         <h2 className="text-xl font-semibold text-gray-700">Preparando tu examen único...</h2>
-        <p className="text-gray-500 mt-2">La IA está seleccionando y refraseando tus preguntas.</p>
+        <p className="text-gray-500 mt-2">Seleccionando 20 casos aleatorios del banco de preguntas.</p>
     </div>
   );
 
@@ -183,7 +190,7 @@ const App: React.FC = () => {
 
       return (
         <div className="container mx-auto px-4 py-8 max-w-4xl relative">
-            <Timer durationMinutes={20} onTimeUp={handleTimeUp} />
+            {/* Timer removed */}
             
             <div className="bg-white rounded-xl shadow-xl p-8 mb-8">
                 <div className="mb-6 border-b pb-4">
@@ -196,7 +203,7 @@ const App: React.FC = () => {
                 <div className="space-y-8">
                     {questions.map((q, index) => (
                         <div key={q.id} className="p-6 bg-slate-50 rounded-lg border border-gray-200 hover:border-sky-300 transition-colors">
-                            <p className="font-semibold text-lg text-gray-800 mb-4">
+                            <p className="font-semibold text-lg text-gray-800 mb-4 whitespace-pre-line">
                                 <span className="text-sky-600 mr-2">{index + 1}.</span> 
                                 {q.text}
                             </p>

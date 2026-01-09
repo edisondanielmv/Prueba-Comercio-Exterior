@@ -1,1700 +1,3848 @@
 
 export const RAW_QUESTION_BANK = `
-1.
-¿Cuál de los siguientes elementos explica mejor por qué el comercio exterior fue determinante en la 
-transición hacia la globalización moderna?
-A) La eliminación total de los aranceles a nivel mundial
-B) El desarrollo simultáneo de rutas comerciales, revolución industrial y avances tecnológicos
-C) La creación de monedas únicas internacionales
-D) La sustitución del comercio terrestre por el comercio marítimo
+CASO 1 — Operación con responsabilidad mínima del vendedor (EXW)
+Una empresa metalúrgica mediana ubicada en Bilbao, España, especializada en la fabricación de 
+componentes estructurales para la industria de la construcción, recibe un pedido de un comprador 
+industrial establecido en Estambul, Turquía, quien requiere un lote de vigas metálicas normalizadas 
+para un proyecto de infraestructura. La producción se realiza conforme a planos técnicos 
+suministrados por el comprador y las mercancías son embaladas en la planta del vendedor, 
+utilizando protecciones básicas contra humedad y golpes, adecuadas únicamente para manipulación 
+local.
+Durante la negociación comercial, ambas partes acuerdan que el vendedor no participará en la 
+organización logística internacional, limitándose estrictamente a poner la mercancía a disposición 
+del comprador dentro de sus instalaciones en una fecha determinada. El vendedor no asumirá 
+ningún costo relacionado con la carga de las vigas en el camión, ni con la contratación del 
+transporte interno, ni con la gestión de documentos de exportación. Tampoco asumirá la 
+contratación de seguro alguno.
+El comprador, por su parte, organiza y paga la carga de la mercancía en la planta del vendedor, el 
+transporte interno desde Bilbao hasta el puerto de Barcelona, el transporte marítimo hasta el 
+puerto de Estambul, la descarga, el transporte interno hasta su obra, así como todos los trámites 
+aduaneros de exportación e importación, incluidos aranceles, IVA y tasas portuarias. El contrato 
+establece expresamente que el riesgo por pérdida o daño se transfiere al comprador desde el 
+momento en que la mercancía se pone a su disposición en la fábrica, incluso antes de la carga.
+¿Cuál es el Incoterm más adecuado?
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-2.
-Desde la perspectiva económica, ¿cuál es la diferencia clave entre comercio exterior y comercio 
-internacional?
-A) El comercio exterior solo incluye exportaciones
-B) El comercio internacional se limita a bienes y no a servicios
-C) El comercio exterior se analiza desde la política económica de un país específico
-D) No existe ninguna diferencia conceptual entre ambos
+CASO 2 — Entrega al transportista con exportación a cargo del vendedor (FCA)
+Una empresa fabricante de válvulas industriales ubicada en Turín, Italia, vende un lote de válvulas 
+de alta presión a una empresa de ingeniería energética con sede en Rotterdam, Países Bajos. Las 
+válvulas requieren embalaje técnico certificado, protección anticorrosiva y documentación de 
+conformidad europea. El vendedor asume los costos de embalaje especializado, etiquetado, control 
+de calidad final y transporte interno desde su planta hasta una terminal logística intermodal 
+situada en Milán, donde operará el transportista designado por el comprador.
+Según el contrato, el vendedor también se compromete a realizar el despacho aduanero de 
+exportación, preparando la factura comercial, lista de empaque y documentos de transporte. La 
+mercancía será entregada físicamente al transportista designado por el comprador en la terminal 
+logística, momento en el cual se transfiere el riesgo de pérdida o daño. El vendedor no contrata ni 
+paga el transporte internacional ni el seguro.
+A partir de la entrega al transportista, el comprador asume el transporte terrestre hasta Rotterdam, 
+la descarga, el transporte interno en destino, la contratación del seguro, y el pago de impuestos y 
+tasas aplicables. El vendedor no asume ningún riesgo ni costo posterior a la entrega al transportista.
+¿Qué Incoterm corresponde a esta operación?
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 3 — Exportación marítima con riesgo transferido a bordo del buque (FOB)
+Una empresa productora de madera tratada ubicada en Guayaquil, Ecuador, vende un cargamento 
+de tablones a un importador mayorista en Vancouver, Canadá. La mercancía será transportada en 
+contenedores marítimos y requiere fumigación certificada y embalaje reforzado. El vendedor asume 
+los costos de embalaje, transporte interno desde la planta hasta el puerto de Guayaquil, así como 
+los gastos de manipulación portuaria, estiba y carga de los contenedores a bordo del buque.
+El contrato establece que el comprador selecciona la naviera, contrata y paga el flete marítimo 
+internacional, así como el seguro de transporte, dado que desea incluir la operación dentro de su 
+póliza anual. El vendedor realiza el despacho de exportación, pero no asume ningún costo ni riesgo 
+una vez que la mercancía ha sido cargada efectivamente a bordo del buque.
+A partir de ese momento, el comprador asume todos los riesgos, la descarga en Vancouver, el 
+transporte interno y el pago de aranceles, GST y tasas aduaneras canadienses.
+¿Cuál es el Incoterm correcto?
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 4 — Transporte marítimo pagado por el vendedor sin seguro (CFR)
+Una empresa productora de cemento ubicada en Cartagena, Colombia, vende un cargamento a 
+granel a una empresa constructora en Accra, Ghana. El vendedor asume el transporte interno hasta 
+el puerto, la carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto de Accra.
+No obstante, el contrato indica expresamente que el seguro de transporte no será contratado por 
+el vendedor, ya que el comprador cuenta con una póliza global que cubre sus importaciones. El 
+riesgo por pérdida o daño se transfiere en el momento en que la mercancía es cargada a bordo del 
+buque en Cartagena, aun cuando el vendedor continúe pagando el flete hasta destino.
+El comprador asume la descarga, el transporte interno en Ghana y el pago de aranceles e impuestos 
+locales.
+¿Qué Incoterm se ajusta a esta operación?
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-3.
-¿Cuál de los siguientes factores justifica estratégicamente la internacionalización de una empresa 
-más allá de la búsqueda de mayores ingresos?
-A) Reducción inmediata de impuestos
-B) Acceso exclusivo a tratados comerciales
-C) Diversificación del riesgo y fortalecimiento competitivo
-D) Eliminación de costos logísticos
+CASO 5 — Transporte marítimo con seguro obligatorio incluido (CIF)
+Una empresa exportadora de productos químicos en Amberes, Bélgica, vende resinas industriales a 
+un importador en Mumbai, India. La mercancía requiere embalaje homologado, manipulación 
+especializada y documentación de seguridad. El vendedor asume los costos de embalaje, transporte 
+interno, estiba y carga a bordo del buque, y además contrata y paga el flete marítimo internacional 
+hasta Mumbai.
+Debido a exigencias contractuales y regulatorias, el vendedor también contrata un seguro marítimo 
+obligatorio con cobertura mínima, cuyo costo está incluido en el precio. El contrato establece 
+claramente que el riesgo se transfiere al comprador cuando la mercancía queda cargada a bordo 
+del buque en el puerto de Amberes, pese a que el vendedor continúe pagando transporte y seguro.
+En destino, el comprador asume la descarga, el transporte interno y el pago de derechos de 
+importación e impuestos.
+¿Cuál es el Incoterm correcto?
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-4.
-Una empresa que adapta su producto, marketing y procesos productivos a cada país donde opera 
-responde al modelo de empresa:
-A) Multinacional
-B) Global
-C) Internacional
-D) Transnacional
+CASO 6
+Una empresa industrial dedicada a la fabricación de estructuras metálicas ubicada en el norte de 
+Italia recibe un pedido de un comprador empresarial con sede en Túnez que requiere un lote de 
+perfiles de acero para un proyecto de ampliación de una planta productiva. La negociación comercial 
+establece que la mercancía será producida conforme a especificaciones técnicas del comprador y 
+quedará debidamente embalada dentro de las instalaciones del vendedor, utilizando embalaje 
+estándar apto únicamente para almacenamiento y manipulación interna. El vendedor no cuenta con 
+experiencia logística internacional y manifiesta expresamente que no asumirá ninguna gestión 
+relacionada con el transporte ni con trámites aduaneros. En consecuencia, el contrato estipula que 
+el vendedor cumplirá su obligación en el momento en que la mercancía quede físicamente 
+disponible para ser retirada en su fábrica, sin cargarla en el medio de transporte del comprador.
+El comprador, por su parte, se compromete a organizar y pagar la carga de la mercancía en la planta 
+del vendedor, el transporte interno hasta el puerto de Génova, el transporte marítimo hasta el 
+puerto de Rades en Túnez, así como la descarga en destino y el transporte interno hasta su almacén. 
+Asimismo, el comprador asume la realización de todos los trámites aduaneros tanto de exportación 
+como de importación, incluyendo la obtención de licencias, el pago de aranceles, IVA, tasas 
+portuarias y cualquier otro impuesto aplicable. El seguro de transporte internacional será contratado 
+directamente por el comprador con una aseguradora de su confianza. El contrato establece 
+claramente que cualquier daño o pérdida que se produzca desde el momento en que la mercancía es 
+puesta a disposición en la fábrica será responsabilidad exclusiva del comprador.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
+Respuesta correcta: B
+
+CASO 7
+Una empresa fabricante de componentes mecánicos de precisión situada en Lyon, Francia, vende un 
+lote de piezas destinadas a maquinaria pesada a un comprador industrial ubicado en São Paulo, 
+Brasil. Debido a la naturaleza técnica del producto, el vendedor asume el embalaje reforzado, la 
+identificación individual de cada unidad, la preparación de documentación técnica y la verificación 
+final de calidad. El contrato establece que el vendedor organizará y pagará el transporte interno 
+desde su planta hasta una terminal logística cercana al aeropuerto de Lyon, donde operará el 
+transportista designado por el comprador.
+El vendedor también se compromete a realizar todos los trámites de exportación en Francia, 
+incluyendo la declaración aduanera, la obtención de certificados de origen y la coordinación con las 
+autoridades competentes. La entrega se considera efectuada en el momento en que la mercancía es 
+entregada físicamente al transportista designado por el comprador en la terminal logística. A partir 
+de ese instante, el riesgo por pérdida o daño se transfiere al comprador.
+El comprador contrata y paga el transporte aéreo internacional hasta Brasil, el seguro de transporte, 
+la descarga en el aeropuerto de destino, el transporte interno hasta su planta y el despacho de 
+importación, asumiendo el pago de aranceles, impuestos y tasas locales. El vendedor no asume 
+ningún costo ni responsabilidad una vez entregada la mercancía al transportista.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 8
+Una empresa exportadora de productos cerámicos ubicada en el este de España acuerda la venta de 
+un cargamento completo de azulejos a un importador mayorista en Casablanca, Marruecos. Las 
+mercancías se transportarán en contenedores marítimos y requieren embalaje reforzado para evitar 
+daños durante la manipulación. El vendedor asume los costos de embalaje, transporte interno desde 
+la fábrica hasta el puerto de Valencia, así como los gastos de manipulación portuaria, estiba y carga 
+de los contenedores a bordo del buque designado por el comprador.
+El vendedor también realiza el despacho aduanero de exportación, presentando la documentación 
+necesaria ante las autoridades españolas. Una vez que la mercancía queda correctamente cargada a 
+bordo del buque en el puerto de Valencia, la responsabilidad por pérdida o daño se transfiere al 
+comprador.
+El comprador contrata y paga el transporte marítimo internacional hasta Casablanca, el seguro de 
+transporte, la descarga en el puerto de destino, el transporte interno hasta su almacén y el despacho 
+de importación, asumiendo el pago de aranceles, impuestos y tasas aplicables en Marruecos. El 
+vendedor no participa en la contratación del transporte internacional ni del seguro.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 9
+Una empresa productora de fertilizantes ubicada en el sur de Brasil vende un cargamento a granel a 
+una empresa agrícola establecida en Dakar, Senegal. El contrato establece que el vendedor se hará 
+cargo del embalaje industrial, del transporte interno desde su planta hasta el puerto de Santos, así 
+como de la estiba y carga de la mercancía a bordo del buque. Adicionalmente, el vendedor contrata 
+y paga el transporte marítimo internacional hasta el puerto de Dakar.
+No obstante, el seguro de transporte no será contratado por el vendedor, ya que el comprador 
+dispone de una póliza global que cubre sus importaciones. El contrato especifica que el riesgo por 
+pérdida o daño se transfiere en el momento exacto en que la mercancía queda cargada a bordo del 
+buque en el puerto brasileño, aunque el vendedor continúe asumiendo el costo del flete marítimo.
+En destino, el comprador asume la descarga, el transporte interno hasta sus instalaciones y el 
+despacho de importación, pagando los aranceles, impuestos y tasas correspondientes según la 
+legislación senegalesa.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 10
+Una empresa exportadora de productos químicos ubicada en Hamburgo, Alemania, vende un lote de 
+resinas industriales a un comprador establecido en Yakarta, Indonesia. La mercancía requiere 
+embalaje homologado, manipulación especializada y documentación de seguridad. El vendedor 
+asume los costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y carga a 
+bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el puerto de 
+Yakarta.
+Debido a las características del producto y a exigencias contractuales del comprador, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo está incluido en 
+el precio de venta. El contrato establece que el riesgo se transfiere al comprador en el momento en 
+que la mercancía queda cargada a bordo del buque en Hamburgo, aun cuando el vendedor continúe 
+pagando el flete y el seguro.
+En destino, el comprador se encarga de la descarga, el transporte interno y el despacho de 
+importación, asumiendo el pago de derechos arancelarios, impuestos y tasas locales.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 11
+Una empresa fabricante de maquinaria de envasado ubicada en Stuttgart, Alemania, vende una línea 
+completa de equipos automatizados a una empresa alimentaria situada en Guadalajara, México. Los 
+equipos, debido a su tamaño, peso y complejidad técnica, requieren embalaje industrial reforzado, 
+fijación especial dentro de contenedores y documentación técnica detallada para su correcta 
+instalación posterior. El vendedor asume los costos de embalaje, etiquetado, verificación técnica 
+final y transporte interno desde su planta hasta un operador logístico situado en las afueras de 
+Stuttgart, que actuará como primer transportista.
+El contrato establece que el vendedor contratará y pagará el transporte internacional multimodal, 
+que incluye transporte terrestre hasta el aeropuerto de Frankfurt y transporte aéreo hasta el 
+aeropuerto de Ciudad de México. No obstante, se acuerda expresamente que el riesgo por pérdida o 
+daño se transferirá al comprador en el momento en que la mercancía sea entregada al primer 
+transportista en Alemania. El vendedor no contrata seguro de transporte, ya que el comprador 
+prefiere gestionar su propia póliza.
+Una vez que la mercancía llega a México, el comprador asume la descarga, el transporte interno 
+hasta su planta, el despacho de importación y el pago de aranceles, IVA y demás tributos aplicables. 
+El vendedor no asume responsabilidades ni costos en destino más allá del pago del transporte 
+internacional.
+Opciones:
+A. FCA
+B. CPT
+C. CIP
+D. DAP
+Respuesta correcta: B
+
+CASO 12
+Una empresa productora de dispositivos médicos ubicada en Zúrich, Suiza, vende un lote de equipos 
+de diagnóstico a un hospital privado en Santiago de Chile. Los equipos tienen un alto valor unitario y 
+requieren embalaje especializado, control de temperatura y documentación sanitaria estricta. El 
+vendedor asume el embalaje técnico, el transporte interno hasta el aeropuerto de Zúrich y la 
+entrega de la mercancía al primer transportista aéreo.
+El contrato estipula que el vendedor contratará y pagará el transporte aéreo internacional hasta 
+Chile y, debido al alto valor de la mercancía, también contratará un seguro obligatorio con cobertura 
+amplia contra todo riesgo. Sin embargo, se establece claramente que el riesgo se transferirá al 
+comprador en el momento en que la mercancía sea entregada al primer transportista en Suiza.
+El comprador asume la descarga en el aeropuerto de Santiago, el transporte interno hasta el 
+hospital, el despacho de importación y el pago de aranceles, IVA, tasas sanitarias y cualquier otro 
+impuesto exigido por la normativa chilena. El vendedor no asume ningún costo ni riesgo adicional 
+una vez entregada la mercancía al transportista inicial.
+Opciones:
+A. CPT
+B. CIP
+C. DAP
+D. CIF
+Respuesta correcta: B
+
+CASO 13
+Una empresa fabricante de mobiliario comercial ubicada en Shenzhen, China, vende equipamiento 
+completo para tiendas a una cadena minorista con sede en Milán, Italia. El contrato establece que el 
+vendedor asumirá todos los costos logísticos hasta que la mercancía llegue al centro de distribución 
+del comprador en las afueras de Milán, incluyendo embalaje, transporte interno en China, carga, 
+transporte marítimo, descarga en el puerto italiano y transporte interno hasta el almacén del 
+comprador.
+Sin embargo, se acuerda expresamente que el vendedor no asumirá el pago de aranceles, IVA ni 
+otros impuestos de importación, los cuales serán responsabilidad exclusiva del comprador. El riesgo 
+se transferirá cuando la mercancía sea puesta a disposición del comprador en el centro logístico, 
+lista para ser descargada del medio de transporte, pero sin que el vendedor asuma la operación de 
+descarga.
+El comprador se encarga del despacho de importación y del pago de los tributos correspondientes, 
+así como de la descarga final.
+Opciones:
+A. DPU
+B. DDP
+C. DAP
+D. CIF
+Respuesta correcta: C
+
+CASO 14
+Una empresa exportadora de maquinaria pesada ubicada en Katowice, Polonia, vende equipos de 
+perforación a una empresa minera situada en Arequipa, Perú. La maquinaria, por su peso y volumen, 
+requiere transporte especial y coordinación logística avanzada. El vendedor asume el embalaje, el 
+transporte interno hasta el puerto de Gdynia, la carga a bordo del buque, el transporte marítimo 
+internacional hasta el puerto de Callao, la descarga en destino y el transporte interno hasta la mina 
+del comprador.
+El contrato establece que la mercancía se considerará entregada únicamente cuando haya sido 
+descargada del medio de transporte en el lugar acordado en destino. El vendedor no asume el pago 
+de aranceles ni impuestos de importación, que serán responsabilidad del comprador. El riesgo se 
+transfiere únicamente después de que la maquinaria ha sido descargada en el lugar convenido.
+Opciones:
+A. DAP
+B. DPU
+C. DDP
+D. CIP
+Respuesta correcta: B
+
+CASO 15
+Una empresa farmacéutica ubicada en Basilea, Suiza, vende medicamentos oncológicos a una red 
+hospitalaria en Bogotá, Colombia. Dada la criticidad del producto, el contrato establece que el 
+vendedor asumirá absolutamente todos los costos y responsabilidades logísticas, incluyendo 
+embalaje especializado, transporte interno, transporte aéreo internacional, seguro, descarga, 
+transporte interno en destino, despacho de exportación e importación, así como el pago de 
+aranceles, IVA, tasas sanitarias y cualquier otro tributo exigido por las autoridades colombianas.
+El comprador únicamente recibirá la mercancía en sus instalaciones hospitalarias, sin asumir ningún 
+costo, trámite ni riesgo adicional. El riesgo por pérdida o daño se transfiere únicamente cuando la 
+mercancía es entregada físicamente en el hospital, con todos los impuestos y formalidades 
+cumplidos.
+Opciones:
+A. DAP
+B. DPU
+C. CIF
+D. DDP
 Respuesta correcta: D
 
-5.
-¿Cuál es el principal riesgo de una deficiente gestión documental en operaciones de comercio 
-exterior?
-A) Incremento del tiempo de producción
-B) Sanciones aduaneras, retrasos y sobrecostos logísticos
-C) Pérdida automática del proveedor internacional
-D) Anulación del contrato comercial internacional
+CASO 16
+Una empresa dedicada a la fabricación de maquinaria para la industria gráfica ubicada en Osaka, 
+Japón, acuerda la venta de varias prensas industriales a una empresa editorial con sede en Lima, 
+Perú. Las prensas son equipos de gran tamaño y alto valor, por lo que requieren embalaje industrial 
+reforzado, fijación especial sobre plataformas metálicas y protección contra humedad y vibraciones. 
+El vendedor se compromete a fabricar y embalar adecuadamente la mercancía, dejándola disponible 
+dentro de sus instalaciones en Osaka en la fecha pactada. Sin embargo, el vendedor aclara que no 
+cuenta con personal ni infraestructura para realizar operaciones de carga ni para gestionar 
+transporte internacional, por lo que no asumirá ninguna obligación relacionada con la carga de la 
+mercancía, el transporte interno hasta el puerto o aeropuerto, ni la realización de trámites 
+aduaneros.
+El comprador peruano organiza y paga la carga de la maquinaria dentro de la planta del vendedor, el 
+transporte interno hasta el puerto de Kobe, el transporte marítimo internacional hasta el puerto del 
+Callao, la descarga, el transporte interno hasta su planta editorial y todos los trámites aduaneros 
+tanto de exportación como de importación. Asimismo, contrata el seguro de transporte 
+internacional bajo su propia póliza corporativa. El contrato establece expresamente que cualquier 
+daño, pérdida o retraso ocurrido desde el momento en que la mercancía queda a disposición del 
+comprador dentro de la planta del vendedor será de su exclusiva responsabilidad.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CPT
 Respuesta correcta: B
 
-6.
-En el contexto del comercio exterior ecuatoriano, ¿qué función cumple principalmente el SENAE?
-A) Promoción de exportaciones
-B) Negociación de tratados comerciales
-C) Control, recaudación y facilitación aduanera
-D) Regulación monetaria y cambiaria
-Respuesta correcta: C
-
-7.
-La cláusula de la Nación Más Favorecida (NMF) implica que:
-A) Un país puede discriminar a socios estratégicos
-B) Las preferencias arancelarias son exclusivas
-C) Un beneficio otorgado a un país debe extenderse a todos los miembros
-D) Solo aplica a países en desarrollo
-Respuesta correcta: C
-
-8.
-¿Cuál de los siguientes instrumentos de pago internacional ofrece mayor seguridad al exportador?
-A) Transferencia bancaria anticipada
-B) Cobranza documentaria
-C) Carta de crédito
-D) Pago contra entrega
-Respuesta correcta: C
-
-9.
-En el régimen aduanero ecuatoriano, la importación para el consumo se caracteriza por:
-A) Ser temporal y sin pago de tributos
-B) Permitir el ingreso definitivo de mercancías con pago de tributos
-C) Estar destinada exclusivamente a zonas francas
-D) Aplicar únicamente a personas naturales
+CASO 17
+Una empresa productora de equipos de climatización ubicada en Brno, República Checa, vende un 
+lote de sistemas de aire acondicionado industrial a una empresa constructora situada en Dubái, 
+Emiratos Árabes Unidos. Los equipos deben ser embalados en cajas reforzadas y acompañados de 
+manuales técnicos y certificados de conformidad. El vendedor asume los costos de embalaje, 
+etiquetado y transporte interno desde su planta hasta una terminal logística cercana a Viena, 
+Austria, donde operará el transportista designado por el comprador.
+El vendedor también se compromete a realizar el despacho aduanero de exportación y a entregar la 
+mercancía al transportista del comprador en la terminal acordada. En el momento en que la 
+mercancía es entregada físicamente al transportista, el riesgo por pérdida o daño se transfiere al 
+comprador. A partir de ese punto, el comprador organiza y paga el transporte internacional, el 
+seguro, la descarga en destino, el transporte interno hasta la obra y el pago de aranceles, IVA y tasas 
+de importación en Emiratos Árabes Unidos.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-10.
-El aforo aduanero tiene como finalidad principal:
-A) Facilitar el comercio sin intervención estatal
-B) Determinar tributos y verificar la veracidad de la declaración
-C) Establecer precios internacionales de referencia
-D) Controlar exclusivamente el origen de la mercancía
+CASO 18
+Una empresa exportadora de productos madereros ubicada en Concepción, Chile, vende un 
+cargamento de tableros contrachapados a un importador mayorista en Busan, Corea del Sur. La 
+mercancía se transportará en contenedores marítimos y requiere tratamiento fitosanitario 
+certificado. El vendedor asume el embalaje, el transporte interno hasta el puerto de San Antonio, la 
+estiba y la carga a bordo del buque.
+El contrato establece que el vendedor no contratará ni pagará el flete marítimo ni el seguro de 
+transporte, los cuales serán gestionados directamente por el comprador coreano. El riesgo por 
+pérdida o daño se transfiere en el momento en que los contenedores quedan cargados a bordo del 
+buque en el puerto chileno. En destino, el comprador asume la descarga, el transporte interno, el 
+despacho de importación y el pago de aranceles e impuestos.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-11.
-¿Cuál es la diferencia esencial entre aforo documental y aforo físico?
-A) El documental siempre implica sanciones
-B) El físico solo revisa documentos
-C) El documental no requiere inspección de la mercancía
-D) Ambos se aplican únicamente a importadores nuevos
-Respuesta correcta: C
-
-12.
-Un importador que declara un valor inferior al precio internacional de referencia se expone 
-principalmente a:
-A) Suspensión automática del RUC
-B) Reclasificación, reliquidación tributaria y sanciones
-C) Pérdida inmediata de la mercancía
-D) Cancelación de futuros permisos de importación
+CASO 19
+Una empresa fabricante de equipos de automatización industrial ubicada en Eindhoven, Países 
+Bajos, vende robots industriales a una planta automotriz situada en Monterrey, México. Los robots 
+son de alto valor y requieren embalaje especializado, control de humedad y documentación técnica 
+extensa. El vendedor asume el embalaje, el transporte interno hasta el aeropuerto de Ámsterdam y 
+la entrega de la mercancía al primer transportista aéreo.
+El contrato establece que el vendedor contratará y pagará el transporte aéreo internacional hasta 
+México, pero no contratará el seguro de transporte, ya que el comprador prefiere hacerlo bajo su 
+propia póliza. El riesgo se transfiere al comprador en el momento en que la mercancía es entregada 
+al primer transportista. En destino, el comprador asume la descarga, el transporte interno, el 
+despacho de importación y el pago de aranceles, IVA y tasas.
+Opciones:
+A. FCA
+B. CPT
+C. CIP
+D. DAP
 Respuesta correcta: B
 
-13.
-Las resoluciones anticipadas emitidas por el SENAE buscan principalmente:
-A) Aumentar la recaudación fiscal
-B) Reducir la discrecionalidad del importador
-C) Brindar certeza jurídica previa a la operación comercial
-D) Sustituir el aforo aduanero
+CASO 20
+Una empresa productora de instrumental quirúrgico ubicada en Milán, Italia, vende un lote de 
+equipos médicos de alto valor a una clínica privada situada en Bogotá, Colombia. Los equipos 
+requieren embalaje especializado, manipulación cuidadosa y control de temperatura. El vendedor 
+asume el embalaje, el transporte interno hasta el aeropuerto de Milán, la entrega al primer 
+transportista, la contratación y el pago del transporte aéreo internacional y, además, la contratación 
+de un seguro obligatorio con cobertura amplia contra todo riesgo.
+El contrato establece claramente que el riesgo se transfiere al comprador en el momento en que la 
+mercancía es entregada al primer transportista en Italia. En destino, el comprador asume la 
+descarga, el transporte interno hasta la clínica, el despacho de importación y el pago de aranceles, 
+IVA y tasas sanitarias exigidas por la normativa colombiana.
+Opciones:
+A. CPT
+B. CIP
+C. DAP
+D. CIF
+Respuesta correcta: B
+
+CASO 21
+Una empresa fabricante de equipos de generación eléctrica ubicada en Turku, Finlandia, celebra un 
+contrato de compraventa con una empresa energética situada en Vancouver, Canadá, para el 
+suministro de generadores industriales destinados a una planta de respaldo eléctrico. Los equipos 
+son de gran tamaño, alto peso y elevado valor económico, por lo que requieren un embalaje 
+industrial reforzado con estructuras metálicas, protección anticorrosiva y fijaciones especiales para 
+transporte de larga distancia. El vendedor se encarga de la fabricación, del embalaje conforme a 
+estándares internacionales y de dejar la mercancía disponible dentro de su propia planta en la fecha 
+acordada. Sin embargo, durante la negociación se establece de forma expresa que el vendedor no 
+participará en la organización logística posterior, ya que no dispone de experiencia en exportaciones 
+fuera de la Unión Europea.
+El comprador asume la responsabilidad de contratar personal especializado para la carga de los 
+generadores dentro de la planta del vendedor, el transporte interno desde Turku hasta el puerto de 
+Helsinki, el transporte marítimo hasta el puerto de Vancouver, la descarga portuaria y el transporte 
+interno hasta la central eléctrica. Asimismo, el comprador se encarga de todos los trámites 
+aduaneros de exportación e importación, del pago de aranceles, impuestos y tasas aplicables, así 
+como de la contratación del seguro de transporte internacional. El contrato establece que cualquier 
+daño o pérdida ocurrida desde el momento en que la mercancía se pone a disposición en la planta 
+del vendedor será asumida exclusivamente por el comprador.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
+Respuesta correcta: B
+
+CASO 22
+Una empresa fabricante de sistemas de riego agrícola ubicada en Murcia, España, vende un lote 
+completo de equipos a una empresa agroindustrial situada en Córdoba, Argentina. Los sistemas 
+incluyen tuberías, bombas y componentes electrónicos, los cuales requieren embalaje 
+individualizado, etiquetado técnico y documentación detallada para su correcta instalación. El 
+vendedor se compromete a embalar la mercancía, organizar el transporte interno desde su planta 
+hasta una plataforma logística en Madrid y realizar el despacho aduanero de exportación ante las 
+autoridades españolas.
+El contrato establece que la mercancía será entregada al transportista designado por el comprador 
+en la plataforma logística de Madrid. En ese momento, el riesgo por pérdida o daño se transfiere al 
+comprador. El vendedor no contrata ni paga el transporte internacional ni el seguro, y no asume 
+ningún costo posterior a la entrega al transportista. El comprador se encarga del transporte 
+marítimo hasta Buenos Aires, de la descarga, del transporte interno hasta Córdoba, de la 
+contratación del seguro de transporte y del despacho de importación, asumiendo aranceles, IVA y 
+demás tributos aplicables en Argentina.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 23
+Una empresa exportadora de piedra natural ubicada en Carrara, Italia, vende un cargamento de 
+bloques de mármol a una empresa constructora situada en Doha, Catar. Debido al peso y volumen 
+de la mercancía, se requiere transporte especializado y una coordinación logística precisa. El 
+vendedor asume el embalaje industrial, el transporte interno hasta el puerto de Livorno, la 
+manipulación portuaria, la estiba y la carga a bordo del buque.
+El contrato establece que el comprador selecciona la naviera y contrata el transporte marítimo 
+internacional, así como el seguro de transporte. El riesgo por pérdida o daño se transfiere al 
+comprador en el momento exacto en que la mercancía queda cargada a bordo del buque en el 
+puerto italiano. En destino, el comprador se hace cargo de la descarga, del transporte interno hasta 
+la obra y del despacho de importación, incluyendo el pago de aranceles e impuestos conforme a la 
+legislación de Catar.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 24
+Una empresa productora de azúcar refinada ubicada en Veracruz, México, vende un cargamento a 
+granel a una empresa alimentaria establecida en Kingston, Jamaica. El vendedor asume el transporte 
+interno desde su planta hasta el puerto de Veracruz, la estiba y la carga de la mercancía a bordo del 
+buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta Kingston.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza global. El riesgo se transfiere al comprador en el momento en que 
+la mercancía queda cargada a bordo del buque en el puerto mexicano, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno y del despacho de importación, pagando los aranceles e impuestos 
+correspondientes.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-14.
-¿Cuál de las siguientes materias NO es objeto de resolución anticipada según el COPCI?
-A) Clasificación arancelaria
-B) Reglas de origen
-C) Valoración aduanera
-D) Tipo de cambio monetario
+CASO 25
+Una empresa exportadora de productos químicos industriales ubicada en Róterdam, Países Bajos, 
+vende un lote de aditivos a una empresa manufacturera situada en Chennai, India. La mercancía 
+requiere embalaje homologado, manipulación especializada y documentación de seguridad 
+conforme a normativa internacional. El vendedor asume los costos de embalaje, transporte interno 
+hasta el puerto de Róterdam, estiba y carga a bordo del buque, y además contrata y paga el 
+transporte marítimo internacional hasta Chennai.
+Por exigencia contractual del comprador y de la normativa interna de la empresa vendedora, el 
+vendedor también contrata un seguro de transporte marítimo obligatorio con cobertura mínima, 
+cuyo costo está incluido en el precio de venta. El contrato establece claramente que el riesgo por 
+pérdida o daño se transfiere al comprador cuando la mercancía queda cargada a bordo del buque en 
+el puerto de origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el 
+comprador asume la descarga, el transporte interno y el despacho de importación, incluyendo el 
+pago de aranceles, impuestos y tasas aplicables en India.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 26
+Una empresa fabricante de maquinaria para la industria alimentaria ubicada en Bologna, Italia, 
+vende una línea completa de equipos de procesamiento a una empresa cárnica situada en 
+Monterrey, México. Los equipos, por su tamaño, peso y complejidad técnica, requieren embalaje 
+industrial reforzado, protección contra vibraciones y humedad, y documentación técnica detallada 
+para su posterior instalación. El vendedor se compromete a fabricar y embalar la maquinaria 
+conforme a las especificaciones acordadas y a organizar el transporte interno desde su planta hasta 
+una terminal logística próxima al aeropuerto de Milán, donde se realizará la entrega al primer 
+transportista.
+El contrato establece que el vendedor contratará y pagará el transporte internacional multimodal, 
+que incluye transporte terrestre hasta el aeropuerto y transporte aéreo hasta México. No obstante, 
+se acuerda expresamente que el riesgo por pérdida o daño se transferirá al comprador en el 
+momento exacto en que la mercancía sea entregada al primer transportista en Italia. El vendedor no 
+contratará ningún seguro de transporte, ya que el comprador desea incluir la operación dentro de su 
+póliza global.
+Una vez que la mercancía llega a México, el comprador asume la descarga en el aeropuerto, el 
+transporte interno hasta su planta, el despacho de importación y el pago de aranceles, IVA y demás 
+tributos exigidos por la legislación mexicana. El vendedor no asume ningún costo ni responsabilidad 
+adicional una vez efectuada la entrega al transportista inicial.
+Opciones:
+A. FCA
+B. CPT
+C. CIP
+D. DAP
+Respuesta correcta: B
+
+CASO 27
+Una empresa productora de equipos de diagnóstico por imagen ubicada en Viena, Austria, vende un 
+conjunto de escáneres médicos de alto valor a una red hospitalaria situada en Santiago de Chile. Los 
+equipos requieren embalaje especializado, manipulación cuidadosa y control de temperatura, 
+además de cumplir con estrictas normativas sanitarias. El vendedor asume el embalaje técnico, el 
+transporte interno hasta el aeropuerto de Viena y la entrega de la mercancía al primer transportista 
+aéreo.
+El contrato establece que el vendedor contratará y pagará el transporte aéreo internacional hasta 
+Chile y, debido al elevado valor de los equipos y a las exigencias del comprador, también contratará 
+un seguro obligatorio con cobertura amplia contra todo riesgo. Sin embargo, se acuerda claramente 
+que el riesgo por pérdida o daño se transferirá al comprador en el momento en que la mercancía sea 
+entregada al primer transportista en Austria.
+El comprador se encarga de la descarga en el aeropuerto de Santiago, del transporte interno hasta 
+los hospitales, del despacho de importación y del pago de aranceles, IVA, tasas sanitarias y cualquier 
+otro impuesto exigido por la normativa chilena. El vendedor no asume responsabilidades adicionales 
+una vez realizada la entrega inicial.
+Opciones:
+A. CPT
+B. CIP
+C. DAP
+D. CIF
+Respuesta correcta: B
+
+CASO 28
+Una empresa fabricante de mobiliario de oficina ubicada en Ningbo, China, vende un lote completo 
+de muebles modulares a una empresa de diseño corporativo situada en Madrid, España. El contrato 
+establece que el vendedor se hará cargo del embalaje, del transporte interno en China, de la carga 
+en el puerto de Ningbo, del transporte marítimo internacional, de la descarga en el puerto de 
+Valencia y del transporte interno hasta el almacén del comprador en Madrid.
+No obstante, se acuerda expresamente que el vendedor no asumirá el pago de aranceles, IVA ni 
+otros impuestos de importación, los cuales serán responsabilidad exclusiva del comprador. El riesgo 
+se transfiere cuando la mercancía es puesta a disposición del comprador en el almacén de Madrid, 
+lista para ser descargada del medio de transporte, pero sin que el vendedor realice la operación de 
+descarga. El comprador se encarga del despacho de importación, del pago de tributos y de la 
+descarga final de la mercancía.
+Opciones:
+A. DPU
+B. DDP
+C. DAP
+D. CIF
+Respuesta correcta: C
+
+CASO 29
+Una empresa exportadora de maquinaria pesada ubicada en Ostrava, República Checa, vende 
+equipos de trituración a una empresa minera situada en Antofagasta, Chile. La maquinaria, debido a 
+su peso y dimensiones, requiere transporte especial y coordinación logística avanzada. El vendedor 
+asume el embalaje, el transporte interno hasta el puerto de Hamburgo, la carga a bordo del buque, 
+el transporte marítimo internacional hasta el puerto de Antofagasta, la descarga en destino y el 
+transporte interno hasta la mina del comprador.
+El contrato establece que la mercancía se considerará entregada únicamente cuando haya sido 
+descargada del medio de transporte en el lugar acordado en destino. El vendedor no asume el pago 
+de aranceles ni impuestos de importación, los cuales serán responsabilidad del comprador. El riesgo 
+se transfiere exclusivamente después de que la maquinaria ha sido descargada en el lugar 
+convenido.
+Opciones:
+A. DAP
+B. DPU
+C. DDP
+D. CIP
+Respuesta correcta: B
+
+CASO 30
+Una empresa farmacéutica multinacional con sede en Basilea, Suiza, vende un lote de medicamentos 
+biotecnológicos a una cadena hospitalaria privada situada en Lima, Perú. Debido a la naturaleza 
+sensible del producto, el contrato establece que el vendedor asumirá absolutamente todos los 
+costos y responsabilidades logísticas, incluyendo embalaje especializado con control térmico, 
+transporte interno, transporte aéreo internacional, contratación de seguro, descarga en destino, 
+transporte interno hasta los hospitales, despacho de exportación e importación, así como el pago de 
+aranceles, IGV, tasas sanitarias y cualquier otro tributo exigido por la legislación peruana.
+El comprador únicamente recibe la mercancía en sus instalaciones, sin asumir ningún trámite, costo 
+ni riesgo adicional. El riesgo por pérdida o daño se transfiere únicamente cuando la mercancía es 
+entregada físicamente en los hospitales, con todos los impuestos y formalidades cumplidos.
+Opciones:
+A. DAP
+B. DPU
+C. CIF
+D. DDP
 Respuesta correcta: D
 
-15.
-El abandono tácito se produce cuando:
-A) La aduana incauta mercancía por contrabando
-B) El importador renuncia expresamente a la mercancía
-C) Se incumplen plazos legales sin necesidad de declaración expresa
-D) La mercancía es perecedera
+CASO 31
+Una empresa dedicada a la fabricación de maquinaria para la industria del papel ubicada en 
+Tampere, Finlandia, celebra un contrato de compraventa con una empresa papelera situada en 
+Medellín, Colombia, para el suministro de varios equipos de corte y bobinado. La maquinaria es de 
+gran tamaño, alto valor económico y requiere embalaje industrial reforzado, protección 
+anticorrosiva y sujeciones especiales para transporte de larga distancia. El vendedor se compromete 
+a fabricar los equipos, realizar las pruebas técnicas finales y embalar adecuadamente la mercancía, 
+dejándola disponible dentro de sus planta en la fecha acordada. No obstante, durante la negociación 
+se deja claramente establecido que el vendedor no asumirá ninguna actividad relacionada con la 
+carga de la maquinaria, la contratación de transporte, la gestión de documentos de exportación ni la 
+contratación de seguros, ya que no cuenta con un departamento logístico internacional.
+El comprador colombiano contrata una empresa de transporte especializada que envía personal 
+técnico a la planta del vendedor para realizar la carga de la maquinaria, organiza el transporte 
+interno hasta el puerto de Helsinki, contrata el transporte marítimo hasta el puerto de Cartagena y 
+coordina la descarga y el transporte interno hasta su planta en Medellín. Asimismo, el comprador 
+gestiona todos los trámites aduaneros de exportación e importación, incluyendo licencias, 
+certificaciones técnicas, pago de aranceles, IVA y tasas portuarias. El seguro de transporte 
+internacional es contratado directamente por el comprador. El contrato establece que el riesgo por 
+pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición en la planta del vendedor.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CPT
+Respuesta correcta: B
+
+CASO 32
+Una empresa productora de equipos de bombeo industrial ubicada en Linz, Austria, vende un lote de 
+bombas centrífugas a una empresa de ingeniería hidráulica situada en Lima, Perú. Las bombas 
+requieren embalaje técnico, protección contra humedad y golpes, y documentación de conformidad 
+para su importación. El vendedor asume el embalaje, el transporte interno desde su planta hasta 
+una terminal logística cercana a Viena y la preparación de la documentación necesaria para la 
+exportación.
+El contrato establece que el vendedor realizará el despacho aduanero de exportación y entregará 
+físicamente la mercancía al transportista designado por el comprador en la terminal logística 
+acordada. En ese momento, la responsabilidad por pérdida o daño se transfiere al comprador. El 
+vendedor no contrata ni paga el transporte internacional ni el seguro. A partir de la entrega al 
+transportista, el comprador organiza y paga el transporte marítimo hasta el puerto del Callao, la 
+descarga, el transporte interno hasta su planta, el despacho de importación y el pago de aranceles, 
+IGV y tasas aduaneras conforme a la legislación peruana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 33
+Una empresa exportadora de productos de vidrio arquitectónico ubicada en Bursa, Turquía, vende 
+un cargamento completo de paneles de vidrio templado a un importador mayorista en Marsella, 
+Francia. La mercancía será transportada en contenedores marítimos y requiere embalaje especial 
+con separadores y protecciones para evitar roturas. El vendedor asume los costos de embalaje, 
+transporte interno desde su planta hasta el puerto de Estambul, así como la estiba y carga de los 
+contenedores a bordo del buque.
+El contrato establece que el comprador selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte. El riesgo por pérdida o daño se transfiere al comprador en el 
+momento exacto en que los contenedores quedan cargados a bordo del buque en el puerto turco. 
+En destino, el comprador asume la descarga, el transporte interno hasta su almacén, el despacho de 
+importación y el pago de aranceles, IVA y tasas aplicables conforme a la normativa francesa.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 34
+Una empresa productora de granos agrícolas ubicada en Rosario, Argentina, vende un cargamento a 
+granel de maíz a una empresa procesadora de alimentos situada en Callao, Perú. El vendedor asume 
+el transporte interno desde los silos hasta el puerto de Rosario, la estiba y la carga del grano a bordo 
+del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto del Callao.
+El contrato establece que el seguro de transporte será contratado directamente por el comprador, 
+quien dispone de una póliza abierta para sus importaciones. Se acuerda expresamente que el riesgo 
+por pérdida o daño se transferirá en el momento en que la mercancía quede cargada a bordo del 
+buque en el puerto argentino, aun cuando el vendedor continúe pagando el flete marítimo. En 
+destino, el comprador asume la descarga, el transporte interno, el despacho de importación y el 
+pago de aranceles, impuestos y tasas portuarias conforme a la legislación peruana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-16.
-Una consecuencia directa del abandono tácito es que:
-A) El importador queda exento de toda responsabilidad
-B) La mercancía pasa automáticamente a dominio del Estado
-C) Se genera un proceso penal
-D) Se anula la declaración aduanera
-Respuesta correcta: B
-
-17.
-¿Qué tipo de importación permite el ingreso temporal de bienes sin el pago definitivo de tributos?
-A) Importación para el consumo
-B) Importación comercial
-C) Importación temporal
-D) Importación personal
+CASO 35
+Una empresa exportadora de productos químicos para la industria automotriz ubicada en 
+Yokohama, Japón, vende un lote de aditivos especiales a una empresa ensambladora situada en 
+Chennai, India. La mercancía requiere embalaje homologado, manipulación especializada y 
+documentación de seguridad conforme a normas internacionales. El vendedor asume el embalaje, el 
+transporte interno hasta el puerto de Yokohama, la estiba y la carga de la mercancía a bordo del 
+buque, y además contrata y paga el transporte marítimo internacional hasta el puerto indio.
+Por exigencia contractual del comprador, el vendedor también contrata un seguro de transporte 
+marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el precio de venta. El contrato 
+establece que el riesgo por pérdida o daño se transfiere al comprador cuando la mercancía queda 
+cargada a bordo del buque en el puerto de origen, pese a que el vendedor continúe pagando el flete 
+y el seguro. En destino, el comprador asume la descarga, el transporte interno y el despacho de 
+importación, incluyendo el pago de aranceles, impuestos y tasas locales.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-18.
-El registro en ECUAPASS es indispensable porque:
-A) Permite negociar tratados comerciales
-B) Habilita legalmente a operar como importador o exportador
-C) Sustituye al RUC
-D) Garantiza automáticamente beneficios arancelarios
+CASO 36
+Una empresa dedicada a la fabricación de turbinas hidráulicas ubicada en Graz, Austria, firma un 
+contrato de compraventa con una empresa estatal de generación eléctrica situada en Cuenca, 
+Ecuador. Las turbinas son equipos de gran tamaño, peso elevado y alto valor económico, por lo que 
+requieren embalaje industrial reforzado con estructuras metálicas, protección anticorrosiva y 
+fijaciones especiales para evitar desplazamientos durante el transporte. El vendedor se compromete 
+a fabricar las turbinas, realizar pruebas técnicas finales y embalar adecuadamente la mercancía, 
+dejándola disponible dentro de su planta en Graz en la fecha acordada. Durante la negociación se 
+establece expresamente que el vendedor no realizará operaciones de carga ni gestionará transporte 
+alguno fuera de sus instalaciones, ni tampoco asumirá trámites aduaneros ni la contratación de 
+seguros, ya que su política comercial limita la responsabilidad logística al mínimo indispensable.
+El comprador ecuatoriano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para realizar la carga de las turbinas, organiza el transporte 
+interno desde Graz hasta el puerto de Koper, contrata el transporte marítimo hasta el puerto de 
+Guayaquil y coordina la descarga portuaria y el transporte interno hasta la central hidroeléctrica. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluyendo licencias técnicas, certificados, aranceles, IVA, tasas portuarias y costos administrativos. 
+El seguro de transporte internacional es contratado directamente por el comprador. El contrato 
+establece que cualquier daño, pérdida o retraso ocurrido desde el momento en que la mercancía 
+queda a disposición del comprador dentro de la planta del vendedor será asumido íntegramente por 
+este último.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-19.
-¿Cuál es el rol principal del certificado de origen?
-A) Determinar el valor CIF
-B) Verificar el país de procedencia para aplicar preferencias arancelarias
-C) Autorizar el ingreso sanitario
-D) Sustituir la factura comercial
+CASO 37
+Una empresa fabricante de equipos de filtración industrial ubicada en Lille, Francia, vende un lote de 
+sistemas de purificación a una empresa de tratamiento de aguas situada en Casablanca, Marruecos. 
+Los equipos requieren embalaje técnico, documentación de conformidad y etiquetado específico 
+para exportación. El vendedor se compromete a embalar adecuadamente la mercancía, organizar el 
+transporte interno desde su planta hasta una plataforma logística situada en París y realizar el 
+despacho aduanero de exportación conforme a la normativa francesa.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador en la plataforma logística de París. En ese momento preciso, el riesgo por pérdida o daño 
+se transfiere al comprador. El vendedor no contrata ni paga el transporte internacional ni el seguro 
+de transporte, ni asume responsabilidades posteriores a la entrega al transportista. El comprador se 
+encarga de contratar y pagar el transporte marítimo hasta el puerto de Casablanca, el seguro, la 
+descarga, el transporte interno en Marruecos y el despacho de importación, asumiendo aranceles, 
+impuestos y tasas locales.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-20.
-El valor CIF incluye:
-A) Valor de la mercancía únicamente
-B) Valor + arancel + IVA
-C) Valor + flete + seguro
-D) Valor + seguro + tributos
+CASO 38
+Una empresa exportadora de acero estructural ubicada en Pohang, Corea del Sur, vende un 
+cargamento completo de vigas y perfiles a una empresa constructora situada en San Diego, Estados 
+Unidos. La mercancía se transportará en buques de carga general y requiere embalaje reforzado y 
+tratamiento anticorrosivo. El vendedor asume los costos de embalaje, transporte interno desde la 
+planta hasta el puerto de Busan, así como la estiba y carga de la mercancía a bordo del buque.
+El comprador selecciona la naviera, contrata y paga el transporte marítimo internacional y el seguro 
+de transporte. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento exacto en que la mercancía queda cargada a bordo del buque en el puerto de Busan. En 
+destino, el comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho 
+de importación y del pago de aranceles, impuestos federales y tasas portuarias conforme a la 
+normativa estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 39
+Una empresa productora de azúcar crudo ubicada en Belém, Brasil, vende un cargamento a granel a 
+una empresa alimentaria situada en Bridgetown, Barbados. El vendedor asume el transporte interno 
+desde los ingenios hasta el puerto de Belém, la estiba y la carga del azúcar a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Bridgetown.
+El contrato establece que el seguro de transporte será contratado por el comprador, quien dispone 
+de una póliza abierta para sus importaciones. Se acuerda expresamente que el riesgo por pérdida o 
+daño se transferirá en el momento en que la mercancía queda cargada a bordo del buque en el 
+puerto brasileño, aun cuando el vendedor continúe pagando el flete marítimo. En destino, el 
+comprador asume la descarga, el transporte interno, el despacho de importación y el pago de 
+aranceles, impuestos y tasas portuarias conforme a la legislación de Barbados.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-21.
-Un arancel ad valorem se caracteriza por:
-A) Ser un monto fijo por unidad
-B) Aplicarse sobre el peso de la mercancía
-C) Ser un porcentaje del valor en aduana
-D) Combinar valor y cantidad
+CASO 40
+Una empresa exportadora de productos químicos para la industria textil ubicada en Kaohsiung, 
+Taiwán, vende un lote de colorantes industriales a una empresa manufacturera situada en Surabaya, 
+Indonesia. La mercancía requiere embalaje homologado, manipulación especializada y cumplimiento 
+de normas de seguridad internacional. El vendedor asume los costos de embalaje, transporte interno 
+hasta el puerto de Kaohsiung, estiba y carga a bordo del buque, y además contrata y paga el 
+transporte marítimo internacional hasta el puerto indonesio.
+Por exigencia contractual del comprador y de la normativa interna del vendedor, también se 
+contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo está incluido en el precio 
+de venta. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el 
+momento en que la mercancía queda cargada a bordo del buque en el puerto de origen, aunque el 
+vendedor continúe pagando el flete y el seguro. En destino, el comprador se encarga de la descarga, 
+del transporte interno y del despacho de importación, asumiendo el pago de aranceles, impuestos y 
+tasas locales.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-22.
-¿Cuál de los siguientes tributos se aplica únicamente a ciertos bienes considerados especiales o de 
-lujo?
-A) IVA
-B) FODINFA
-C) ICE
-D) Tasa SENAE
+CASO 41
+Una empresa especializada en la fabricación de equipos para la industria petroquímica ubicada en 
+Aberdeen, Escocia, celebra un contrato de compraventa con una empresa de servicios energéticos 
+situada en Maputo, Mozambique. Los equipos consisten en válvulas de alta presión y módulos de 
+control, fabricados bajo estrictas especificaciones técnicas y normativas internacionales. Debido a su 
+naturaleza, requieren embalaje industrial reforzado, protección anticorrosiva y fijaciones especiales 
+para transporte de larga distancia. El vendedor se compromete a producir los equipos, realizar 
+pruebas funcionales finales y embalar adecuadamente la mercancía, dejándola disponible dentro de 
+sus instalaciones en la fecha acordada. Durante la negociación, el vendedor deja claramente 
+establecido que no asumirá ninguna obligación relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, ya que su política comercial se limita a la entrega en origen.
+El comprador mozambiqueño contrata una empresa logística internacional que envía personal 
+técnico para cargar la mercancía en la planta del vendedor, organiza el transporte interno hasta el 
+puerto de Southampton, contrata el transporte marítimo hasta el puerto de Maputo y coordina la 
+descarga y el transporte interno hasta las instalaciones del proyecto energético. Asimismo, el 
+comprador se encarga de todos los trámites aduaneros de exportación e importación, incluyendo 
+licencias, certificados técnicos, pago de aranceles, IVA, tasas portuarias y cualquier otro impuesto 
+aplicable. El seguro de transporte internacional es contratado directamente por el comprador. El 
+contrato establece que el riesgo por pérdida o daño se transfiere al comprador desde el momento 
+en que la mercancía queda a su disposición en las instalaciones del vendedor, incluso antes de ser 
+cargada.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
+Respuesta correcta: B
+
+CASO 42
+Una empresa fabricante de sistemas de automatización industrial ubicada en Linz, Austria, vende un 
+conjunto de paneles de control y sensores a una empresa minera situada en Antofagasta, Chile. Los 
+equipos requieren embalaje técnico, documentación de conformidad y certificaciones específicas 
+para su importación. El vendedor se compromete a embalar la mercancía, organizar el transporte 
+interno desde su planta hasta una terminal logística situada en Múnich, Alemania, y realizar el 
+despacho aduanero de exportación conforme a la normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador chileno en la terminal logística de Múnich. En ese momento, la responsabilidad por 
+pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro, y no asume ninguna obligación posterior a la entrega al transportista. El 
+comprador organiza y paga el transporte marítimo hasta el puerto de Antofagasta, la descarga, el 
+transporte interno hasta la mina y el despacho de importación, asumiendo aranceles, IVA y tasas 
+aduaneras conforme a la legislación chilena.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 43
+Una empresa exportadora de productos siderúrgicos ubicada en Taranto, Italia, vende un 
+cargamento completo de bobinas de acero a un importador mayorista situado en Izmir, Turquía. La 
+mercancía será transportada por vía marítima y requiere embalaje reforzado y protección contra la 
+corrosión. El vendedor asume los costos de embalaje, transporte interno desde la planta hasta el 
+puerto de Taranto, así como la estiba y carga de las bobinas a bordo del buque.
+El comprador selecciona la naviera, contrata y paga el transporte marítimo internacional y el seguro 
+de transporte. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento exacto en que la mercancía queda cargada a bordo del buque en el puerto italiano. En 
+destino, el comprador se encarga de la descarga, del transporte interno hasta su centro de 
+distribución, del despacho de importación y del pago de aranceles, impuestos y tasas conforme a la 
+legislación turca.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 44
+Una empresa productora de fertilizantes ubicada en Fos-sur-Mer, Francia, vende un cargamento a 
+granel a una empresa agrícola situada en Sfax, Túnez. El vendedor asume el transporte interno 
+desde su planta hasta el puerto francés, la estiba y la carga de la mercancía a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de Sfax.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones. Se acuerda expresamente 
+que el riesgo por pérdida o daño se transferirá en el momento en que la mercancía queda cargada a 
+bordo del buque en el puerto francés, aun cuando el vendedor continúe asumiendo el costo del flete 
+marítimo. En destino, el comprador asume la descarga, el transporte interno, el despacho de 
+importación y el pago de aranceles, impuestos y tasas portuarias conforme a la legislación tunecina.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-23.
-El drawback se define como:
-A) Un impuesto adicional a las exportaciones
-B) Un incentivo financiero directo del Estado
-C) La devolución parcial de tributos pagados por insumos importados
-D) Una exoneración total del IVA
+CASO 45
+Una empresa exportadora de productos químicos especializados ubicada en Baton Rouge, Estados 
+Unidos, vende un lote de catalizadores industriales a una empresa petroquímica situada en Ulsan, 
+Corea del Sur. La mercancía requiere embalaje homologado, manipulación especializada y 
+cumplimiento estricto de normas de seguridad internacional. El vendedor asume los costos de 
+embalaje, transporte interno hasta el puerto de Houston, estiba y carga a bordo del buque, y 
+además contrata y paga el transporte marítimo internacional hasta el puerto de Ulsan.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento en que la mercancía queda cargada a bordo del buque en el puerto de origen, aunque el 
+vendedor continúe pagando el flete y el seguro. En destino, el comprador se encarga de la descarga, 
+del transporte interno y del despacho de importación, asumiendo el pago de aranceles, impuestos y 
+tasas locales.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-24.
-¿Por qué las exportaciones son clave para la economía ecuatoriana?
-A) Reducen la necesidad de importaciones
-B) Generan divisas y fortalecen la dolarización
-C) Eliminan el déficit fiscal
-D) Sustituyen la inversión extranjera
+CASO 46
+Una empresa dedicada a la fabricación de equipos de perforación para la industria petrolera ubicada 
+en Stavanger, Noruega, celebra un contrato de compraventa con una empresa de exploración 
+energética situada en Barrancabermeja, Colombia. Los equipos son de gran tamaño, alto peso y 
+elevado valor, por lo que requieren embalaje industrial reforzado, protección anticorrosiva y 
+sujeciones especiales para transporte de larga distancia. El vendedor se compromete a fabricar los 
+equipos, realizar pruebas técnicas finales y embalar adecuadamente la mercancía, dejándola 
+disponible dentro de sus instalaciones en Stavanger en la fecha acordada. Desde el inicio de la 
+negociación, el vendedor deja claro que no asumirá ninguna actividad relacionada con la carga de la 
+mercancía, la contratación de transporte interno o internacional, la gestión de trámites aduaneros ni 
+la contratación de seguros, ya que su política comercial limita la responsabilidad logística al mínimo 
+posible.
+El comprador colombiano contrata una empresa logística internacional especializada que envía 
+personal técnico para realizar la carga de los equipos en la planta del vendedor, organiza el 
+transporte interno hasta el puerto de Bergen, contrata el transporte marítimo hasta el puerto de 
+Cartagena y coordina la descarga y el transporte interno hasta las instalaciones del proyecto 
+petrolero. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e 
+importación, incluyendo licencias técnicas, certificados de conformidad, aranceles, IVA, tasas 
+portuarias y cualquier otro tributo aplicable. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece expresamente que el riesgo por pérdida o 
+daño se transfiere al comprador desde el momento en que la mercancía queda a su disposición 
+dentro de la planta del vendedor, incluso antes de ser cargada.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-25.
-La diversificación de mercados de exportación permite principalmente:
-A) Reducir costos de producción
-B) Evitar regulaciones internacionales
-C) Disminuir la dependencia de un solo mercado
-D) Eliminar barreras no arancelarias
+CASO 47
+Una empresa fabricante de sistemas de control industrial ubicada en Turku, Finlandia, vende un lote 
+de cuadros eléctricos y sensores a una empresa de infraestructura ferroviaria situada en Casablanca, 
+Marruecos. Los equipos requieren embalaje técnico, documentación de conformidad y 
+certificaciones específicas para su importación. El vendedor se compromete a embalar 
+adecuadamente la mercancía, organizar el transporte interno desde su planta hasta una terminal 
+logística situada en Estocolmo y realizar el despacho aduanero de exportación conforme a la 
+normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador marroquí en la terminal logística de Estocolmo. En ese momento, la responsabilidad por 
+pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro, y no asume ninguna obligación posterior a la entrega al transportista. El 
+comprador organiza y paga el transporte marítimo hasta el puerto de Casablanca, la descarga, el 
+transporte interno hasta su planta y el despacho de importación, asumiendo aranceles, IVA y tasas 
+aduaneras conforme a la legislación marroquí.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 48
+Una empresa exportadora de productos de aluminio ubicada en Manama, Baréin, vende un 
+cargamento completo de perfiles de aluminio a una empresa constructora situada en Valencia, 
+España. La mercancía se transportará por vía marítima y requiere embalaje reforzado y protección 
+contra la corrosión. El vendedor asume los costos de embalaje, transporte interno desde la planta 
+hasta el puerto de Khalifa Bin Salman, así como la estiba y carga de la mercancía a bordo del buque.
+El comprador selecciona la naviera, contrata y paga el transporte marítimo internacional y el seguro 
+de transporte. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento exacto en que la mercancía queda cargada a bordo del buque en el puerto de origen. En 
+destino, el comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho 
+de importación y del pago de aranceles, IVA y tasas conforme a la normativa española y comunitaria.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 49
+Una empresa productora de trigo ubicada en Odesa, Ucrania, vende un cargamento a granel a una 
+empresa molinera situada en Alejandría, Egipto. El vendedor asume el transporte interno desde los 
+silos hasta el puerto de Odesa, la estiba y la carga del grano a bordo del buque. Además, el vendedor 
+contrata y paga el transporte marítimo internacional hasta el puerto de Alejandría.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones. Se acuerda expresamente 
+que el riesgo por pérdida o daño se transferirá en el momento en que la mercancía queda cargada a 
+bordo del buque en el puerto ucraniano, aun cuando el vendedor continúe asumiendo el costo del 
+flete marítimo. En destino, el comprador asume la descarga, el transporte interno, el despacho de 
+importación y el pago de aranceles, impuestos y tasas portuarias conforme a la legislación egipcia.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-26.
-¿Cuál es la principal ventaja estratégica de utilizar una carta de crédito en operaciones 
-internacionales complejas?
-A) Reduce los costos logísticos
-B) Garantiza el cumplimiento de las obligaciones mediante un banco intermediario
-C) Elimina la necesidad de documentos comerciales
-D) Evita la aplicación de aranceles
-Respuesta correcta: B
-
-27.
-Desde la óptica de la política comercial, los aranceles cumplen una función proteccionista cuando:
-A) Incrementan la recaudación fiscal
-B) Incentivan el consumo de productos importados
-C) Encarecen los productos extranjeros para favorecer la producción nacional
-D) Se aplican exclusivamente a bienes de capital
+CASO 50
+Una empresa exportadora de productos químicos para la industria farmacéutica ubicada en Basilea, 
+Suiza, vende un lote de principios activos a una empresa farmacéutica situada en Busan, Corea del 
+Sur. La mercancía requiere embalaje homologado, manipulación especializada y cumplimiento 
+estricto de normas de seguridad internacional. El vendedor asume los costos de embalaje, 
+transporte interno hasta el puerto de Génova, estiba y carga a bordo del buque, y además contrata y 
+paga el transporte marítimo internacional hasta el puerto de Busan.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento en que la mercancía queda cargada a bordo del buque en el puerto de origen, aunque el 
+vendedor continúe pagando el flete y el seguro. En destino, el comprador se encarga de la descarga, 
+del transporte interno y del despacho de importación, asumiendo el pago de aranceles, impuestos y 
+tasas locales.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-28.
-¿Cuál de las siguientes situaciones justificaría la aplicación de un aforo físico (canal rojo)?
-A) Importador frecuente con historial positivo
-B) Mercancía de bajo valor y riesgo
-C) Inconsistencias documentales y mercancía sensible
-D) Importación amparada en un tratado comercial
+CASO 51
+Una empresa especializada en la fabricación de maquinaria para la industria minera ubicada en 
+Luleå, Suecia, celebra un contrato de compraventa con una empresa extractiva situada en Potosí, 
+Bolivia. La maquinaria incluye trituradoras y sistemas de transporte interno, de gran volumen y peso 
+considerable, que requieren embalaje industrial reforzado, protección anticorrosiva y fijaciones 
+especiales para soportar largos trayectos marítimos y terrestres. El vendedor se compromete a 
+fabricar los equipos, realizar pruebas técnicas finales y embalar adecuadamente la mercancía, 
+dejándola disponible dentro de sus instalaciones en la fecha pactada. Desde la fase de negociación, 
+el vendedor deja claro que no asumirá ninguna actividad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, ya que su política comercial limita su responsabilidad logística a la puesta a 
+disposición de la mercancía en origen.
+El comprador boliviano contrata una empresa logística internacional especializada que envía 
+personal técnico para efectuar la carga en la planta del vendedor, organiza el transporte interno 
+hasta el puerto de Gotemburgo, contrata el transporte marítimo hasta el puerto de Arica y coordina 
+el transporte terrestre hasta Potosí. Asimismo, el comprador gestiona y paga todos los trámites 
+aduaneros de exportación e importación, incluidos permisos especiales, certificados técnicos, 
+aranceles, IVA, tasas portuarias y cualquier otro tributo aplicable. El seguro de transporte 
+internacional es contratado directamente por el comprador. El contrato establece expresamente 
+que el riesgo por pérdida o daño se transfiere al comprador desde el momento en que la mercancía 
+queda a su disposición dentro de la planta del vendedor, incluso antes de ser cargada.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
+Respuesta correcta: B
+
+CASO 52
+Una empresa fabricante de sistemas de climatización industrial ubicada en Nantes, Francia, vende un 
+conjunto completo de equipos HVAC a una empresa hotelera situada en Santo Domingo, República 
+Dominicana. Los equipos requieren embalaje técnico especializado, etiquetado conforme a normas 
+internacionales y documentación detallada para su posterior instalación. El vendedor se 
+compromete a embalar la mercancía, organizar el transporte interno desde su planta hasta una 
+plataforma logística situada en Lyon y realizar el despacho aduanero de exportación conforme a la 
+normativa francesa.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador dominicano en la plataforma logística de Lyon. En ese momento preciso, el riesgo por 
+pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro, y no asume ninguna obligación posterior a la entrega al transportista. El 
+comprador se encarga de contratar y pagar el transporte marítimo hasta el puerto de Caucedo, la 
+descarga, el transporte interno hasta el complejo hotelero y el despacho de importación, asumiendo 
+aranceles, ITBIS y tasas aduaneras conforme a la legislación dominicana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 53
+Una empresa exportadora de productos siderúrgicos ubicada en Dalian, China, vende un cargamento 
+completo de planchas de acero a una empresa constructora situada en Callao, Perú. La mercancía se 
+transportará por vía marítima y requiere embalaje reforzado, flejado especial y protección 
+anticorrosiva. El vendedor asume los costos de embalaje, transporte interno desde la planta hasta el 
+puerto de Dalian, así como la estiba y carga de la mercancía a bordo del buque.
+El comprador selecciona la naviera, contrata y paga el transporte marítimo internacional y el seguro 
+de transporte. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento exacto en que la mercancía queda cargada a bordo del buque en el puerto chino. En 
+destino, el comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho 
+de importación y del pago de aranceles, IGV y tasas portuarias conforme a la normativa peruana.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 54
+Una empresa productora de arroz ubicada en Can Tho, Vietnam, vende un cargamento a granel a 
+una empresa distribuidora de alimentos situada en Dakar, Senegal. El vendedor asume el transporte 
+interno desde los silos hasta el puerto de Ho Chi Minh, la estiba y la carga del arroz a bordo del 
+buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Dakar.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza global que cubre sus importaciones. Se acuerda expresamente que 
+el riesgo por pérdida o daño se transferirá en el momento en que la mercancía queda cargada a 
+bordo del buque en el puerto vietnamita, aun cuando el vendedor continúe asumiendo el costo del 
+flete marítimo. En destino, el comprador asume la descarga, el transporte interno, el despacho de 
+importación y del pago de aranceles, impuestos y tasas portuarias conforme a la legislación 
+senegalesa.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-29.
-El aforo automático (canal verde) se concede principalmente cuando:
-A) El importador es nuevo
-B) La mercancía es perecedera
-C) El sistema de riesgo no detecta inconsistencias
-D) Se trata de mercancía sujeta a control especial
+CASO 55
+Una empresa exportadora de productos químicos para la industria cosmética ubicada en Marsella, 
+Francia, vende un lote de fragancias concentradas a una empresa fabricante de cosméticos situada 
+en São Paulo, Brasil. La mercancía requiere embalaje homologado, manipulación especializada y 
+cumplimiento de normas internacionales de seguridad. El vendedor asume los costos de embalaje, 
+transporte interno hasta el puerto de Marsella, estiba y carga a bordo del buque, y además contrata 
+y paga el transporte marítimo internacional hasta el puerto de Santos.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en 
+el momento en que la mercancía queda cargada a bordo del buque en el puerto de origen, aunque el 
+vendedor continúe pagando el flete y el seguro. En destino, el comprador se encarga de la descarga, 
+del transporte interno y del despacho de importación, asumiendo el pago de aranceles, impuestos y 
+tasas locales conforme a la legislación brasileña.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-30.
-¿Cuál es la relación entre clasificación arancelaria y carga tributaria?
-A) No existe relación directa
-B) La clasificación define únicamente el origen
-C) La subpartida determina aranceles, tributos y restricciones
-D) Solo afecta al IVA
+CASO 56
+Una empresa dedicada a la fabricación de maquinaria para la industria del reciclaje ubicada en 
+Malmö, Suecia, celebra un contrato de compraventa con una empresa de gestión de residuos 
+situada en Guayaquil, Ecuador. La maquinaria incluye trituradores, cintas transportadoras y sistemas 
+de clasificación automática, todos ellos de gran tamaño, peso elevado y alto valor económico. 
+Debido a estas características, la mercancía requiere un embalaje industrial reforzado con 
+estructuras metálicas, protección anticorrosiva, fijaciones especiales y documentación técnica 
+detallada para su posterior montaje. El vendedor se compromete a fabricar los equipos conforme a 
+las especificaciones técnicas acordadas, realizar pruebas funcionales completas y embalar la 
+maquinaria adecuadamente, dejándola disponible dentro de sus propias instalaciones en la fecha 
+pactada contractualmente. Desde el inicio de la negociación, el vendedor manifiesta que no asumirá 
+ninguna responsabilidad relacionada con la carga de la mercancía, la contratación de transporte 
+interno o internacional, la gestión de trámites aduaneros ni la contratación de seguros, dado que su 
+política comercial se limita estrictamente a la puesta a disposición de la mercancía en origen.
+El comprador ecuatoriano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para realizar la carga de la maquinaria, organiza el 
+transporte interno desde Malmö hasta el puerto de Gotemburgo, contrata el transporte marítimo 
+hasta el puerto de Guayaquil y coordina la descarga portuaria y el transporte interno hasta la planta 
+de reciclaje. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e 
+importación, incluyendo licencias técnicas, certificados de origen, aranceles, IVA, tasas portuarias y 
+cualquier otro tributo exigido por la legislación ecuatoriana. El seguro de transporte internacional es 
+contratado directamente por el comprador. El contrato establece de forma expresa que el riesgo por 
+pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
+Respuesta correcta: B
+
+CASO 57
+Una empresa fabricante de sistemas de bombeo para la industria petrolera ubicada en Aberdeen, 
+Escocia, vende un lote de bombas de alta presión a una empresa de servicios energéticos situada en 
+Ciudad del Carmen, México. Las bombas requieren embalaje técnico especializado, pruebas de 
+presión certificadas y documentación de conformidad para su importación. El vendedor se 
+compromete a realizar el embalaje conforme a normas internacionales, organizar el transporte 
+interno desde su planta hasta una plataforma logística situada en Liverpool y preparar toda la 
+documentación necesaria para el despacho aduanero de exportación en el Reino Unido.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador mexicano en la plataforma logística de Liverpool. En ese momento exacto, el riesgo por 
+pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro de transporte, y no asume ninguna responsabilidad posterior a la entrega 
+al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de Veracruz, la 
+descarga, el transporte interno hasta Ciudad del Carmen y el despacho de importación, asumiendo 
+el pago de aranceles, IVA, derechos portuarios y demás tributos exigidos por la legislación mexicana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 58
+Una empresa exportadora de estructuras metálicas ubicada en Ulsan, Corea del Sur, vende un 
+cargamento completo de vigas y columnas de acero a una empresa constructora situada en 
+Vancouver, Canadá. La mercancía será transportada por vía marítima en buques de carga general y 
+requiere embalaje reforzado, tratamiento anticorrosivo y sujeción especial para evitar 
+desplazamientos durante la travesía. El vendedor asume los costos de embalaje, transporte interno 
+desde la planta hasta el puerto de Busan, así como los gastos de manipulación portuaria, estiba y 
+carga de la mercancía a bordo del buque.
+El comprador selecciona la naviera, contrata y paga el transporte marítimo internacional y el seguro 
+de transporte conforme a sus propias políticas de gestión de riesgos. El contrato establece que el 
+riesgo por pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía 
+queda cargada a bordo del buque en el puerto de Busan. En destino, el comprador se encarga de la 
+descarga, del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, 
+impuestos federales y tasas portuarias conforme a la normativa canadiense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 59
+Una empresa productora de fertilizantes nitrogenados ubicada en Tarragona, España, vende un 
+cargamento a granel a una empresa agrícola situada en Orán, Argelia. El vendedor asume el 
+transporte interno desde su planta hasta el puerto de Tarragona, la estiba y la carga del fertilizante a 
+bordo del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto de Orán.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza global que cubre sus importaciones. Se acuerda expresamente que 
+el riesgo por pérdida o daño se transfiere en el momento en que la mercancía queda cargada a 
+bordo del buque en el puerto español, aun cuando el vendedor continúe asumiendo el costo del 
+flete marítimo. En destino, el comprador se encarga de la descarga, del transporte interno, del 
+despacho de importación y del pago de aranceles, impuestos y tasas portuarias conforme a la 
+legislación argelina.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-31.
-Un error en la clasificación arancelaria puede generar:
-A) Solo retrasos logísticos
-B) Reclasificación, multas y pago de tributos omitidos
-C) Únicamente observaciones administrativas
-D) Cancelación del registro de importador
-Respuesta correcta: B
-
-32.
-¿Cuál es la principal diferencia entre importaciones personales y comerciales?
-A) El medio de transporte utilizado
-B) El origen de la mercancía
-C) El fin económico y las obligaciones documentales
-D) El tipo de aforo aplicado
+CASO 60
+Una empresa exportadora de productos químicos especializados para la industria farmacéutica 
+ubicada en Leverkusen, Alemania, vende un lote de excipientes a una empresa farmacéutica situada 
+en Osaka, Japón. La mercancía requiere embalaje homologado, manipulación especializada y 
+cumplimiento estricto de normas internacionales de seguridad y calidad. El vendedor asume los 
+costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y carga a bordo del 
+buque, y además contrata y paga el transporte marítimo internacional hasta el puerto de Osaka.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-33.
-El registro de importador en ECUAPASS exige como requisito indispensable:
-A) Afiliación a una cámara de comercio
-B) Certificado digital de firma electrónica
-C) Carta de crédito aprobada
-D) Contrato con agente afianzado
+CASO 61
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del vidrio ubicada en 
+Charleroi, Bélgica, celebra un contrato de compraventa con una empresa transformadora de vidrio 
+arquitectónico situada en Monterrey, México. La maquinaria vendida consiste en hornos 
+industriales, sistemas de templado y líneas automatizadas de corte, todos ellos equipos de gran 
+tamaño, peso elevado y alto valor económico. Debido a estas características, la mercancía requiere 
+un embalaje industrial altamente especializado, con estructuras metálicas de soporte, protección 
+anticorrosiva, amortiguadores de vibración y documentación técnica exhaustiva para su posterior 
+montaje. El vendedor se compromete a fabricar los equipos conforme a las especificaciones 
+contractuales, realizar pruebas funcionales completas y embalar adecuadamente la maquinaria, 
+dejándola disponible dentro de sus instalaciones en la fecha acordada. Desde el inicio de la 
+negociación, el vendedor deja claramente establecido que su responsabilidad logística se limita 
+exclusivamente a poner la mercancía a disposición del comprador en su propia planta, sin asumir 
+ninguna obligación relacionada con la carga de la maquinaria, la contratación de transporte interno 
+o internacional, la gestión de trámites aduaneros ni la contratación de seguros, ya que no dispone de 
+un departamento logístico especializado en comercio exterior.
+El comprador mexicano contrata una empresa logística internacional que se encarga de enviar 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Charleroi hasta el puerto de Amberes, contrata el transporte marítimo 
+hasta el puerto de Altamira y coordina la descarga portuaria y el transporte interno hasta la planta 
+industrial en Monterrey. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de 
+exportación e importación, incluyendo licencias técnicas, certificados de origen, aranceles, IVA, 
+derechos portuarios y cualquier otro tributo exigido por la legislación mexicana. El seguro de 
+transporte internacional es contratado directamente por el comprador. El contrato establece 
+expresamente que el riesgo por pérdida o daño se transfiere al comprador desde el momento en 
+que la mercancía queda a su disposición dentro de las instalaciones del vendedor, incluso antes de 
+cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-34.
-¿Por qué la verificación del proveedor internacional es crítica antes de importar?
-A) Para reducir el IVA
-B) Para evitar fraudes, incumplimientos y riesgos contractuales
-C) Para eliminar el aforo aduanero
-D) Para obtener automáticamente preferencias arancelarias
+CASO 62
+Una empresa fabricante de sistemas de refrigeración industrial ubicada en Katowice, Polonia, vende 
+un conjunto de equipos frigoríficos a una empresa de procesamiento de alimentos situada en 
+Guayaquil, Ecuador. Los equipos requieren embalaje técnico reforzado, control de humedad, 
+etiquetado específico y documentación sanitaria para su importación. El vendedor asume el 
+embalaje especializado, el transporte interno desde su planta hasta una plataforma logística ubicada 
+en Berlín y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación conforme a la normativa de la Unión Europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador ecuatoriano en la plataforma logística de Berlín. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador se encarga de organizar y pagar el transporte marítimo hasta 
+el puerto de Guayaquil, la descarga, el transporte interno hasta su planta, el despacho de 
+importación y el pago de aranceles, IVA, tasas sanitarias y demás tributos exigidos por la legislación 
+ecuatoriana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-35.
-¿Cuál de los siguientes documentos acredita la propiedad de la mercancía durante el transporte 
-marítimo?
-A) Factura comercial
-B) Lista de empaque
-C) Conocimiento de embarque (B/L)
-D) Certificado fitosanitario
+CASO 63
+Una empresa exportadora de acero inoxidable ubicada en Pohang, Corea del Sur, vende un 
+cargamento completo de bobinas de acero a una empresa de fabricación de maquinaria pesada 
+situada en Durban, Sudáfrica. La mercancía será transportada por vía marítima en buques de carga 
+general y requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para resistir la 
+exposición prolongada a ambientes marinos. El vendedor asume los costos de embalaje, transporte 
+interno desde la planta hasta el puerto de Busan, así como los gastos de manipulación portuaria, 
+estiba y carga de la mercancía a bordo del buque.
+El comprador sudafricano selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. El contrato 
+establece que el riesgo por pérdida o daño se transfiere al comprador en el momento exacto en que 
+la mercancía queda cargada a bordo del buque en el puerto de Busan. En destino, el comprador se 
+encarga de la descarga, del transporte interno hasta su planta, del despacho de importación y del 
+pago de aranceles, impuestos y tasas portuarias conforme a la normativa sudafricana.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 64
+Una empresa productora de grano de soja ubicada en Santa Fe, Argentina, vende un cargamento a 
+granel a una empresa aceitera situada en Mersin, Turquía. El vendedor asume el transporte interno 
+desde los silos hasta el puerto de Rosario, la estiba y la carga del grano a bordo del buque. Además, 
+el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de Mersin.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre todas sus importaciones agrícolas. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto argentino, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador asume la descarga, el transporte 
+interno, el despacho de importación y el pago de aranceles, impuestos y tasas portuarias conforme a 
+la legislación turca.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-36.
-Desde el punto de vista macroeconómico, una balanza comercial positiva indica que:
-A) El país importa más de lo que exporta
-B) Las exportaciones superan a las importaciones
-C) Existe déficit fiscal
-D) Se reduce la inversión extranjera
-Respuesta correcta: B
-
-37.
-¿Cuál de los siguientes es un beneficio directo de los tratados comerciales para las empresas 
-exportadoras?
-A) Eliminación de controles aduaneros
-B) Acceso preferencial a mercados con reducción arancelaria
-C) Sustitución de requisitos sanitarios
-D) Fijación de precios internacionales
-Respuesta correcta: B
-
-38.
-Una exportación de servicios se caracteriza porque:
-A) Requiere transporte físico de mercancía
-B) No genera divisas
-C) Puede realizarse sin envío de bienes tangibles
-D) Está exenta de regulación internacional
+CASO 65
+Una empresa exportadora de principios activos farmacéuticos ubicada en Basilea, Suiza, vende un 
+lote de sustancias de alta pureza a una empresa farmacéutica situada en Yokohama, Japón. La 
+mercancía requiere embalaje homologado, manipulación especializada, control de temperatura y 
+cumplimiento estricto de normas internacionales de seguridad y calidad. El vendedor asume los 
+costos de embalaje, transporte interno hasta el puerto de Génova, estiba y carga a bordo del buque, 
+y además contrata y paga el transporte marítimo internacional hasta el puerto de Yokohama.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-39.
-¿Por qué los países exigen requisitos sanitarios y fitosanitarios a las importaciones?
-A) Para incrementar tributos
-B) Para proteger la salud pública y el medio ambiente
-C) Para restringir el comercio arbitrariamente
-D) Para sustituir los aranceles
+CASO 66
+Una empresa dedicada a la fabricación de maquinaria para la industria cementera ubicada en Brno, 
+República Checa, firma un contrato de compraventa con una empresa constructora situada en San 
+José, Costa Rica, para el suministro de molinos industriales y sistemas de dosificación. Los equipos 
+son de gran tamaño, elevado peso y alto valor económico, por lo que requieren embalaje industrial 
+reforzado con estructuras metálicas, protección anticorrosiva, amortiguadores de vibración y una 
+planificación logística detallada. El vendedor se compromete a fabricar los equipos conforme a las 
+especificaciones técnicas acordadas, realizar pruebas de funcionamiento completas y embalar la 
+maquinaria adecuadamente, dejándola disponible dentro de sus propias instalaciones en la fecha 
+pactada contractualmente. Desde la fase de negociación se deja claramente establecido que el 
+vendedor no asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, dado que su estructura interna no contempla operaciones logísticas fuera 
+de su país.
+El comprador costarricense contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Brno hasta el puerto de Hamburgo, contrata el transporte marítimo hasta 
+el puerto de Limón y coordina la descarga portuaria y el transporte interno hasta la planta de 
+cemento. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e 
+importación, incluyendo licencias técnicas, certificados de origen, aranceles, IVA, tasas portuarias y 
+cualquier otro tributo exigido por la legislación costarricense. El seguro de transporte internacional 
+es contratado directamente por el comprador. El contrato establece expresamente que el riesgo por 
+pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-40.
-El certificado fitosanitario es especialmente relevante en la exportación de:
-A) Productos industriales
-B) Bienes tecnológicos
-C) Productos agrícolas
-D) Servicios digitales
+CASO 67
+Una empresa fabricante de sistemas de tratamiento de agua ubicada en Turín, Italia, vende un 
+conjunto de filtros industriales y bombas de alta capacidad a una empresa municipal de 
+saneamiento situada en La Paz, Bolivia. Los equipos requieren embalaje técnico reforzado, 
+etiquetado específico y documentación de conformidad para su importación. El vendedor asume el 
+embalaje especializado, el transporte interno desde su planta hasta una plataforma logística situada 
+en Milán y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación ante las autoridades italianas.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador boliviano en la plataforma logística de Milán. En ese momento exacto, la responsabilidad 
+por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la entrega al 
+transportista. El comprador se encarga de organizar y pagar el transporte marítimo hasta el puerto 
+de Arica, el transporte terrestre hasta La Paz, la descarga, el despacho de importación y el pago de 
+aranceles, IVA y tasas conforme a la legislación boliviana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 68
+Una empresa exportadora de estructuras metálicas pesadas ubicada en Gwangyang, Corea del Sur, 
+vende un cargamento completo de vigas y columnas de acero a una empresa de ingeniería civil 
+situada en Melbourne, Australia. La mercancía será transportada por vía marítima en buques de 
+carga general y requiere embalaje reforzado, tratamiento anticorrosivo y sistemas de sujeción 
+especiales para soportar travesías oceánicas prolongadas. El vendedor asume los costos de 
+embalaje, transporte interno desde la planta hasta el puerto de Gwangyang, así como los gastos de 
+manipulación portuaria, estiba y carga de la mercancía a bordo del buque.
+El comprador australiano selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo 
+por pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto coreano. En destino, el comprador se encarga de la 
+descarga, del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, 
+GST y tasas portuarias conforme a la normativa australiana.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 69
+Una empresa productora de fertilizantes fosfatados ubicada en Safi, Marruecos, vende un 
+cargamento a granel a una empresa agrícola situada en Santos, Brasil. El vendedor asume el 
+transporte interno desde la planta hasta el puerto de Safi, la estiba y la carga del fertilizante a bordo 
+del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto de Santos.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza global que cubre sus importaciones. Se acuerda expresamente que 
+el riesgo por pérdida o daño se transfiere en el momento en que la mercancía queda cargada a 
+bordo del buque en el puerto marroquí, aun cuando el vendedor continúe asumiendo el costo del 
+flete marítimo. En destino, el comprador se encarga de la descarga, del transporte interno, del 
+despacho de importación y del pago de aranceles, impuestos y tasas portuarias conforme a la 
+legislación brasileña.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-41.
-¿Cuál es la función principal de PRO ECUADOR?
-A) Recaudar tributos
-B) Controlar operaciones aduaneras
-C) Promover exportaciones y atraer inversión
-D) Emitir resoluciones anticipadas
+CASO 70
+Una empresa exportadora de aditivos químicos para la industria alimentaria ubicada en Rotterdam, 
+Países Bajos, vende un lote de conservantes y estabilizantes a una empresa procesadora de 
+alimentos situada en Yokohama, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control de temperatura y cumplimiento estricto de normas internacionales de 
+seguridad alimentaria. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Rotterdam, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto de Yokohama.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-42.
-El incentivo de exoneración del IVA en exportaciones busca principalmente:
-A) Incrementar el gasto público
-B) Reducir la competitividad
-C) Evitar la doble tributación y fomentar exportaciones
-D) Sustituir el drawback
+CASO 71
+Una empresa fabricante de maquinaria para la industria de bebidas ubicada en Parma, Italia, vende 
+una línea completa de embotellado y etiquetado a una empresa productora de refrescos situada en 
+Monterrey, México. La maquinaria está compuesta por varios módulos de gran tamaño, alto valor 
+económico y elevada complejidad técnica, lo que exige embalaje industrial reforzado, protección 
+contra vibraciones, humedad y golpes, así como documentación técnica detallada para su instalación 
+y puesta en marcha. El vendedor se compromete a fabricar los equipos conforme a las 
+especificaciones acordadas, realizar pruebas funcionales completas y embalar adecuadamente la 
+maquinaria. Asimismo, el vendedor organiza y paga el transporte interno desde su planta hasta el 
+aeropuerto de Milán y contrata el transporte internacional aéreo hasta el aeropuerto de Ciudad de 
+México.
+No obstante, el contrato establece de forma expresa que el riesgo por pérdida o daño se transferirá 
+al comprador en el momento en que la mercancía sea entregada al primer transportista en Italia, 
+incluso aunque el vendedor continúe asumiendo el costo del transporte internacional. El vendedor 
+no contrata seguro de transporte, ya que el comprador prefiere incluir la operación dentro de su 
+póliza global. A la llegada a México, el comprador asume la descarga, el transporte interno hasta su 
+planta, el despacho de importación y el pago de aranceles, IVA y tasas aduaneras conforme a la 
+legislación mexicana.
+Opciones:
+A. FCA
+B. CPT
+C. CIP
+D. DAP
+Respuesta correcta: B
+
+CASO 72
+Una empresa productora de equipos de diagnóstico por imagen ubicada en Zúrich, Suiza, vende un 
+conjunto de resonadores magnéticos de alto valor a una red hospitalaria privada situada en Santiago 
+de Chile. Los equipos requieren embalaje especializado, control de temperatura, manipulación 
+extremadamente cuidadosa y cumplimiento de estrictas normativas sanitarias. El vendedor asume el 
+embalaje técnico, el transporte interno hasta el aeropuerto de Zúrich y la entrega de la mercancía al 
+primer transportista aéreo.
+El contrato establece que el vendedor contratará y pagará el transporte aéreo internacional hasta 
+Chile y, debido al elevado valor de los equipos y a exigencias del comprador, también contratará un 
+seguro de transporte obligatorio con cobertura amplia contra todo riesgo. Sin embargo, se acuerda 
+expresamente que el riesgo por pérdida o daño se transferirá al comprador en el momento en que la 
+mercancía sea entregada al primer transportista en Suiza. En destino, el comprador se encarga de la 
+descarga, del transporte interno hasta los hospitales, del despacho de importación y del pago de 
+aranceles, IVA, tasas sanitarias y demás tributos exigidos por la legislación chilena.
+Opciones:
+A. CPT
+B. CIP
+C. DAP
+D. CIF
+Respuesta correcta: B
+
+CASO 73
+Una empresa fabricante de mobiliario comercial ubicada en Foshan, China, vende el equipamiento 
+completo de varias tiendas a una cadena minorista situada en Barcelona, España. El contrato 
+establece que el vendedor asumirá el embalaje, el transporte interno en China, la carga en el puerto 
+de Shenzhen, el transporte marítimo internacional, la descarga en el puerto de Barcelona y el 
+transporte interno hasta el centro logístico del comprador.
+No obstante, se pacta expresamente que el vendedor no asumirá el pago de aranceles, IVA ni otros 
+impuestos de importación, los cuales serán responsabilidad exclusiva del comprador. El riesgo se 
+transfiere cuando la mercancía es puesta a disposición del comprador en el centro logístico, lista 
+para ser descargada del medio de transporte, sin que el vendedor asuma la operación de descarga. 
+El comprador se encarga del despacho de importación, del pago de tributos y de la descarga final de 
+la mercancía.
+Opciones:
+A. DPU
+B. DDP
+C. DAP
+D. CIF
 Respuesta correcta: C
 
-43.
-¿Cuál es el principal impacto del drawback para una empresa exportadora?
-A) Incremento de costos
-B) Devolución parcial de impuestos pagados por insumos
-C) Eliminación total de aranceles
-D) Reducción del impuesto a la renta
+CASO 74
+Una empresa exportadora de maquinaria pesada para la industria minera ubicada en Ostrava, 
+República Checa, vende equipos de trituración y clasificación a una empresa minera situada en 
+Antofagasta, Chile. La maquinaria, por su peso, volumen y complejidad, requiere transporte especial, 
+grúas de gran capacidad y una planificación logística detallada. El vendedor asume el embalaje 
+industrial, el transporte interno hasta el puerto de Hamburgo, la carga a bordo del buque, el 
+transporte marítimo internacional hasta el puerto de Antofagasta, la descarga en destino y el 
+transporte interno hasta la mina del comprador.
+El contrato establece que la mercancía se considerará entregada únicamente cuando haya sido 
+descargada del medio de transporte en el lugar acordado en destino. El vendedor no asume el pago 
+de aranceles ni impuestos de importación, los cuales serán responsabilidad del comprador. El riesgo 
+por pérdida o daño se transfiere exclusivamente después de que la maquinaria ha sido descargada 
+en el lugar convenido.
+Opciones:
+A. DAP
+B. DPU
+C. DDP
+D. CIP
 Respuesta correcta: B
 
-44.
-La diversificación productiva en exportaciones permite:
-A) Mantener dependencia de productos primarios
-B) Reducir riesgos económicos ante shocks externos
-C) Eliminar la competencia internacional
-D) Sustituir las importaciones
-Respuesta correcta: B
-
-45.
-¿Cuál de los siguientes sectores ha sido clave en el crecimiento de las exportaciones no petroleras 
-del Ecuador?
-A) Automotriz
-B) Camaronero
-C) Aeroespacial
-D) Farmacéutico
-Respuesta correcta: B
-
-46.
-El ingreso de divisas por exportaciones contribuye directamente a:
-A) Aumentar el endeudamiento externo
-B) Fortalecer la dolarización
-C) Incrementar la inflación
-D) Reducir la balanza de pagos
-Respuesta correcta: B
-
-47.
-¿Cuál es el rol del COMEX en el comercio exterior ecuatoriano?
-A) Ejecutar controles aduaneros
-B) Administrar ECUAPASS
-C) Definir la política comercial y arancelaria
-D) Promover ferias internacionales
-Respuesta correcta: C
-
-48.
-Un país que depende de un solo mercado de exportación enfrenta principalmente el riesgo de:
-A) Sobreproducción
-B) Vulnerabilidad económica ante cambios externos
-C) Incremento de incentivos estatales
-D) Eliminación de barreras comerciales
-Respuesta correcta: B
-
-49.
-¿Por qué la planificación logística es clave en el comercio exterior?
-A) Porque elimina los aranceles
-B) Porque reduce riesgos, costos y tiempos de entrega
-C) Porque sustituye la documentación
-D) Porque garantiza la aprobación aduanera
-Respuesta correcta: B
-
-50.
-La competitividad internacional de una empresa depende principalmente de:
-A) El tamaño del mercado local
-B) El apoyo estatal exclusivo
-C) La eficiencia, calidad, innovación y cumplimiento normativo
-D) La eliminación total de impuestos
-Respuesta correcta: C
-
-51.
-Desde la perspectiva del operador de comercio exterior, ¿por qué la correcta determinación del 
-origen de la mercancía es un elemento crítico?
-A) Porque define el valor CIF
-B) Porque permite aplicar tratados comerciales y preferencias arancelarias
-C) Porque sustituye el aforo aduanero
-D) Porque elimina el pago de tributos internos
-Respuesta correcta: B
-
-52.
-¿Cuál de los siguientes escenarios evidencia un uso estratégico de las reglas de origen?
-A) Declarar un valor inferior al real
-B) Importar mercancía sin certificado de origen
-C) Acreditar que un producto califica para trato preferencial
-D) Solicitar aforo físico voluntariamente
-Respuesta correcta: C
-
-53.
-El incumplimiento de las reglas de origen en una importación puede provocar:
-A) Solo observaciones documentales
-B) La pérdida de preferencias arancelarias y sanciones
-C) La devolución inmediata de la mercancía
-D) La eliminación del IVA
-Respuesta correcta: B
-
-54.
-¿Cuál es la relación entre valoración aduanera y base imponible?
-A) La valoración solo afecta al origen
-B) La base imponible se determina sobre el valor en aduana
-C) No existe relación directa
-D) La base imponible excluye flete y seguro
-Respuesta correcta: B
-
-55.
-Un importador que omite incluir el costo del seguro en la declaración incurre en:
-A) Una infracción leve sin efectos tributarios
-B) Subvaloración y posible reliquidación de tributos
-C) Abandono tácito
-D) Cancelación automática del registro
-Respuesta correcta: B
-
-56.
-¿Qué función cumple el análisis de riesgo en el sistema aduanero ecuatoriano?
-A) Determinar precios internacionales
-B) Asignar canales de aforo según el nivel de riesgo
-C) Sustituir al agente de aduanas
-D) Eliminar controles físicos
-Respuesta correcta: B
-
-57.
-Un importador con historial negativo tiene mayor probabilidad de ser asignado a:
-A) Canal verde
-B) Canal amarillo
-C) Canal rojo
-D) Resolución anticipada
-Respuesta correcta: C
-
-58.
-¿Cuál de los siguientes costos NO forma parte del valor en aduana?
-A) Precio de la mercancía
-B) Flete internacional
-C) Seguro internacional
-D) IVA
+CASO 75
+Una empresa farmacéutica multinacional ubicada en Basilea, Suiza, vende un lote de medicamentos 
+biológicos de alta sensibilidad a una red hospitalaria situada en Bogotá, Colombia. Debido a la 
+naturaleza crítica del producto, el contrato establece que el vendedor asumirá absolutamente todos 
+los costos y responsabilidades logísticas, incluyendo embalaje especializado con control térmico, 
+transporte interno, transporte aéreo internacional, contratación de seguro, descarga en destino, 
+transporte interno hasta los hospitales, despacho de exportación e importación, así como el pago de 
+aranceles, IVA, tasas sanitarias y cualquier otro tributo exigido por la legislación colombiana.
+El comprador únicamente recibe la mercancía en sus instalaciones, sin asumir ningún trámite, costo 
+ni riesgo adicional. El riesgo por pérdida o daño se transfiere únicamente cuando la mercancía es 
+entregada físicamente en los hospitales, con todos los impuestos y formalidades cumplidos.
+Opciones:
+A. DAP
+B. DPU
+C. CIF
+D. DDP
 Respuesta correcta: D
 
-59.
-¿Por qué el comercio exterior es clave para países dolarizados como Ecuador?
-A) Porque elimina la inflación
-B) Porque genera divisas que sostienen el sistema monetario
-C) Porque sustituye la política fiscal
-D) Porque reduce el gasto público
+CASO 76
+Una empresa europea especializada en la fabricación de equipos para la industria de la celulosa 
+ubicada en Jyväskylä, Finlandia, celebra un contrato de compraventa con una empresa papelera 
+situada en Temuco, Chile. Los equipos vendidos consisten en digestores, prensas y sistemas de 
+secado de gran tamaño, alto peso y elevado valor económico, los cuales requieren embalaje 
+industrial reforzado, protección anticorrosiva, fijaciones especiales y una planificación logística 
+compleja. El vendedor se compromete a fabricar los equipos conforme a las especificaciones 
+técnicas acordadas, realizar pruebas de funcionamiento completas y embalar la maquinaria 
+adecuadamente, dejándola disponible dentro de sus propias instalaciones en la fecha pactada. 
+Desde la negociación inicial se deja claramente establecido que el vendedor no asumirá ninguna 
+responsabilidad relacionada con la carga de la mercancía, la contratación de transporte interno o 
+internacional, la gestión de trámites aduaneros ni la contratación de seguros, ya que su estructura 
+interna no contempla operaciones logísticas fuera de su país.
+El comprador chileno contrata una empresa logística internacional que envía personal técnico a la 
+planta del vendedor para realizar la carga de los equipos, organiza el transporte interno desde 
+Jyväskylä hasta el puerto de Helsinki, contrata el transporte marítimo hasta el puerto de San Antonio 
+y coordina la descarga portuaria y el transporte terrestre hasta la planta papelera en Temuco. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluidos permisos técnicos, certificados de origen, aranceles, IVA, tasas portuarias y cualquier otro 
+tributo exigido por la legislación chilena. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece de manera expresa que el riesgo por pérdida o 
+daño se transfiere al comprador desde el momento en que la mercancía queda a su disposición 
+dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-60.
-La dependencia excesiva de exportaciones primarias puede generar:
-A) Mayor estabilidad económica
-B) Vulnerabilidad ante fluctuaciones de precios internacionales
-C) Reducción del riesgo externo
-D) Incremento automático del empleo
+CASO 77
+Una empresa fabricante de sistemas de automatización para plantas industriales ubicada en 
+Mannheim, Alemania, vende un conjunto de paneles de control y sensores a una empresa 
+siderúrgica situada en Monterrey, México. Los equipos requieren embalaje técnico reforzado, 
+protección contra humedad y vibraciones, así como documentación de conformidad para su 
+importación. El vendedor asume el embalaje especializado, el transporte interno desde su planta 
+hasta una plataforma logística situada en Frankfurt y la preparación de toda la documentación 
+necesaria para el despacho aduanero de exportación conforme a la normativa alemana y 
+comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador mexicano en la plataforma logística de Frankfurt. En ese momento preciso, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro, y no asume ninguna obligación posterior a la entrega al 
+transportista. El comprador se encarga de organizar y pagar el transporte aéreo hasta México, la 
+descarga en el aeropuerto, el transporte interno hasta su planta, el despacho de importación y el 
+pago de aranceles, IVA y tasas aduaneras conforme a la legislación mexicana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-61.
-¿Cuál es el objetivo principal de la diversificación de exportaciones?
-A) Eliminar las importaciones
-B) Aumentar la dependencia de un producto
-C) Reducir riesgos y fortalecer el desarrollo económico
-D) Sustituir la inversión extranjera
+CASO 78
+Una empresa exportadora de perfiles de acero estructural ubicada en Incheon, Corea del Sur, vende 
+un cargamento completo a una empresa de infraestructura situada en Seattle, Estados Unidos. La 
+mercancía se transportará por vía marítima en buques de carga general y requiere embalaje 
+reforzado, tratamiento anticorrosivo y flejado industrial para resistir largas travesías oceánicas. El 
+vendedor asume los costos de embalaje, transporte interno desde la planta hasta el puerto de 
+Incheon, así como los gastos de manipulación portuaria, estiba y carga de la mercancía a bordo del 
+buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. 
+El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el momento 
+exacto en que la mercancía queda cargada a bordo del buque en el puerto coreano. En destino, el 
+comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho de 
+importación y del pago de aranceles, impuestos federales y tasas portuarias conforme a la normativa 
+estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 79
+Una empresa productora de cereales ubicada en Kropyvnytskyi, Ucrania, vende un cargamento a 
+granel de trigo a una empresa molinera situada en Izmir, Turquía. El vendedor asume el transporte 
+interno desde los silos hasta el puerto de Odesa, la estiba y la carga del grano a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de Izmir.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones agrícolas. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto ucraniano, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación turca.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-62.
-En una estrategia de internacionalización, la elección del mercado objetivo debe basarse 
-principalmente en:
-A) Proximidad geográfica
-B) Tamaño del mercado local
-C) Análisis de demanda, competencia y regulaciones
-D) Preferencias personales del empresario
+CASO 80
+Una empresa exportadora de productos químicos para la industria farmacéutica ubicada en 
+Ludwigshafen, Alemania, vende un lote de intermediarios químicos a una empresa farmacéutica 
+situada en Kobe, Japón. La mercancía requiere embalaje homologado, manipulación especializada, 
+control de temperatura y cumplimiento estricto de normas internacionales de seguridad y calidad. El 
+vendedor asume los costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y 
+carga a bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el 
+puerto de Kobe.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos, el vendedor 
+también contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en el 
+precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-63.
-¿Cuál es el riesgo principal de no analizar las regulaciones del país destino antes de exportar?
-A) Incremento del flete
-B) Rechazo de la mercancía o sanciones
-C) Retraso en la producción
-D) Pérdida de competitividad interna
+CASO 81
+Una empresa europea dedicada a la fabricación de maquinaria para la industria azucarera ubicada 
+en Aarhus, Dinamarca, celebra un contrato de compraventa con una empresa agroindustrial situada 
+en Santa Cruz de la Sierra, Bolivia. La maquinaria incluye centrifugadoras, evaporadores y sistemas 
+de control de procesos, todos ellos de gran tamaño, peso elevado y alto valor económico. Debido a 
+estas características, la mercancía requiere embalaje industrial reforzado, estructuras metálicas de 
+soporte, protección anticorrosiva y una planificación logística exhaustiva. El vendedor se 
+compromete a fabricar los equipos conforme a las especificaciones técnicas acordadas, realizar 
+pruebas funcionales completas y embalar adecuadamente la maquinaria, dejándola disponible 
+dentro de sus propias instalaciones en la fecha pactada contractualmente. Desde la fase inicial de 
+negociación se establece de forma expresa que el vendedor no asumirá ninguna responsabilidad 
+relacionada con la carga de la mercancía, la contratación de transporte interno o internacional, la 
+gestión de trámites aduaneros ni la contratación de seguros, dado que su política comercial limita su 
+intervención logística a la puesta a disposición de la mercancía en origen.
+El comprador boliviano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para realizar la carga de los equipos, organiza el transporte 
+interno desde Aarhus hasta el puerto de Hamburgo, contrata el transporte marítimo hasta el puerto 
+de Arica y coordina el transporte terrestre hasta Santa Cruz de la Sierra. Asimismo, el comprador 
+gestiona y paga todos los trámites aduaneros de exportación e importación, incluidos permisos 
+técnicos, certificados de origen, aranceles, IVA, tasas portuarias y cualquier otro tributo exigido por 
+la legislación boliviana. El seguro de transporte internacional es contratado directamente por el 
+comprador. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador desde el momento en que la mercancía queda a su disposición dentro de las 
+instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-64.
-Una empresa que exporta alimentos sin cumplir requisitos sanitarios se expone a:
-A) Ajustes arancelarios
-B) Inspección documental únicamente
-C) Rechazo, devolución o destrucción de la mercancía
-D) Exoneración de tributos
+CASO 82
+Una empresa fabricante de sistemas de control ambiental para invernaderos ubicada en Eindhoven, 
+Países Bajos, vende un conjunto de equipos automatizados a una empresa agrícola situada en 
+Almería, España. Los equipos incluyen sensores, paneles de control, sistemas de ventilación y riego 
+automatizado, los cuales requieren embalaje técnico reforzado, etiquetado específico y 
+documentación de conformidad comunitaria. El vendedor asume el embalaje especializado, el 
+transporte interno desde su planta hasta una plataforma logística situada en Róterdam y la 
+preparación de toda la documentación necesaria para el despacho aduanero de exportación, aunque 
+se trate de una operación intracomunitaria con controles documentales específicos.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador español en la plataforma logística de Róterdam. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte posterior ni el seguro de transporte, y no asume ninguna obligación adicional tras la 
+entrega al transportista. El comprador se encarga del transporte terrestre hasta Almería, de la 
+descarga en destino y de cualquier trámite administrativo o fiscal derivado de la operación.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 83
+Una empresa exportadora de perfiles de aluminio ubicada en Ras Al Khaimah, Emiratos Árabes 
+Unidos, vende un cargamento completo de perfiles estructurales a una empresa de construcción 
+situada en Marsella, Francia. La mercancía será transportada por vía marítima y requiere embalaje 
+reforzado, flejado industrial y protección anticorrosiva para soportar la travesía marítima. El 
+vendedor asume los costos de embalaje, transporte interno desde la planta hasta el puerto de Jebel 
+Ali, así como los gastos de manipulación portuaria, estiba y carga de la mercancía a bordo del buque.
+El comprador francés selecciona la naviera, contrata y paga el transporte marítimo internacional y el 
+seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo por 
+pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto de origen. En destino, el comprador se encarga de la 
+descarga, del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, 
+IVA y tasas portuarias conforme a la normativa francesa y comunitaria.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 84
+Una empresa productora de harina de maíz ubicada en Córdoba, Argentina, vende un cargamento a 
+granel a una empresa procesadora de alimentos situada en Cartagena, Colombia. El vendedor asume 
+el transporte interno desde los silos hasta el puerto de Rosario, la estiba y la carga del producto a 
+bordo del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto de Cartagena.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas. Se 
+acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto argentino, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno, del despacho de importación y del pago de aranceles, IVA y tasas portuarias 
+conforme a la legislación colombiana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-65.
-¿Cuál es la función principal del registro de exportador en SENAE?
-A) Otorgar beneficios fiscales automáticos
-B) Habilitar legalmente la operación de exportación
-C) Eliminar controles aduaneros
-D) Sustituir la certificación de origen
-Respuesta correcta: B
-
-66.
-¿Por qué los incentivos estatales a la exportación son considerados herramientas de política 
-económica?
-A) Porque eliminan la competencia
-B) Porque buscan mejorar la competitividad internacional
-C) Porque sustituyen la inversión privada
-D) Porque reducen el comercio internacional
-Respuesta correcta: B
-
-67.
-El incentivo de promoción estatal a través de ferias internacionales permite principalmente:
-A) Reducir tributos
-B) Facilitar contactos comerciales y acceso a nuevos mercados
-C) Eliminar requisitos técnicos
-D) Sustituir contratos privados
-Respuesta correcta: B
-
-68.
-¿Cuál es el impacto del empleo generado por sectores exportadores?
-A) Incremento del déficit fiscal
-B) Desarrollo regional y social
-C) Reducción de la productividad
-D) Mayor dependencia del Estado
-Respuesta correcta: B
-
-69.
-El crecimiento de exportaciones no petroleras contribuye a:
-A) Aumentar la dependencia de commodities
-B) Diversificar la estructura productiva del país
-C) Reducir el comercio exterior
-D) Eliminar la balanza comercial
-Respuesta correcta: B
-
-70.
-¿Cuál es la relación entre logística internacional y competitividad?
-A) No existe relación directa
-B) Una logística eficiente reduce costos y mejora tiempos de entrega
-C) La logística solo afecta al transporte interno
-D) La logística sustituye la estrategia comercial
-Respuesta correcta: B
-
-71.
-Un error en la selección del Incoterm puede provocar:
-A) Eliminación de tributos
-B) Confusión en responsabilidades y sobrecostos
-C) Pérdida del certificado de origen
-D) Cancelación del contrato internacional
-Respuesta correcta: B
-
-72.
-¿Por qué el análisis del precio internacional de referencia es relevante en importaciones?
-A) Para fijar precios de venta
-B) Para detectar subvaloraciones en la declaración
-C) Para eliminar el aforo físico
-D) Para sustituir la factura comercial
-Respuesta correcta: B
-
-73.
-El contrabando y la evasión fiscal afectan al Estado principalmente porque:
-A) Incrementan las exportaciones
-B) Reducen la recaudación y distorsionan la competencia
-C) Fortalecen el comercio informal
-D) Eliminan la carga tributaria
-Respuesta correcta: B
-
-74.
-¿Por qué la seguridad jurídica es fundamental para el comercio exterior?
-A) Porque reduce la competencia
-B) Porque permite planificación y reduce riesgos legales
-C) Porque elimina controles estatales
-D) Porque sustituye la normativa aduanera
-Respuesta correcta: B
-
-75.
-La combinación de control aduanero eficiente y facilitación del comercio permite:
-A) Aumentar barreras al comercio
-B) Incrementar la evasión
-C) Proteger al Estado y a los operadores de comercio exterior
-D) Eliminar la normativa internacional
+CASO 85
+Una empresa exportadora de principios activos para la industria veterinaria ubicada en Basilea, 
+Suiza, vende un lote de sustancias farmacológicas a una empresa fabricante de medicamentos 
+veterinarios situada en Nagoya, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control de temperatura y cumplimiento estricto de normas internacionales de 
+seguridad y calidad. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Génova, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto de Nagoya.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-76.
-Desde el punto de vista jurídico, el COPCI cumple la función de:
-A) Regular únicamente las importaciones
-B) Sustituir la normativa internacional
-C) Establecer el marco legal de producción, comercio e inversión
-D) Definir políticas monetarias
+CASO 86
+Una empresa especializada en la fabricación de maquinaria para la industria textil ubicada en Łódź, 
+Polonia, celebra un contrato de compraventa con una empresa confeccionista situada en Medellín, 
+Colombia. La maquinaria vendida incluye telares industriales, sistemas de corte automatizado y 
+equipos de acabado, todos ellos de gran tamaño, alto valor económico y elevada complejidad 
+técnica. Debido a estas características, la mercancía requiere embalaje industrial reforzado, 
+estructuras metálicas de soporte, protección anticorrosiva y una planificación logística detallada. El 
+vendedor se compromete a fabricar los equipos conforme a las especificaciones técnicas acordadas, 
+realizar pruebas funcionales completas y embalar adecuadamente la maquinaria, dejándola 
+disponible dentro de sus propias instalaciones en la fecha pactada. Desde la negociación inicial se 
+deja claramente establecido que el vendedor no asumirá ninguna responsabilidad relacionada con la 
+carga de la mercancía, la contratación de transporte interno o internacional, la gestión de trámites 
+aduaneros ni la contratación de seguros, ya que su política comercial limita su intervención logística 
+a la simple puesta a disposición de la mercancía en origen.
+El comprador colombiano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para realizar la carga de los equipos, organiza el transporte 
+interno desde Łódź hasta el puerto de Hamburgo, contrata el transporte marítimo hasta el puerto de 
+Cartagena y coordina la descarga portuaria y el transporte terrestre hasta la planta en Medellín. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluyendo licencias técnicas, certificados de origen, aranceles, IVA, tasas portuarias y cualquier otro 
+tributo exigido por la legislación colombiana. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece expresamente que el riesgo por pérdida o 
+daño se transfiere al comprador desde el momento en que la mercancía queda a su disposición 
+dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
+Respuesta correcta: B
+
+CASO 87
+Una empresa fabricante de equipos de climatización industrial ubicada en Graz, Austria, vende un 
+conjunto de sistemas HVAC de gran capacidad a una empresa hotelera situada en Punta Cana, 
+República Dominicana. Los equipos requieren embalaje técnico reforzado, protección contra 
+humedad y vibraciones, y documentación detallada para su correcta instalación. El vendedor asume 
+el embalaje especializado, el transporte interno desde su planta hasta una plataforma logística 
+situada en Viena y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación ante las autoridades correspondientes.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador dominicano en la plataforma logística de Viena. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Caucedo, la descarga, el transporte interno hasta el complejo hotelero y el despacho de importación, 
+asumiendo aranceles, ITBIS y tasas aduaneras conforme a la legislación dominicana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 88
+Una empresa exportadora de acero estructural ubicada en Visakhapatnam, India, vende un 
+cargamento completo de vigas y perfiles de acero a una empresa de ingeniería civil situada en 
+Durban, Sudáfrica. La mercancía se transportará por vía marítima en buques de carga general y 
+requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para resistir la exposición 
+prolongada a ambientes marinos. El vendedor asume los costos de embalaje, transporte interno 
+desde la planta hasta el puerto de Visakhapatnam, así como los gastos de manipulación portuaria, 
+estiba y carga de la mercancía a bordo del buque.
+El comprador sudafricano selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo 
+por pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto indio. En destino, el comprador se encarga de la descarga, 
+del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, IVA y 
+tasas portuarias conforme a la legislación sudafricana.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 89
+Una empresa productora de azúcar refinada ubicada en Ribeirão Preto, Brasil, vende un cargamento 
+a granel a una empresa alimentaria situada en Veracruz, México. El vendedor asume el transporte 
+interno desde la planta hasta el puerto de Santos, la estiba y la carga del azúcar a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Veracruz.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas. Se 
+acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto brasileño, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno, del despacho de importación y del pago de aranceles, IVA y tasas portuarias 
+conforme a la legislación mexicana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-77.
-¿Cuál es el objetivo principal del régimen aduanero ecuatoriano?
-A) Maximizar exportaciones
-B) Facilitar el comercio y asegurar el cumplimiento de la normativa
-C) Eliminar el aforo aduanero
-D) Reducir el número de importadores
-Respuesta correcta: B
-
-78.
-El principio de facilitación del comercio busca:
-A) Incrementar controles sin excepciones
-B) Agilizar procesos sin afectar el control aduanero
-C) Eliminar la fiscalización estatal
-D) Sustituir los sistemas informáticos
-Respuesta correcta: B
-
-79.
-¿Cuál de las siguientes situaciones evidencia dolo en una operación de importación?
-A) Error involuntario en la documentación
-B) Diferencia mínima en el peso declarado
-C) Declaración intencional de datos falsos para evadir tributos
-D) Retraso logístico del proveedor
+CASO 90
+Una empresa exportadora de aditivos químicos para la industria farmacéutica ubicada en Muttenz, 
+Suiza, vende un lote de estabilizantes y excipientes a una empresa farmacéutica situada en 
+Hiroshima, Japón. La mercancía requiere embalaje homologado, manipulación especializada, control 
+de temperatura y cumplimiento estricto de normas internacionales de seguridad y calidad. El 
+vendedor asume los costos de embalaje, transporte interno hasta el puerto de Génova, estiba y 
+carga a bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el 
+puerto de Hiroshima.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-80.
-La gravedad de una infracción aduanera depende principalmente de:
-A) El tipo de mercancía
-B) La cuantía, reincidencia y existencia de dolo
-C) El canal de aforo asignado
-D) El país de origen
+CASO 91
+Una empresa europea especializada en la fabricación de maquinaria para la industria del 
+procesamiento de alimentos ubicada en Reggio Emilia, Italia, celebra un contrato de compraventa 
+con una empresa agroindustrial situada en Cali, Colombia. La maquinaria vendida incluye líneas de 
+lavado, clasificación y envasado automático de frutas, compuestas por módulos de gran tamaño, 
+alto peso y considerable valor económico. Debido a estas características, la mercancía requiere 
+embalaje industrial reforzado, estructuras metálicas de soporte, protección anticorrosiva y 
+amortiguadores de vibración, así como una documentación técnica detallada para su posterior 
+instalación. El vendedor se compromete a fabricar los equipos conforme a las especificaciones 
+contractuales, realizar pruebas de funcionamiento completas y embalar adecuadamente la 
+maquinaria, dejándola disponible dentro de sus propias instalaciones en la fecha pactada. Desde el 
+inicio de la negociación se deja expresamente establecido que el vendedor no asumirá ninguna 
+responsabilidad relacionada con la carga de la mercancía, la contratación de transporte interno o 
+internacional, la gestión de trámites aduaneros ni la contratación de seguros, limitando su obligación 
+exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador colombiano contrata una empresa logística internacional que envía personal técnico a 
+la planta del vendedor para realizar la carga de los equipos, organiza el transporte interno desde 
+Reggio Emilia hasta el puerto de Génova, contrata el transporte marítimo hasta el puerto de 
+Buenaventura y coordina la descarga portuaria y el transporte terrestre hasta la planta en Cali. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluidos permisos sanitarios, certificados de origen, aranceles, IVA, tasas portuarias y cualquier otro 
+tributo exigido por la legislación colombiana. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece claramente que el riesgo por pérdida o daño 
+se transfiere al comprador desde el momento en que la mercancía queda a su disposición dentro de 
+las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-81.
-¿Por qué la subasta de mercancías abandonadas es una herramienta válida para la Aduana?
-A) Para sancionar al importador
-B) Para recuperar tributos no pagados
-C) Para descongestionar depósitos y generar ingresos al Estado
-D) Para eliminar la mercancía del mercado
+CASO 92
+Una empresa fabricante de sistemas de generación eléctrica ubicada en Linz, Austria, vende un 
+conjunto de generadores industriales a una empresa minera situada en Arequipa, Perú. Los equipos 
+requieren embalaje técnico reforzado, protección contra humedad y vibraciones, y documentación 
+de conformidad para su importación. El vendedor asume el embalaje especializado, el transporte 
+interno desde su planta hasta una plataforma logística situada en Múnich y la preparación de toda la 
+documentación necesaria para el despacho aduanero de exportación ante las autoridades 
+correspondientes.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador peruano en la plataforma logística de Múnich. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Matarani, la descarga, el transporte interno hasta la mina y el despacho de importación, asumiendo 
+aranceles, IGV y tasas aduaneras conforme a la legislación peruana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 93
+Una empresa exportadora de productos siderúrgicos ubicada en Pohang, Corea del Sur, vende un 
+cargamento completo de placas de acero a una empresa constructora situada en Long Beach, 
+Estados Unidos. La mercancía será transportada por vía marítima en buques de carga general y 
+requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para resistir la exposición 
+prolongada a ambientes marinos. El vendedor asume los costos de embalaje, transporte interno 
+desde la planta hasta el puerto de Busan, así como los gastos de manipulación portuaria, estiba y 
+carga de la mercancía a bordo del buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. 
+El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el momento 
+exacto en que la mercancía queda cargada a bordo del buque en el puerto coreano. En destino, el 
+comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho de 
+importación y del pago de aranceles, impuestos federales y tasas portuarias conforme a la normativa 
+estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 94
+Una empresa productora de cebada ubicada en Valladolid, España, vende un cargamento a granel a 
+una empresa cervecera situada en Cork, Irlanda. El vendedor asume el transporte interno desde los 
+silos hasta el puerto de Bilbao, la estiba y la carga de la mercancía a bordo del buque. Además, el 
+vendedor contrata y paga el transporte marítimo internacional hasta el puerto de Cork.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas. Se 
+acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto español, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos especiales y 
+tasas portuarias conforme a la legislación irlandesa.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-82.
-¿Cuál es una ventaja clave de las resoluciones anticipadas para las empresas?
-A) Eliminan tributos
-B) Permiten evadir controles
-C) Reducen incertidumbre y riesgos operativos
-D) Sustituyen el registro en ECUAPASS
+CASO 95
+Una empresa exportadora de ingredientes activos para la industria farmacéutica ubicada en 
+Frankfurt, Alemania, vende un lote de compuestos de alta pureza a una empresa farmacéutica 
+situada en Yokosuka, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control de temperatura y cumplimiento estricto de normas internacionales de 
+seguridad y calidad. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-83.
-Una empresa que solicita una resolución anticipada antes de importar busca principalmente:
-A) Reducir costos logísticos
-B) Asegurar correcta clasificación y planificación de costos
-C) Eliminar el aforo
-D) Acelerar el pago de tributos
+CASO 96
+Una empresa europea dedicada a la fabricación de maquinaria para la industria láctea ubicada en 
+Modena, Italia, celebra un contrato de compraventa con una cooperativa agroindustrial situada en 
+Riobamba, Ecuador. La maquinaria vendida incluye pasteurizadores, tanques de almacenamiento, 
+líneas de envasado y sistemas automatizados de control de calidad, todos ellos equipos de gran 
+volumen, peso elevado y alto valor económico. Debido a estas características, la mercancía requiere 
+embalaje industrial reforzado con estructuras metálicas, protección anticorrosiva, amortiguadores 
+de vibración y una documentación técnica muy detallada para su posterior instalación y puesta en 
+marcha. El vendedor se compromete a fabricar los equipos conforme a las especificaciones técnicas 
+pactadas, realizar pruebas funcionales completas y embalar adecuadamente la maquinaria, 
+dejándola disponible dentro de sus instalaciones en la fecha acordada contractualmente. Desde el 
+inicio de la negociación, el vendedor deja claro que no asumirá ninguna obligación relacionada con la 
+carga de la mercancía, la contratación de transporte interno o internacional, la gestión de trámites 
+aduaneros ni la contratación de seguros, limitando su responsabilidad exclusivamente a la puesta a 
+disposición de la mercancía en origen.
+El comprador ecuatoriano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para realizar la carga de los equipos, organiza el transporte 
+interno desde Modena hasta el puerto de Génova, contrata el transporte marítimo hasta el puerto 
+de Guayaquil y coordina la descarga portuaria y el transporte terrestre hasta la planta láctea en 
+Riobamba. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e 
+importación, incluidos permisos sanitarios, certificados de origen, aranceles, IVA, tasas portuarias y 
+cualquier otro tributo exigido por la legislación ecuatoriana. El seguro de transporte internacional es 
+contratado directamente por el comprador. El contrato establece de forma expresa que el riesgo por 
+pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-84.
-¿Cuál es la relación entre comercio exterior y desarrollo regional?
-A) No existe relación
-B) El comercio exterior concentra riqueza únicamente en las ciudades
-C) Genera empleo, inversión y dinamiza economías locales
-D) Reduce la producción interna
+CASO 97
+Una empresa fabricante de sistemas de control y automatización industrial ubicada en Brno, 
+República Checa, vende un conjunto de armarios eléctricos y sensores a una empresa siderúrgica 
+situada en Monterrey, México. Los equipos requieren embalaje técnico reforzado, protección contra 
+humedad y vibraciones, así como documentación de conformidad para su importación. El vendedor 
+asume el embalaje especializado, el transporte interno desde su planta hasta una plataforma 
+logística situada en Viena y la preparación de toda la documentación necesaria para el despacho 
+aduanero de exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador mexicano en la plataforma logística de Viena. En ese momento exacto, la responsabilidad 
+por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la entrega al 
+transportista. El comprador organiza y paga el transporte aéreo hasta Monterrey, la descarga en el 
+aeropuerto, el transporte interno hasta la planta, el despacho de importación y el pago de aranceles, 
+IVA y tasas aduaneras conforme a la legislación mexicana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
+Respuesta correcta: B
+
+CASO 98
+Una empresa exportadora de perfiles estructurales de acero ubicada en Pohang, Corea del Sur, 
+vende un cargamento completo de vigas y columnas a una empresa de ingeniería civil situada en San 
+Francisco, Estados Unidos. La mercancía será transportada por vía marítima en buques de carga 
+general y requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para resistir 
+largas travesías oceánicas. El vendedor asume los costos de embalaje, transporte interno desde la 
+planta hasta el puerto de Busan, así como los gastos de manipulación portuaria, estiba y carga de la 
+mercancía a bordo del buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. 
+El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el momento 
+exacto en que la mercancía queda cargada a bordo del buque en el puerto coreano. En destino, el 
+comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho de 
+importación y del pago de aranceles, impuestos federales y tasas portuarias conforme a la normativa 
+estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
+Respuesta correcta: B
+
+CASO 99
+Una empresa productora de maíz amarillo ubicada en Sinaloa, México, vende un cargamento a 
+granel a una empresa procesadora de alimentos situada en Guayaquil, Ecuador. El vendedor asume 
+el transporte interno desde los silos hasta el puerto de Mazatlán, la estiba y la carga del grano a 
+bordo del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto de Guayaquil.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas. Se 
+acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto mexicano, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno, del despacho de importación y del pago de aranceles, IVA y tasas portuarias 
+conforme a la legislación ecuatoriana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-85.
-¿Por qué el sector camaronero es estratégico para el Ecuador?
-A) Porque sustituye el petróleo
-B) Porque genera empleo, divisas y posicionamiento internacional
-C) Porque está exento de regulación
-D) Porque no depende de mercados externos
-Respuesta correcta: B
-
-86.
-La trazabilidad exigida por la Unión Europea en productos pesqueros busca:
-A) Incrementar tributos
-B) Garantizar sostenibilidad y combatir la pesca ilegal
-C) Reducir exportaciones
-D) Sustituir certificados de origen
-Respuesta correcta: B
-
-87.
-¿Qué rol cumple la tecnología en el comercio exterior moderno?
-A) Sustituye la normativa
-B) Incrementa barreras al comercio
-C) Facilita trazabilidad, control y eficiencia
-D) Elimina la intervención estatal
+CASO 100
+Una empresa exportadora de excipientes y principios activos para la industria farmacéutica ubicada 
+en Darmstadt, Alemania, vende un lote de sustancias de alta pureza a una empresa farmacéutica 
+situada en Shizuoka, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control estricto de temperatura y cumplimiento de normas internacionales de 
+seguridad y calidad. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-88.
-El sistema ECUAPASS contribuye a la facilitación del comercio porque:
-A) Elimina documentos
-B) Permite la gestión electrónica de trámites aduaneros
-C) Reduce el pago de tributos
-D) Sustituye a los agentes de aduana
+CASO 101
+Una empresa europea especializada en la fabricación de maquinaria para la industria de aceites 
+comestibles ubicada en Sevilla, España, celebra un contrato de compraventa con una empresa 
+agroindustrial situada en Santa Cruz, Bolivia. La maquinaria vendida incluye prensas hidráulicas, 
+decantadores centrífugos, sistemas de filtrado y líneas automatizadas de envasado, todos ellos 
+equipos de gran tamaño, elevado peso y alto valor económico. Debido a estas características, la 
+mercancía requiere embalaje industrial reforzado con bastidores metálicos, protección anticorrosiva, 
+sistemas de absorción de vibraciones y una documentación técnica exhaustiva para su posterior 
+montaje y calibración. El vendedor se compromete a fabricar los equipos conforme a las 
+especificaciones contractuales, realizar pruebas de funcionamiento completas y embalar 
+adecuadamente la maquinaria, dejándola disponible dentro de sus instalaciones en la fecha pactada. 
+Desde la negociación inicial se deja expresamente establecido que el vendedor no asumirá ninguna 
+responsabilidad relacionada con la carga de la mercancía, la contratación de transporte interno o 
+internacional, la gestión de trámites aduaneros ni la contratación de seguros, limitando su obligación 
+exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador boliviano contrata una empresa logística internacional que envía personal técnico a la 
+planta del vendedor para efectuar la carga de los equipos, organiza el transporte interno desde 
+Sevilla hasta el puerto de Valencia, contrata el transporte marítimo hasta el puerto de Arica y 
+coordina el transporte terrestre hasta Santa Cruz. Asimismo, el comprador gestiona y paga todos los 
+trámites aduaneros de exportación e importación, incluidos permisos sanitarios, certificados de 
+origen, aranceles, IVA, tasas portuarias y cualquier otro tributo exigido por la legislación boliviana. El 
+seguro de transporte internacional es contratado directamente por el comprador. El contrato 
+establece de forma expresa que el riesgo por pérdida o daño se transfiere al comprador desde el 
+momento en que la mercancía queda a su disposición dentro de las instalaciones del vendedor, 
+incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-89.
-¿Cuál es el principal riesgo de una mala planificación financiera en importaciones?
-A) Incremento de exportaciones
-B) Sobrecostos y pérdida de rentabilidad
-C) Reducción del aforo
-D) Eliminación del IVA
+CASO 102
+Una empresa fabricante de equipos de generación de frío industrial ubicada en Linz, Austria, vende 
+un conjunto de compresores y sistemas de refrigeración a una empresa de logística alimentaria 
+situada en San Pedro Sula, Honduras. Los equipos requieren embalaje técnico reforzado, protección 
+contra humedad y vibraciones, y documentación de conformidad para su importación. El vendedor 
+asume el embalaje especializado, el transporte interno desde su planta hasta una plataforma 
+logística situada en Núremberg y la preparación de toda la documentación necesaria para el 
+despacho aduanero de exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador hondureño en la plataforma logística de Núremberg. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Puerto Cortés, la descarga, el transporte interno hasta sus instalaciones y el despacho de 
+importación, asumiendo aranceles, impuestos y tasas conforme a la legislación hondureña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-90.
-La relación entre comercio exterior y competitividad empresarial se evidencia cuando:
-A) Las empresas dependen del mercado interno
-B) Se adoptan estándares internacionales de calidad y eficiencia
-C) Se eliminan controles aduaneros
-D) Se restringe la competencia
+CASO 103
+Una empresa exportadora de acero laminado ubicada en Tangshan, China, vende un cargamento 
+completo de bobinas de acero a una empresa metalmecánica situada en Los Ángeles, Estados 
+Unidos. La mercancía será transportada por vía marítima en buques de carga general y requiere 
+embalaje reforzado, flejado industrial y tratamiento anticorrosivo para soportar largas travesías 
+oceánicas. El vendedor asume los costos de embalaje, transporte interno desde la planta hasta el 
+puerto de Tianjin, así como los gastos de manipulación portuaria, estiba y carga de la mercancía a 
+bordo del buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas. El contrato establece 
+que el riesgo por pérdida o daño se transfiere al comprador en el momento exacto en que la 
+mercancía queda cargada a bordo del buque en el puerto chino. En destino, el comprador se encarga 
+de la descarga, del transporte interno hasta la planta, del despacho de importación y del pago de 
+aranceles, impuestos federales y tasas portuarias conforme a la normativa estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-91.
-Un país que fortalece su política de exportaciones busca principalmente:
-A) Reducir la producción nacional
-B) Generar crecimiento económico sostenible
-C) Eliminar importaciones
-D) Sustituir la política fiscal
-Respuesta correcta: B
-
-92.
-La integración a bloques económicos permite a los países:
-A) Perder soberanía
-B) Aislarse comercialmente
-C) Acceder a mercados ampliados y reglas comunes
-D) Eliminar regulaciones
+CASO 104
+Una empresa productora de arroz ubicada en Suphan Buri, Tailandia, vende un cargamento a granel 
+a una empresa distribuidora de alimentos situada en Abiyán, Costa de Marfil. El vendedor asume el 
+transporte interno desde los silos hasta el puerto de Laem Chabang, la estiba y la carga del arroz a 
+bordo del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto de Abiyán.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de productos agrícolas. Se 
+acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto tailandés, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación marfileña.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-93.
-¿Por qué el comercio exterior requiere coordinación entre sector público y privado?
-A) Para eliminar impuestos
-B) Para garantizar eficiencia, control y competitividad
-C) Para sustituir la empresa privada
-D) Para centralizar decisiones
-Respuesta correcta: B
-
-94.
-El análisis del entorno internacional es clave para las empresas porque:
-A) Reduce costos internos
-B) Permite anticipar riesgos y oportunidades
-C) Elimina la competencia
-D) Sustituir la planificación estratégica
-Respuesta correcta: B
-
-95.
-Una economía abierta se caracteriza por:
-A) Restricción total al comercio
-B) Interacción activa con mercados internacionales
-C) Eliminación del sector productivo
-D) Sustitución del comercio interno
-Respuesta correcta: B
-
-96.
-El comercio exterior contribuye al bienestar social cuando:
-A) Se concentra en pocos sectores
-B) Genera empleo formal y desarrollo sostenible
-C) Elimina la inversión privada
-D) Sustituir políticas sociales
-Respuesta correcta: B
-
-97.
-¿Cuál es el principal desafío del comercio exterior ecuatoriano a futuro?
-A) Eliminar exportaciones tradicionales
-B) Diversificar mercados y productos con valor agregado
-C) Reducir exportaciones no petroleras
-D) Aumentar dependencia de commodities
-Respuesta correcta: B
-
-98.
-La innovación en productos exportables permite:
-A) Mantener precios bajos únicamente
-B) Acceder a nichos de mercado y mayor valor agregado
-C) Eliminar la competencia
-D) Sustituir incentivos estatales
-Respuesta correcta: B
-
-99.
-El comercio exterior sostenible implica:
-A) Maximizar exportaciones sin control
-B) Equilibrar crecimiento económico, social y ambiental
-C) Eliminar regulaciones ambientales
-D) Reducir la trazabilidad
-Respuesta correcta: B
-
-100.
-Desde una visión integral, el comercio exterior debe entenderse como:
-A) Un mecanismo aislado de intercambio
-B) Una actividad exclusivamente económica
-C) Un sistema estratégico que articula economía, derecho y desarrollo
-D) Un proceso limitado a importaciones
+CASO 105
+Una empresa exportadora de componentes químicos para la industria cosmética ubicada en 
+Ludwigshafen, Alemania, vende un lote de emulsificantes y estabilizantes a una empresa fabricante 
+de cosméticos situada en Nagano, Japón. La mercancía requiere embalaje homologado, 
+manipulación especializada, control de temperatura y cumplimiento estricto de normas 
+internacionales de seguridad y calidad. El vendedor asume los costos de embalaje, transporte 
+interno hasta el puerto de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el 
+transporte marítimo internacional hasta el puerto de Yokohama.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-101.
-Ecuador mantiene una alta dependencia de exportaciones primarias como banano, camarón y 
-petróleo. Desde una perspectiva de política comercial y desarrollo económico, ¿cuál de las siguientes 
-estrategias sería la más coherente para reducir la vulnerabilidad externa del país?
-A) Incrementar aranceles a todos los productos importados
-B) Diversificar la oferta exportable incorporando valor agregado y nuevos mercados
-C) Sustituir completamente las exportaciones por producción interna
-D) Limitar la firma de acuerdos comerciales para proteger la industria local
+CASO 106
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del procesamiento 
+de cacao ubicada en Utrecht, Países Bajos, celebra un contrato de compraventa con una empresa 
+chocolatera situada en Guayaquil, Ecuador. La maquinaria vendida incluye tostadoras industriales, 
+molinos, sistemas de refinado y líneas automatizadas de templado, todos ellos equipos de gran 
+tamaño, alto valor económico y elevada complejidad técnica. Debido a estas características, la 
+mercancía requiere embalaje industrial reforzado con bastidores metálicos, protección anticorrosiva, 
+amortiguadores de vibración y una documentación técnica exhaustiva para su posterior instalación y 
+calibración. El vendedor se compromete a fabricar los equipos conforme a las especificaciones 
+contractuales, realizar pruebas de funcionamiento completas y embalar adecuadamente la 
+maquinaria, dejándola disponible dentro de sus propias instalaciones en la fecha pactada. Desde el 
+inicio de la negociación se establece claramente que el vendedor no asumirá ninguna 
+responsabilidad relacionada con la carga de la mercancía, la contratación de transporte interno o 
+internacional, la gestión de trámites aduaneros ni la contratación de seguros, limitando su obligación 
+exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador ecuatoriano contrata una empresa logística internacional que envía personal técnico a 
+la planta del vendedor para realizar la carga de los equipos, organiza el transporte interno desde 
+Utrecht hasta el puerto de Róterdam, contrata el transporte marítimo hasta el puerto de Guayaquil y 
+coordina la descarga portuaria y el transporte terrestre hasta la planta chocolatera. Asimismo, el 
+comprador gestiona y paga todos los trámites aduaneros de exportación e importación, incluidos 
+permisos sanitarios, certificados de origen, aranceles, IVA, tasas portuarias y cualquier otro tributo 
+exigido por la legislación ecuatoriana. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece expresamente que el riesgo por pérdida o 
+daño se transfiere al comprador desde el momento en que la mercancía queda a su disposición 
+dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-102.
-Una empresa ecuatoriana exportadora de cacao procesa parcialmente su producto antes de 
-venderlo a la Unión Europea. Para beneficiarse de las preferencias arancelarias del acuerdo 
-Ecuador–UE, la empresa debe principalmente:
-A) Declarar el menor valor posible del producto
-B) Cumplir con las reglas de origen establecidas en el acuerdo
-C) Registrar la marca en el país importador
-D) Utilizar exclusivamente transporte marítimo
+CASO 107
+Una empresa fabricante de equipos de tratamiento de residuos industriales ubicada en Graz, 
+Austria, vende un conjunto de compactadoras y sistemas de clasificación a una empresa de gestión 
+ambiental situada en San Salvador, El Salvador. Los equipos requieren embalaje técnico reforzado, 
+protección contra humedad y vibraciones, y documentación de conformidad para su importación. El 
+vendedor asume el embalaje especializado, el transporte interno desde su planta hasta una 
+plataforma logística situada en Salzburgo y la preparación de toda la documentación necesaria para 
+el despacho aduanero de exportación conforme a la normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador salvadoreño en la plataforma logística de Salzburgo. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Acajutla, la descarga, el transporte interno hasta sus instalaciones y el despacho de importación, 
+asumiendo aranceles, IVA y tasas aduaneras conforme a la legislación salvadoreña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-103.
-Una empresa importa maquinaria desde Asia y declara un valor FOB significativamente inferior al 
-promedio internacional. El sistema de riesgo del SENAE genera una alerta. Desde el punto de vista 
-aduanero, la medida más probable será:
-A) Aforo automático por tratarse de maquinaria
-B) Asignación a canal rojo con verificación física y documental
-C) Liberación inmediata por tratarse de bienes de capital
-D) Aceptación del valor declarado sin observaciones
+CASO 108
+Una empresa exportadora de acero estructural ubicada en Chiba, Japón, vende un cargamento 
+completo de vigas y perfiles a una empresa de ingeniería civil situada en Vancouver, Canadá. La 
+mercancía será transportada por vía marítima en buques de carga general y requiere embalaje 
+reforzado, flejado industrial y tratamiento anticorrosivo para resistir la exposición prolongada a 
+ambientes marinos. El vendedor asume los costos de embalaje, transporte interno desde la planta 
+hasta el puerto de Yokohama, así como los gastos de manipulación portuaria, estiba y carga de la 
+mercancía a bordo del buque.
+El comprador canadiense selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. El contrato 
+establece que el riesgo por pérdida o daño se transfiere al comprador en el momento exacto en que 
+la mercancía queda cargada a bordo del buque en el puerto japonés. En destino, el comprador se 
+encarga de la descarga, del transporte interno hasta la obra, del despacho de importación y del pago 
+de aranceles, GST y tasas portuarias conforme a la normativa canadiense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-104.
-En una importación bajo Incoterm CIF, el importador declara únicamente el valor de la factura 
-comercial, excluyendo el seguro internacional. ¿Cuál es la implicación legal y tributaria más 
-relevante?
-A) No existe implicación, el seguro no forma parte del valor en aduana
-B) Se configura una subvaloración que puede generar reliquidación y sanciones
-C) El error se corrige automáticamente sin consecuencias
-D) Solo afecta al cálculo del IVA, no al arancel
-Respuesta correcta: B
-
-105.
-Una empresa planea importar drones agrícolas con sensores y sistemas de fumigación. Antes de 
-cerrar la compra, solicita una resolución anticipada al SENAE. El principal beneficio de esta decisión 
-es:
-A) Evitar el pago de tributos
-B) Obtener certeza previa sobre clasificación, requisitos y costos
-C) Garantizar la exoneración del IVA
-D) Eliminar la inspección física
-Respuesta correcta: B
-
-106.
-Un importador con antecedentes de incumplimiento presenta una declaración para importar 
-productos farmacéuticos. Considerando el análisis de riesgo, ¿qué tipo de aforo es más probable?
-A) Canal verde
-B) Canal amarillo
-C) Canal rojo con inspección física
-D) Liberación automática por tratarse de medicinas
+CASO 109
+Una empresa productora de sorgo ubicada en Mato Grosso, Brasil, vende un cargamento a granel a 
+una empresa de alimentos balanceados situada en Veracruz, México. El vendedor asume el 
+transporte interno desde los silos hasta el puerto de Santos, la estiba y la carga del grano a bordo del 
+buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Veracruz.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de granos. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto brasileño, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, IVA y tasas portuarias 
+conforme a la legislación mexicana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-107.
-Una empresa de construcción importa maquinaria pesada para un proyecto específico de seis 
-meses, con obligación de reexportación. Si la empresa no cumple con la reexportación en el plazo 
-establecido, la consecuencia será:
-A) Automática nacionalización sin tributos
-B) Pago de tributos, multas y posibles sanciones
-C) Abandono tácito inmediato
-D) Exoneración por tratarse de maquinaria
-Respuesta correcta: B
-
-108.
-Un importador no presenta la Declaración Aduanera de Importación dentro del plazo legal y 
-tampoco solicita prórroga. Según el COPCI, esta situación genera:
-A) Multa administrativa únicamente
-B) Abandono tácito y pérdida de dominio de la mercancía
-C) Suspensión del RUC
-D) Cancelación automática del contrato comercial
-Respuesta correcta: B
-
-109.
-Si Ecuador registra un crecimiento sostenido de importaciones sin un aumento proporcional de 
-exportaciones, el efecto más probable en la balanza comercial será:
-A) Superávit comercial
-B) Equilibrio automático
-C) Déficit comercial
-D) Incremento de reservas internacionales
+CASO 110
+Una empresa exportadora de aditivos químicos para la industria farmacéutica ubicada en 
+Leverkusen, Alemania, vende un lote de estabilizantes de alta pureza a una empresa farmacéutica 
+situada en Fukuoka, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control estricto de temperatura y cumplimiento de normas internacionales de 
+seguridad y calidad. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-110.
-¿Por qué el comercio exterior es especialmente relevante para economías dolarizadas como la 
-ecuatoriana?
-A) Porque reduce la inflación estructural
-B) Porque genera divisas necesarias para sostener el sistema monetario
-C) Porque elimina la política fiscal
-D) Porque sustituye el endeudamiento externo
+CASO 111
+Una empresa europea dedicada a la fabricación de maquinaria para la industria cerámica ubicada en 
+Castellón de la Plana, España, celebra un contrato de compraventa con una empresa productora de 
+baldosas situada en Cochabamba, Bolivia. La maquinaria vendida incluye hornos de cocción 
+continua, líneas automatizadas de esmaltado y sistemas de clasificación óptica, todos ellos equipos 
+de gran tamaño, elevado peso y alto valor económico. Debido a estas características, la mercancía 
+requiere embalaje industrial reforzado con estructuras metálicas, protección anticorrosiva, 
+amortiguadores de vibración y una documentación técnica exhaustiva para su posterior montaje, 
+calibración y puesta en marcha. El vendedor se compromete a fabricar los equipos conforme a las 
+especificaciones contractuales, realizar pruebas de funcionamiento completas y embalar 
+adecuadamente la maquinaria, dejándola disponible dentro de sus propias instalaciones en la fecha 
+pactada contractualmente. Desde la negociación inicial se deja claramente establecido que el 
+vendedor no asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a disposición 
+del comprador en origen.
+El comprador boliviano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Castellón hasta el puerto de Valencia, contrata el transporte marítimo 
+hasta el puerto de Arica y coordina el transporte terrestre hasta Cochabamba. Asimismo, el 
+comprador gestiona y paga todos los trámites aduaneros de exportación e importación, incluidos 
+permisos técnicos, certificados de origen, aranceles, IVA, tasas portuarias y cualquier otro tributo 
+exigido por la legislación boliviana. El seguro de transporte internacional es contratado directamente 
+por el comprador. El contrato establece de forma expresa que el riesgo por pérdida o daño se 
+transfiere al comprador desde el momento en que la mercancía queda a su disposición dentro de las 
+instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-111.
-Una empresa exporta frutas frescas sin cumplir los requisitos fitosanitarios del país destino. ¿Cuál es 
-el escenario más probable?
-A) Pago de un arancel adicional
-B) Rechazo, devolución o destrucción de la mercancía
-C) Reetiquetado automático en destino
-D) Exoneración por tratarse de productos agrícolas
+CASO 112
+Una empresa fabricante de sistemas de tratamiento de aguas residuales ubicada en Linz, Austria, 
+vende un conjunto de reactores biológicos y equipos de filtración a una empresa municipal situada 
+en Trujillo, Perú. Los equipos requieren embalaje técnico reforzado, protección contra humedad y 
+vibraciones, y documentación de conformidad ambiental para su importación. El vendedor asume el 
+embalaje especializado, el transporte interno desde su planta hasta una plataforma logística situada 
+en Múnich y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador peruano en la plataforma logística de Múnich. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto del 
+Callao, la descarga, el transporte interno hasta la planta de tratamiento y el despacho de 
+importación, asumiendo aranceles, IGV y tasas aduaneras conforme a la legislación peruana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-112.
-Una mala planificación logística internacional impacta directamente en la competitividad porque:
-A) Incrementa la producción
-B) Genera retrasos, sobrecostos y pérdida de clientes
-C) Elimina la necesidad de documentación
-D) Reduce el control aduanero
+CASO 113
+Una empresa exportadora de acero estructural ubicada en Kwangyang, Corea del Sur, vende un 
+cargamento completo de vigas y perfiles de acero a una empresa de ingeniería civil situada en 
+Tacoma, Estados Unidos. La mercancía será transportada por vía marítima en buques de carga 
+general y requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para resistir la 
+exposición prolongada a ambientes marinos. El vendedor asume los costos de embalaje, transporte 
+interno desde la planta hasta el puerto de Busan, así como los gastos de manipulación portuaria, 
+estiba y carga de la mercancía a bordo del buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. 
+El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el momento 
+exacto en que la mercancía queda cargada a bordo del buque en el puerto coreano. En destino, el 
+comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho de 
+importación y del pago de aranceles, impuestos federales y tasas portuarias conforme a la normativa 
+estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-113.
-Una empresa acuerda un Incoterm FOB sin comprender que el seguro corre por su cuenta. Durante 
-el transporte ocurre un siniestro. ¿Cuál es la consecuencia directa?
-A) El vendedor asume toda la pérdida
-B) El comprador asume el riesgo desde el puerto de embarque
-C) El seguro es obligatorio para el exportador
-D) La aduana cubre la pérdida
-Respuesta correcta: B
-
-114.
-Una empresa exportadora nueva busca minimizar el riesgo de impago en su primera operación 
-internacional. El instrumento más adecuado es:
-A) Transferencia bancaria posterior
-B) Cobranza simple
-C) Carta de crédito irrevocable
-D) Pago contra entrega
+CASO 114
+Una empresa productora de trigo duro ubicada en Foggia, Italia, vende un cargamento a granel a 
+una empresa molinera situada en Alejandría, Egipto. El vendedor asume el transporte interno desde 
+los silos hasta el puerto de Bari, la estiba y la carga del trigo a bordo del buque. Además, el vendedor 
+contrata y paga el transporte marítimo internacional hasta el puerto de Alejandría.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de cereales. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto italiano, aun cuando el vendedor continúe asumiendo 
+el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del transporte 
+interno, del despacho de importación y del pago de aranceles, impuestos y tasas portuarias 
+conforme a la legislación egipcia.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-115.
-Una empresa importa insumos, produce bienes para exportación y luego solicita la devolución 
-parcial de tributos pagados por dichos insumos. Este mecanismo corresponde a:
-A) Exoneración fiscal
-B) Drawback
-C) Subsidio directo
-D) Crédito tributario
-Respuesta correcta: B
-
-116.
-Contexto – Rol institucional
-¿Cuál es la diferencia fundamental entre el rol del COMEX y el SENAE?
-A) Ambos cumplen funciones idénticas
-B) COMEX define política comercial y SENAE ejecuta control aduanero
-C) SENAE negocia tratados y COMEX recauda tributos
-D) COMEX administra ECUAPASS
-Respuesta correcta: B
-
-117.
-Una empresa participa en una feria internacional organizada por PRO ECUADOR. El principal objetivo 
-estratégico de esta acción es:
-A) Reducir tributos
-B) Establecer contactos comerciales y acceder a nuevos mercados
-C) Sustituir estudios de mercado
-D) Eliminar requisitos técnicos
-Respuesta correcta: B
-
-118.
-¿Por qué la diversificación de mercados de exportación reduce el riesgo económico?
-A) Porque elimina la competencia
-B) Porque reduce la dependencia de un solo socio comercial
-C) Porque incrementa automáticamente los precios
-D) Porque sustituye la producción interna
-Respuesta correcta: B
-
-119.
-El contrabando afecta negativamente al comercio exterior formal porque:
-A) Reduce exportaciones
-B) Distorsiona la competencia y reduce la recaudación fiscal
-C) Incrementa el empleo formal
-D) Elimina aranceles
-Respuesta correcta: B
-
-120.
-Desde el enfoque del Diamante de Porter, una empresa será más competitiva internacionalmente 
-cuando:
-A) Opera en un mercado interno poco exigente
-B) Enfrenta competencia local intensa que impulsa innovación
-C) Depende exclusivamente de incentivos estatales
-D) Evita la rivalidad empresarial
-Respuesta correcta: B
-
-121.
-Una empresa ecuatoriana importa equipos electrónicos multifunción que incorporan cámara, 
-sensores y conectividad inalámbrica. El importador decide clasificarlos como accesorios informáticos 
-para pagar un arancel menor. Posteriormente, la Aduana determina que corresponden a una 
-subpartida distinta con mayor carga tributaria.
-¿Cuál es la consecuencia más probable?
-A) Solo una observación administrativa sin efectos económicos
-B) Reclasificación, reliquidación de tributos y posible multa
-C) Abandono tácito inmediato
-D) Anulación del contrato internacional
-Respuesta correcta: B
-
-122.
-¿Por qué la valoración aduanera es uno de los elementos más sensibles en el control del comercio 
-exterior?
-A) Porque define el país de origen
-B) Porque es la base para el cálculo de aranceles e impuestos
-C) Porque sustituye la clasificación arancelaria
-D) Porque elimina el riesgo aduanero
-Respuesta correcta: B
-
-123.
-Una empresa importa bajo Incoterm FOB y decide no contratar seguro para reducir costos. Durante 
-el transporte ocurre un siniestro total. Desde el punto de vista financiero y contractual, el error 
-principal fue:
-A) Elegir transporte marítimo
-B) No contratar seguro pese a asumir el riesgo desde el embarque
-C) No solicitar resolución anticipada
-D) No utilizar carta de crédito
-Respuesta correcta: B
-
-124.
-Una empresa ecuatoriana exporta a un país con moneda volátil. Para protegerse ante posibles 
-pérdidas por variaciones del tipo de cambio, la herramienta más adecuada sería:
-A) Carta de crédito
-B) Contrato forward de divisas
-C) Certificado de origen
-D) Aforo anticipado
-Respuesta correcta: B
-
-125.
-Una empresa importa mercancía para consumo interno. Además del arancel y el IVA, debe pagar 
-obligatoriamente:
-A) ISD siempre
-B) FODINFA, salvo excepciones
-C) Impuesto a la Renta
-D) Drawback
-Respuesta correcta: B
-
-126.
-Contexto – ISD
-¿Por qué el Impuesto a la Salida de Divisas (ISD) puede afectar la competitividad de las 
-importaciones?
-A) Porque incrementa el valor FOB
-B) Porque encarece las transferencias al exterior
-C) Porque sustituye al IVA
-D) Porque elimina aranceles
-Respuesta correcta: B
-
-127.
-Una empresa ecuatoriana de software vende servicios digitales a clientes en el extranjero sin enviar 
-ningún bien físico. Desde el punto de vista del comercio exterior, esta operación se clasifica como:
-A) Importación indirecta
-B) Exportación de bienes intangibles
-C) Exportación de servicios
-D) Operación interna
+CASO 115
+Una empresa exportadora de compuestos químicos para la industria farmacéutica ubicada en Basel Landschaft, Suiza, vende un lote de principios activos de alta pureza a una empresa farmacéutica 
+situada en Niigata, Japón. La mercancía requiere embalaje homologado, manipulación especializada, 
+control estricto de temperatura y cumplimiento de normas internacionales de seguridad y calidad. El 
+vendedor asume los costos de embalaje, transporte interno hasta el puerto de Génova, estiba y 
+carga a bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el 
+puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
 Respuesta correcta: C
 
-128.
-Antes de exportar alimentos procesados a Europa, una empresa debe verificar requisitos de 
-etiquetado, trazabilidad y sanidad. ¿Por qué estos requisitos son considerados barreras no 
-arancelarias?
-A) Porque incrementan impuestos
-B) Porque no implican pago de tributos pero condicionan el acceso al mercado
-C) Porque sustituyen aranceles
-D) Porque son opcionales
+CASO 116
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del procesamiento 
+de café ubicada en Hamburgo, Alemania, celebra un contrato de compraventa con una empresa 
+tostadora y distribuidora situada en San José, Costa Rica. La maquinaria vendida incluye tostadoras 
+industriales, molinos, sistemas de enfriamiento y líneas automatizadas de envasado, todos ellos 
+equipos de gran tamaño, elevado peso y alto valor económico. Debido a estas características, la 
+mercancía requiere embalaje industrial reforzado con estructuras metálicas, protección 
+anticorrosiva, amortiguadores de vibración y una documentación técnica exhaustiva para su 
+posterior instalación y puesta en marcha. El vendedor se compromete a fabricar los equipos 
+conforme a las especificaciones contractuales, realizar pruebas de funcionamiento completas y 
+embalar adecuadamente la maquinaria, dejándola disponible dentro de sus propias instalaciones en 
+la fecha pactada contractualmente. Desde el inicio de la negociación se deja claramente establecido 
+que el vendedor no asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a disposición 
+del comprador en origen.
+El comprador costarricense contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Hamburgo hasta el puerto de Bremerhaven, contrata el transporte 
+marítimo hasta el puerto de Limón y coordina la descarga portuaria y el transporte terrestre hasta la 
+planta tostadora. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de 
+exportación e importación, incluidos permisos sanitarios, certificados de origen, aranceles, IVA, tasas 
+portuarias y cualquier otro tributo exigido por la legislación costarricense. El seguro de transporte 
+internacional es contratado directamente por el comprador. El contrato establece de forma expresa 
+que el riesgo por pérdida o daño se transfiere al comprador desde el momento en que la mercancía 
+queda a su disposición dentro de las instalaciones del vendedor, incluso antes de cualquier 
+operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-129.
-Ecuador forma parte de la Comunidad Andina. Una empresa exporta a Perú sin pagar aranceles. Este 
-beneficio se explica principalmente por:
-A) Política unilateral del Ecuador
-B) Aplicación de un acuerdo de integración regional
-C) Exoneración fiscal nacional
-D) Subsidio estatal
+CASO 117
+Una empresa fabricante de sistemas de generación eléctrica de emergencia ubicada en Brno, 
+República Checa, vende un conjunto de generadores diésel de gran capacidad a una empresa de 
+telecomunicaciones situada en Tegucigalpa, Honduras. Los equipos requieren embalaje técnico 
+reforzado, protección contra humedad y vibraciones, así como documentación de conformidad 
+eléctrica para su importación. El vendedor asume el embalaje especializado, el transporte interno 
+desde su planta hasta una plataforma logística situada en Praga y la preparación de toda la 
+documentación necesaria para el despacho aduanero de exportación conforme a la normativa 
+comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador hondureño en la plataforma logística de Praga. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Puerto Cortés, la descarga, el transporte interno hasta los centros de telecomunicaciones y el 
+despacho de importación, asumiendo aranceles, impuestos y tasas conforme a la legislación 
+hondureña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-130.
-La apertura comercial incrementa la competencia en el mercado interno. Desde el punto de vista 
-empresarial, el efecto más relevante es que:
-A) Reduce la innovación
-B) Obliga a mejorar calidad, eficiencia y productividad
-C) Elimina empresas nacionales automáticamente
-D) Reduce el empleo formal
+CASO 118
+Una empresa exportadora de perfiles de acero galvanizado ubicada en Kaohsiung, Taiwán, vende un 
+cargamento completo de perfiles estructurales a una empresa de infraestructura vial situada en 
+Valparaíso, Chile. La mercancía será transportada por vía marítima en buques de carga general y 
+requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo adicional para resistir la 
+exposición prolongada a ambientes marinos. El vendedor asume los costos de embalaje, transporte 
+interno desde la planta hasta el puerto de Kaohsiung, así como los gastos de manipulación portuaria, 
+estiba y carga de la mercancía a bordo del buque.
+El comprador chileno selecciona la naviera, contrata y paga el transporte marítimo internacional y el 
+seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo por 
+pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto de origen. En destino, el comprador se encarga de la 
+descarga, del transporte interno hasta la obra vial, del despacho de importación y del pago de 
+aranceles, IVA y tasas portuarias conforme a la normativa chilena.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-131.
-Una empresa exportadora pierde clientes por retrasos constantes en la entrega. Tras un análisis, se 
-identifica deficiente coordinación logística. ¿Cuál es el impacto directo más relevante?
-A) Incremento del arancel
-B) Pérdida de competitividad internacional
-C) Eliminación de preferencias arancelarias
-D) Cancelación del registro de exportador
-Respuesta correcta: B
-
-132.
-¿Por qué la selección del mercado objetivo es una etapa crítica en el proceso de exportación?
-A) Porque determina el tipo de transporte únicamente
-B) Porque define requisitos, costos, riesgos y viabilidad comercial
-C) Porque sustituye el análisis financiero
-D) Porque elimina barreras no arancelarias
-Respuesta correcta: B
-
-133.
-Una empresa exportadora no paga IVA por sus ventas al exterior y solicita devolución del IVA pagado 
-en insumos. Este mecanismo busca principalmente:
-A) Incrementar recaudación
-B) Evitar la exportación de impuestos
-C) Sustituir el drawback
-D) Eliminar la contabilidad tributaria
-Respuesta correcta: B
-
-134.
-El crecimiento de exportaciones agrícolas en zonas rurales impacta positivamente porque:
-A) Reduce la inversión privada
-B) Genera empleo, ingresos y desarrollo local
-C) Elimina la migración
-D) Sustituye políticas sociales
-Respuesta correcta: B
-
-135.
-Una importación es asignada a canal amarillo. ¿Qué implica este tipo de aforo?
-A) Inspección física completa
-B) Revisión documental sin apertura de bultos
-C) Liberación automática
-D) Abandono tácito
-Respuesta correcta: B
-
-136.
-Una mercancía permanece en depósito aduanero más allá del plazo legal sin que el importador 
-actúe. La Aduana procede conforme a:
-A) Aforo físico
-B) Abandono tácito
-C) Reexportación automática
-D) Exoneración tributaria
-Respuesta correcta: B
-
-137.
-El Estado ecuatoriano promueve exportaciones no petroleras para:
-A) Sustituir la dolarización
-B) Diversificar la economía y reducir dependencia de commodities
-C) Eliminar importaciones
-D) Reducir el comercio exterior
-Respuesta correcta: B
-
-138.
-El comercio exterior sostenible se caracteriza principalmente por:
-A) Maximizar volumen exportado sin control
-B) Integrar criterios económicos, sociales y ambientales
-C) Eliminar normas ambientales
-D) Priorizar solo el beneficio empresarial
-Respuesta correcta: B
-
-139.
-Una empresa no considera todos los costos logísticos y tributarios al importar. El resultado más 
-probable será:
-A) Mayor rentabilidad
-B) Pérdidas financieras y problemas de flujo de caja
-C) Eliminación de impuestos
-D) Aumento de exportaciones
-Respuesta correcta: B
-
-140.
-Desde una visión integral, el comercio exterior debe ser gestionado como:
-A) Una actividad operativa aislada
-B) Un proceso estratégico alineado al desarrollo empresarial y nacional
-C) Una obligación legal únicamente
-D) Un mecanismo exclusivo del Estado
-Respuesta correcta: B
-
-141.
-Una empresa ecuatoriana importa insumos desde un país no miembro de la Unión Europea, procesa 
-el producto en Ecuador y lo exporta a Europa. Para que el producto final califique como originario y 
-acceda a preferencias arancelarias, la empresa debe demostrar principalmente que:
-A) El valor FOB es superior al promedio internacional
-B) Se cumplió el criterio de transformación sustancial según el acuerdo
-C) El transporte fue directo
-D) El importador europeo lo solicite
-Respuesta correcta: B
-
-142.
-Si una exportación se beneficia inicialmente de un tratado comercial pero luego se comprueba 
-incumplimiento de reglas de origen, la consecuencia más probable será:
-A) Multa únicamente al importador
-B) Pago retroactivo de aranceles y posibles sanciones
-C) Cancelación del acuerdo comercial
-D) Abandono tácito
-Respuesta correcta: B
-
-143.
-Una empresa planea exportar alimentos procesados y debe elegir entre dos mercados: uno con alta 
-demanda pero estrictas regulaciones sanitarias, y otro con menor demanda pero requisitos más 
-flexibles. Desde una perspectiva estratégica, la decisión debe basarse principalmente en:
-A) Preferencias personales del gerente
-B) Evaluación integral de costos, riesgos y capacidad de cumplimiento
-C) Distancia geográfica
-D) Tipo de transporte disponible
-Respuesta correcta: B
-
-144.
-¿Por qué las barreras no arancelarias son consideradas más complejas que los aranceles 
-tradicionales?
-A) Porque generan recaudación
-B) Porque no pueden ser identificadas
-C) Porque requieren adaptación técnica, sanitaria y normativa
-D) Porque eliminan la competencia
+CASO 119
+Una empresa productora de maíz blanco ubicada en Jalisco, México, vende un cargamento a granel a 
+una empresa procesadora de alimentos situada en Callao, Perú. El vendedor asume el transporte 
+interno desde los silos hasta el puerto de Manzanillo, la estiba y la carga del grano a bordo del 
+buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto 
+del Callao.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas agrícolas. 
+Se acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto mexicano, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno, del despacho de importación y del pago de aranceles, IGV y tasas portuarias 
+conforme a la legislación peruana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
 Respuesta correcta: C
 
-145.
-Una empresa exportadora no coordina adecuadamente tiempos de producción, transporte y 
-despacho aduanero. Como resultado, incumple plazos contractuales. Desde el punto de vista del 
-comercio internacional, este problema se origina principalmente en:
-A) Falta de tratados comerciales
-B) Deficiente gestión de la cadena logística internacional
-C) Errores en el certificado de origen
-D) Falta de incentivos estatales
+CASO 120
+Una empresa exportadora de aditivos químicos para la industria alimentaria ubicada en Lyon, 
+Francia, vende un lote de conservantes naturales y estabilizantes a una empresa procesadora de 
+alimentos situada en Sapporo, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control estricto de temperatura y cumplimiento de normas internacionales de 
+seguridad alimentaria. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Le Havre, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 121
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del procesamiento 
+de pescado ubicada en Bergen, Noruega, celebra un contrato de compraventa con una empresa 
+exportadora de productos del mar situada en Chimbote, Perú. La maquinaria vendida incluye líneas 
+de eviscerado, fileteado automático, sistemas de congelación rápida y equipos de envasado al vacío, 
+todos ellos de gran tamaño, alto valor económico y elevada complejidad técnica. Debido a estas 
+características, la mercancía requiere embalaje industrial reforzado con estructuras metálicas, 
+protección anticorrosiva por exposición a ambientes salinos, amortiguadores de vibración y una 
+documentación técnica exhaustiva para su posterior instalación y puesta en marcha. El vendedor se 
+compromete a fabricar los equipos conforme a las especificaciones contractuales, realizar pruebas 
+de funcionamiento completas y embalar adecuadamente la maquinaria, dejándola disponible dentro 
+de sus propias instalaciones en la fecha pactada. Desde la negociación inicial se deja claramente 
+establecido que el vendedor no asumirá ninguna responsabilidad relacionada con la carga de la 
+mercancía, la contratación de transporte interno o internacional, la gestión de trámites aduaneros ni 
+la contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a 
+disposición del comprador en origen.
+El comprador peruano contrata una empresa logística internacional especializada que envía personal 
+técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el transporte interno 
+desde Bergen hasta el puerto de Oslo, contrata el transporte marítimo hasta el puerto del Callao y 
+coordina la descarga portuaria y el transporte terrestre hasta la planta procesadora en Chimbote. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluidos permisos sanitarios, certificados de origen, aranceles, IGV, tasas portuarias y cualquier otro 
+tributo exigido por la legislación peruana. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece de forma expresa que el riesgo por pérdida o 
+daño se transfiere al comprador desde el momento en que la mercancía queda a su disposición 
+dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-146.
-¿Cuál es el criterio principal que debe considerarse al seleccionar un Incoterm en una operación 
-internacional?
-A) El país de origen
-B) La distribución de costos, riesgos y responsabilidades
-C) El tipo de producto únicamente
-D) El arancel aplicable
+CASO 122
+Una empresa fabricante de sistemas de automatización para plantas embotelladoras ubicada en 
+Plzeň, República Checa, vende un conjunto de robots industriales, sensores ópticos y líneas de 
+control a una empresa productora de bebidas situada en San Miguel, El Salvador. Los equipos 
+requieren embalaje técnico reforzado, protección contra humedad y vibraciones, así como 
+documentación de conformidad eléctrica y sanitaria para su importación. El vendedor asume el 
+embalaje especializado, el transporte interno desde su planta hasta una plataforma logística situada 
+en Leipzig y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador salvadoreño en la plataforma logística de Leipzig. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Acajutla, la descarga, el transporte interno hasta la planta embotelladora y el despacho de 
+importación, asumiendo aranceles, IVA y tasas aduaneras conforme a la legislación salvadoreña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-147.
-Una empresa exportadora acepta una cobranza documentaria contra aceptación (D/A). El riesgo 
-principal de este instrumento es que:
-A) El importador no reciba la mercancía
-B) El exportador entregue documentos antes del pago efectivo
-C) El banco garantice el pago
-D) El arancel se incremente
+CASO 123
+Una empresa exportadora de perfiles estructurales de acero ubicada en Bhilai, India, vende un 
+cargamento completo de vigas y columnas a una empresa de construcción de infraestructuras 
+situada en Durban, Sudáfrica. La mercancía será transportada por vía marítima en buques de carga 
+general y requiere embalaje reforzado, flejado industrial, tratamiento anticorrosivo y planificación 
+logística para una travesía prolongada. El vendedor asume los costos de embalaje, transporte 
+interno desde la planta hasta el puerto de Nhava Sheva, así como los gastos de manipulación 
+portuaria, estiba y carga de la mercancía a bordo del buque.
+El comprador sudafricano selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo 
+por pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto indio. En destino, el comprador se encarga de la descarga, 
+del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, IVA y 
+tasas portuarias conforme a la legislación sudafricana.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-148.
-La seguridad jurídica en el comercio exterior es fundamental porque:
-A) Elimina el riesgo comercial
-B) Permite previsibilidad, planificación y reducción de conflictos
-C) Sustituir la normativa aduanera
-D) Elimina el control estatal
+CASO 124
+Una empresa productora de trigo ubicada en Saskatchewan, Canadá, vende un cargamento a granel 
+a una empresa molinera situada en Casablanca, Marruecos. El vendedor asume el transporte interno 
+desde los silos hasta el puerto de Vancouver, la estiba y la carga del grano a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Casablanca.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de cereales. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto canadiense, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación marroquí.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 125
+Una empresa exportadora de ingredientes activos para la industria farmacéutica ubicada en 
+Mannheim, Alemania, vende un lote de compuestos de alta pureza a una empresa farmacéutica 
+situada en Toyama, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control estricto de temperatura y cumplimiento de normas internacionales de 
+seguridad y calidad. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 126
+Una empresa europea dedicada a la fabricación de maquinaria para la industria de bebidas 
+espirituosas ubicada en Cognac, Francia, celebra un contrato de compraventa con una destilería 
+situada en Quetzaltenango, Guatemala. La maquinaria vendida incluye alambiques de cobre, 
+columnas de destilación, intercambiadores de calor y sistemas automatizados de control, todos ellos 
+equipos de gran tamaño, elevado peso y alto valor económico. Debido a estas características, la 
+mercancía requiere embalaje industrial reforzado con estructuras metálicas, protección 
+anticorrosiva, amortiguadores de vibración y una documentación técnica exhaustiva para su 
+posterior instalación y puesta en marcha. El vendedor se compromete a fabricar los equipos 
+conforme a las especificaciones contractuales, realizar pruebas de funcionamiento completas y 
+embalar adecuadamente la maquinaria, dejándola disponible dentro de sus propias instalaciones en 
+la fecha pactada contractualmente. Desde el inicio de la negociación se deja claramente establecido 
+que el vendedor no asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a disposición 
+del comprador en origen.
+El comprador guatemalteco contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Cognac hasta el puerto de Le Havre, contrata el transporte marítimo hasta 
+el puerto de Puerto Quetzal y coordina la descarga portuaria y el transporte terrestre hasta la 
+destilería. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e 
+importación, incluidos permisos sanitarios, certificados de origen, aranceles, IVA, tasas portuarias y 
+cualquier otro tributo exigido por la legislación guatemalteca. El seguro de transporte internacional 
+es contratado directamente por el comprador. El contrato establece de forma expresa que el riesgo 
+por pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-149.
-Una empresa extranjera evalúa invertir en Ecuador para producir bienes de exportación. Desde su 
-perspectiva, el factor más relevante será:
-A) El tamaño del mercado interno
-B) La estabilidad normativa y acceso a mercados internacionales
-C) El nivel de aranceles internos
-D) La competencia local
+CASO 127
+Una empresa fabricante de equipos de trituración para la industria minera ubicada en Tampere, 
+Finlandia, vende un conjunto de trituradoras y sistemas de clasificación a una empresa extractiva 
+situada en Oruro, Bolivia. Los equipos requieren embalaje técnico reforzado, protección contra 
+humedad y vibraciones, y documentación de conformidad para su importación. El vendedor asume 
+el embalaje especializado, el transporte interno desde su planta hasta una plataforma logística 
+situada en Turku y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación conforme a la normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador boliviano en la plataforma logística de Turku. En ese momento exacto, la responsabilidad 
+por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el transporte 
+internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la entrega al 
+transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de Arica, el 
+transporte terrestre hasta Oruro, la descarga y el despacho de importación, asumiendo aranceles, 
+IVA y tasas conforme a la legislación boliviana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-150.
-Los procesos de integración regional, como la CAN, buscan principalmente:
-A) Eliminar la soberanía nacional
-B) Facilitar el comercio intrarregional y el desarrollo conjunto
-C) Aumentar barreras al comercio
-D) Sustituir acuerdos multilaterales
+CASO 128
+Una empresa exportadora de productos siderúrgicos ubicada en Iskenderun, Turquía, vende un 
+cargamento completo de perfiles de acero a una empresa de construcción de infraestructuras 
+situada en Génova, Italia. La mercancía será transportada por vía marítima en buques de carga 
+general y requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para soportar la 
+exposición prolongada a ambientes marinos. El vendedor asume los costos de embalaje, transporte 
+interno desde la planta hasta el puerto de Iskenderun, así como los gastos de manipulación 
+portuaria, estiba y carga de la mercancía a bordo del buque.
+El comprador italiano selecciona la naviera, contrata y paga el transporte marítimo internacional y el 
+seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo por 
+pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto turco. En destino, el comprador se encarga de la descarga, 
+del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, IVA y 
+tasas portuarias conforme a la normativa italiana y comunitaria.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-151.
-El COMEX decide aumentar temporalmente aranceles a ciertos productos importados para proteger 
-la industria nacional. Desde la teoría económica, esta medida responde principalmente a una 
-política:
-A) Liberal
-B) Proteccionista
-C) Monetaria
-D) Cambiaria
+CASO 129
+Una empresa productora de cebada ubicada en Burgos, España, vende un cargamento a granel a una 
+empresa cervecera situada en Hamburgo, Alemania. El vendedor asume el transporte interno desde 
+los silos hasta el puerto de Bilbao, la estiba y la carga de la mercancía a bordo del buque. Además, el 
+vendedor contrata y paga el transporte marítimo internacional hasta el puerto de Hamburgo.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas. Se 
+acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto español, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos especiales y 
+tasas portuarias conforme a la legislación alemana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 130
+Una empresa exportadora de principios activos farmacéuticos ubicada en Freiburg, Alemania, vende 
+un lote de compuestos de alta pureza a una empresa farmacéutica situada en Kanazawa, Japón. La 
+mercancía requiere embalaje homologado, manipulación especializada, control estricto de 
+temperatura y cumplimiento de normas internacionales de seguridad y calidad. El vendedor asume 
+los costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y carga a bordo del 
+buque, y además contrata y paga el transporte marítimo internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 131
+Una empresa europea especializada en la fabricación de maquinaria para la industria del 
+procesamiento de carne ubicada en Bremen, Alemania, celebra un contrato de compraventa con 
+una empresa frigorífica situada en Santa Fe, Argentina. La maquinaria vendida incluye líneas 
+automáticas de desposte, sistemas de clasificación por peso, túneles de enfriamiento y equipos de 
+envasado al vacío, todos ellos de gran tamaño, elevado peso y alto valor económico. Debido a estas 
+características, la mercancía requiere embalaje industrial reforzado con bastidores metálicos, 
+protección anticorrosiva, amortiguadores de vibración y una documentación técnica exhaustiva para 
+su posterior instalación y puesta en marcha. El vendedor se compromete a fabricar los equipos 
+conforme a las especificaciones contractuales, realizar pruebas de funcionamiento completas y 
+embalar adecuadamente la maquinaria, dejándola disponible dentro de sus propias instalaciones en 
+la fecha pactada contractualmente. Desde el inicio de la negociación se deja claramente establecido 
+que el vendedor no asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a disposición 
+del comprador en origen.
+El comprador argentino contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Bremen hasta el puerto de Hamburgo, contrata el transporte marítimo 
+hasta el puerto de Buenos Aires y coordina la descarga portuaria y el transporte terrestre hasta la 
+planta frigorífica en Santa Fe. Asimismo, el comprador gestiona y paga todos los trámites aduaneros 
+de exportación e importación, incluidos permisos sanitarios, certificados de origen, aranceles, IVA, 
+tasas portuarias y cualquier otro tributo exigido por la legislación argentina. El seguro de transporte 
+internacional es contratado directamente por el comprador. El contrato establece de forma expresa 
+que el riesgo por pérdida o daño se transfiere al comprador desde el momento en que la mercancía 
+queda a su disposición dentro de las instalaciones del vendedor, incluso antes de cualquier 
+operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-152.
-¿Cuál es uno de los principales riesgos del uso prolongado de medidas proteccionistas?
-A) Incremento de competitividad
-B) Reducción de incentivos para innovar
-C) Diversificación productiva automática
-D) Aumento del comercio internacional
+CASO 132
+Una empresa fabricante de equipos de envasado automático ubicada en Parma, Italia, vende un 
+conjunto de máquinas de llenado, tapado y etiquetado a una empresa de bebidas no alcohólicas 
+situada en Managua, Nicaragua. Los equipos requieren embalaje técnico reforzado, protección 
+contra humedad y vibraciones, así como documentación de conformidad sanitaria y eléctrica para su 
+importación. El vendedor asume el embalaje especializado, el transporte interno desde su planta 
+hasta una plataforma logística situada en Milán y la preparación de toda la documentación necesaria 
+para el despacho aduanero de exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador nicaragüense en la plataforma logística de Milán. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Corinto, la descarga, el transporte interno hasta la planta embotelladora y el despacho de 
+importación, asumiendo aranceles, IVA y tasas aduaneras conforme a la legislación nicaragüense.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-153.
-Una empresa decide transformar materia prima agrícola en productos procesados para exportación. 
-Desde la perspectiva del desarrollo económico, el beneficio principal es:
-A) Eliminación de impuestos
-B) Generación de mayor valor agregado y empleo
-C) Reducción de exportaciones
-D) Sustitución de importaciones
+CASO 133
+Una empresa exportadora de acero estructural ubicada en Pohang, Corea del Sur, vende un 
+cargamento completo de perfiles de acero de gran sección a una empresa de ingeniería y 
+construcción situada en Auckland, Nueva Zelanda. La mercancía será transportada por vía marítima 
+en buques de carga general y requiere embalaje reforzado, flejado industrial y tratamiento 
+anticorrosivo para soportar una travesía oceánica prolongada. El vendedor asume los costos de 
+embalaje, transporte interno desde la planta hasta el puerto de Busan, así como los gastos de 
+manipulación portuaria, estiba y carga de la mercancía a bordo del buque.
+El comprador neozelandés selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. 
+El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el momento 
+exacto en que la mercancía queda cargada a bordo del buque en el puerto coreano. En destino, el 
+comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho de 
+importación y del pago de aranceles, GST y tasas portuarias conforme a la normativa neozelandesa.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-154.
-La competitividad de un país en comercio exterior depende de:
-A) Empresas aisladas
-B) Interacción entre infraestructura, instituciones, empresas y capital humano
-C) Eliminación de regulaciones
-D) Exclusivamente del tipo de cambio
+CASO 134
+Una empresa productora de soja ubicada en Mato Grosso do Sul, Brasil, vende un cargamento a 
+granel a una empresa aceitera situada en Tarragona, España. El vendedor asume el transporte 
+interno desde los silos hasta el puerto de Paranaguá, la estiba y la carga de la soja a bordo del 
+buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Tarragona.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de oleaginosas. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto brasileño, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, IVA y tasas portuarias 
+conforme a la legislación española y comunitaria.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 135
+Una empresa exportadora de ingredientes farmacéuticos activos ubicada en Ludwigshafen, 
+Alemania, vende un lote de sustancias de alta pureza a una empresa farmacéutica situada en Sendai, 
+Japón. La mercancía requiere embalaje homologado, manipulación especializada, control estricto de 
+temperatura y cumplimiento de normas internacionales de seguridad y calidad. El vendedor asume 
+los costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y carga a bordo del 
+buque, y además contrata y paga el transporte marítimo internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 136
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del tratamiento de 
+madera ubicada en Linz, Austria, celebra un contrato de compraventa con una empresa forestal e 
+industrial situada en Pucallpa, Perú. La maquinaria vendida incluye sierras industriales, secadores de 
+madera, líneas de cepillado automático y sistemas de clasificación, todos ellos equipos de gran 
+tamaño, elevado peso y alto valor económico. Debido a estas características, la mercancía requiere 
+embalaje industrial reforzado con bastidores metálicos, protección anticorrosiva, amortiguadores de 
+vibración y una documentación técnica exhaustiva para su posterior instalación y calibración. El 
+vendedor se compromete a fabricar los equipos conforme a las especificaciones contractuales, 
+realizar pruebas de funcionamiento completas y embalar adecuadamente la maquinaria, dejándola 
+disponible dentro de sus propias instalaciones en la fecha pactada contractualmente. Desde la 
+negociación inicial se deja claramente establecido que el vendedor no asumirá ninguna 
+responsabilidad relacionada con la carga de la mercancía, la contratación de transporte interno o 
+internacional, la gestión de trámites aduaneros ni la contratación de seguros, limitando su obligación 
+exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador peruano contrata una empresa logística internacional especializada que envía personal 
+técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el transporte interno 
+desde Linz hasta el puerto de Hamburgo, contrata el transporte marítimo hasta el puerto del Callao y 
+coordina la descarga portuaria y el transporte terrestre hasta la planta industrial en Pucallpa. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluidos permisos forestales, certificados de origen, aranceles, IGV, tasas portuarias y cualquier otro 
+tributo exigido por la legislación peruana. El seguro de transporte internacional es contratado 
+directamente por el comprador. El contrato establece de forma expresa que el riesgo por pérdida o 
+daño se transfiere al comprador desde el momento en que la mercancía queda a su disposición 
+dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-155.
-Una empresa incurre reiteradamente en errores de declaración. ¿Cuál será el efecto más probable 
-en futuras operaciones?
-A) Menor control
-B) Mayor probabilidad de canal rojo
-C) Exoneración de aforo
-D) Eliminación del registro
+CASO 137
+Una empresa fabricante de equipos de procesamiento de alimentos ubicada en Lyon, Francia, vende 
+un conjunto de líneas automáticas de envasado y etiquetado a una empresa alimentaria situada en 
+San Pedro Sula, Honduras. Los equipos requieren embalaje técnico reforzado, protección contra 
+humedad y vibraciones, así como documentación sanitaria y eléctrica para su importación. El 
+vendedor asume el embalaje especializado, el transporte interno desde su planta hasta una 
+plataforma logística situada en Marsella y la preparación de toda la documentación necesaria para el 
+despacho aduanero de exportación conforme a la normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador hondureño en la plataforma logística de Marsella. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Puerto Cortés, la descarga, el transporte interno hasta la planta alimentaria y el despacho de 
+importación, asumiendo aranceles, impuestos y tasas conforme a la legislación hondureña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-156.
-La facilitación del comercio busca equilibrar:
-A) Liberalización total y ausencia de control
-B) Control aduanero y agilidad operativa
-C) Recaudación y eliminación de tributos
-D) Comercio interno y externo
+CASO 138
+Una empresa exportadora de estructuras metálicas pesadas ubicada en Izmit, Turquía, vende un 
+cargamento completo de vigas de acero y componentes estructurales a una empresa de ingeniería 
+civil situada en Vancouver, Canadá. La mercancía será transportada por vía marítima en buques de 
+carga general y requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para 
+soportar una travesía oceánica prolongada. El vendedor asume los costos de embalaje, transporte 
+interno desde la planta hasta el puerto de Ambarlı, así como los gastos de manipulación portuaria, 
+estiba y carga de la mercancía a bordo del buque.
+El comprador canadiense selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo 
+por pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto turco. En destino, el comprador se encarga de la descarga, 
+del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, GST y 
+tasas portuarias conforme a la normativa canadiense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-157.
-Una empresa ecuatoriana ofrece servicios de consultoría a clientes extranjeros mediante 
-plataformas digitales. Este tipo de comercio plantea como principal desafío:
-A) Transporte físico
-B) Regulación, tributación y reconocimiento internacional
-C) Aforo aduanero
-D) Certificado fitosanitario
+CASO 139
+Una empresa productora de arroz ubicada en Chiang Rai, Tailandia, vende un cargamento a granel a 
+una empresa distribuidora de alimentos situada en Manila, Filipinas. El vendedor asume el 
+transporte interno desde los silos hasta el puerto de Laem Chabang, la estiba y la carga del arroz a 
+bordo del buque. Además, el vendedor contrata y paga el transporte marítimo internacional hasta el 
+puerto de Manila.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de cereales. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto tailandés, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación filipina.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 140
+Una empresa exportadora de ingredientes farmacéuticos activos ubicada en Basel-Stadt, Suiza, 
+vende un lote de compuestos de alta pureza a una empresa farmacéutica situada en Matsuyama, 
+Japón. La mercancía requiere embalaje homologado, manipulación especializada, control estricto de 
+temperatura y cumplimiento de normas internacionales de seguridad y calidad. El vendedor asume 
+los costos de embalaje, transporte interno hasta el puerto de Génova, estiba y carga a bordo del 
+buque, y además contrata y paga el transporte marítimo internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 141
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del papel ubicada en 
+Kuopio, Finlandia, celebra un contrato de compraventa con una empresa editorial y de empaques 
+situada en Guayaquil, Ecuador. La maquinaria vendida incluye bobinadoras, cortadoras industriales, 
+sistemas de secado y equipos de control de calidad, todos ellos de gran tamaño, elevado peso y alto 
+valor económico. Debido a estas características, la mercancía requiere embalaje industrial reforzado 
+con bastidores metálicos, protección anticorrosiva, amortiguadores de vibración y una 
+documentación técnica exhaustiva para su posterior instalación, calibración y puesta en marcha. El 
+vendedor se compromete a fabricar los equipos conforme a las especificaciones contractuales, 
+realizar pruebas de funcionamiento completas y embalar adecuadamente la maquinaria, dejándola 
+disponible dentro de sus propias instalaciones en la fecha pactada contractualmente. Desde el inicio 
+de la negociación se deja claramente establecido que el vendedor no asumirá ninguna 
+responsabilidad relacionada con la carga de la mercancía, la contratación de transporte interno o 
+internacional, la gestión de trámites aduaneros ni la contratación de seguros, limitando su obligación 
+exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador ecuatoriano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Kuopio hasta el puerto de Helsinki, contrata el transporte marítimo hasta 
+el puerto de Guayaquil y coordina la descarga portuaria y el transporte terrestre hasta la planta 
+industrial. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e 
+importación, incluidos permisos ambientales, certificados de origen, aranceles, IVA, tasas portuarias 
+y cualquier otro tributo exigido por la legislación ecuatoriana. El seguro de transporte internacional 
+es contratado directamente por el comprador. El contrato establece de forma expresa que el riesgo 
+por pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición dentro de las instalaciones del vendedor, incluso antes de cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-158.
-El comercio exterior contribuye al desarrollo sostenible cuando:
-A) Se maximiza el volumen exportado
-B) Se integran prácticas responsables económicas, sociales y ambientales
-C) Se eliminan regulaciones ambientales
-D) Se reduce la trazabilidad
+CASO 142
+Una empresa fabricante de sistemas de refrigeración industrial ubicada en Verona, Italia, vende un 
+conjunto de cámaras frigoríficas y unidades de control térmico a una empresa de logística 
+alimentaria situada en San Salvador, El Salvador. Los equipos requieren embalaje técnico reforzado, 
+protección contra humedad y vibraciones, así como documentación sanitaria y eléctrica para su 
+importación. El vendedor asume el embalaje especializado, el transporte interno desde su planta 
+hasta una plataforma logística situada en Trieste y la preparación de toda la documentación 
+necesaria para el despacho aduanero de exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador salvadoreño en la plataforma logística de Trieste. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Acajutla, la descarga, el transporte interno hasta los centros de refrigeración y el despacho de 
+importación, asumiendo aranceles, IVA y tasas aduaneras conforme a la legislación salvadoreña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-159.
-Una empresa depende de un solo cliente extranjero. Desde una perspectiva estratégica, la principal 
-recomendación es:
-A) Incrementar precios
-B) Diversificar clientes y mercados
-C) Reducir producción
-D) Abandonar exportaciones
+CASO 143
+Una empresa exportadora de acero estructural ubicada en Jamshedpur, India, vende un cargamento 
+completo de vigas y perfiles de acero a una empresa de construcción de infraestructuras situada en 
+Brisbane, Australia. La mercancía será transportada por vía marítima en buques de carga general y 
+requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para soportar una 
+travesía oceánica de larga duración. El vendedor asume los costos de embalaje, transporte interno 
+desde la planta hasta el puerto de Chennai, así como los gastos de manipulación portuaria, estiba y 
+carga de la mercancía a bordo del buque.
+El comprador australiano selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo 
+por pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto indio. En destino, el comprador se encarga de la descarga, 
+del transporte interno hasta la obra, del despacho de importación y del pago de aranceles, GST y 
+tasas portuarias conforme a la normativa australiana.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-160.
-¿Por qué el comercio exterior debe ser gestionado de forma interdisciplinaria?
-A) Porque solo involucra logística
-B) Porque integra economía, derecho, finanzas y gestión empresarial
-C) Porque elimina la planificación
-D) Porque depende únicamente del Estado
+CASO 144
+Una empresa productora de maíz amarillo ubicada en Iowa, Estados Unidos, vende un cargamento a 
+granel a una empresa procesadora de alimentos situada en Santo Domingo, República Dominicana. 
+El vendedor asume el transporte interno desde los silos hasta el puerto de Nueva Orleans, la estiba y 
+la carga del grano a bordo del buque. Además, el vendedor contrata y paga el transporte marítimo 
+internacional hasta el puerto de Santo Domingo.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de materias primas agrícolas. 
+Se acuerda expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la 
+mercancía queda cargada a bordo del buque en el puerto estadounidense, aun cuando el vendedor 
+continúe asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, 
+del transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación dominicana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 145
+Una empresa exportadora de principios activos para la industria farmacéutica ubicada en Ulm, 
+Alemania, vende un lote de compuestos de alta pureza a una empresa farmacéutica situada en 
+Kobe, Japón. La mercancía requiere embalaje homologado, manipulación especializada, control 
+estricto de temperatura y cumplimiento de normas internacionales de seguridad y calidad. El 
+vendedor asume los costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y 
+carga a bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el 
+puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 146
+Una empresa europea especializada en la fabricación de maquinaria para la industria del caucho 
+ubicada en Eindhoven, Países Bajos, celebra un contrato de compraventa con una empresa 
+productora de neumáticos situada en Santa Ana, El Salvador. La maquinaria vendida incluye prensas 
+hidráulicas, mezcladores industriales, líneas de vulcanización y sistemas automatizados de control, 
+todos ellos equipos de gran tamaño, elevado peso y alto valor económico. Debido a estas 
+características, la mercancía requiere embalaje industrial reforzado con bastidores metálicos, 
+protección anticorrosiva, amortiguadores de vibración y una documentación técnica exhaustiva para 
+su posterior instalación y puesta en marcha. El vendedor se compromete a fabricar los equipos 
+conforme a las especificaciones contractuales, realizar pruebas de funcionamiento completas y 
+embalar adecuadamente la maquinaria, dejándola disponible dentro de sus propias instalaciones en 
+la fecha pactada contractualmente. Desde el inicio de la negociación se deja claramente establecido 
+que el vendedor no asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la 
+contratación de transporte interno o internacional, la gestión de trámites aduaneros ni la 
+contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a disposición 
+del comprador en origen.
+El comprador salvadoreño contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Eindhoven hasta el puerto de Róterdam, contrata el transporte marítimo 
+hasta el puerto de Acajutla y coordina la descarga portuaria y el transporte terrestre hasta la planta 
+industrial en Santa Ana. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de 
+exportación e importación, incluidos permisos industriales, certificados de origen, aranceles, IVA, 
+tasas portuarias y cualquier otro tributo exigido por la legislación salvadoreña. El seguro de 
+transporte internacional es contratado directamente por el comprador. El contrato establece de 
+forma expresa que el riesgo por pérdida o daño se transfiere al comprador desde el momento en 
+que la mercancía queda a su disposición dentro de las instalaciones del vendedor, incluso antes de 
+cualquier operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-161.
-Una empresa importa repuestos industriales declarando un valor muy por debajo del precio 
-internacional, justificándolo como “descuento especial del proveedor”. Durante el aforo, la Aduana 
-detecta precios de referencia superiores. Desde el punto de vista legal, la Aduana debe 
-principalmente:
-A) Aceptar el valor declarado si existe factura
-B) Aplicar métodos secundarios de valoración y reliquidar tributos
-C) Liberar la mercancía sin observaciones
-D) Proceder automáticamente al abandono tácito
+CASO 147
+Una empresa fabricante de sistemas de automatización para plantas embotelladoras ubicada en 
+Bolonia, Italia, vende un conjunto de robots industriales, sensores ópticos y líneas de control a una 
+empresa productora de bebidas situada en Tegucigalpa, Honduras. Los equipos requieren embalaje 
+técnico reforzado, protección contra humedad y vibraciones, así como documentación de 
+conformidad sanitaria y eléctrica para su importación. El vendedor asume el embalaje especializado, 
+el transporte interno desde su planta hasta una plataforma logística situada en Venecia y la 
+preparación de toda la documentación necesaria para el despacho aduanero de exportación 
+conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador hondureño en la plataforma logística de Venecia. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto de 
+Puerto Cortés, la descarga, el transporte interno hasta la planta embotelladora y el despacho de 
+importación, asumiendo aranceles, IVA y tasas aduaneras conforme a la legislación hondureña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-162.
-¿Por qué la normativa aduanera establece métodos secundarios de valoración cuando el valor de 
-transacción no es aceptable?
-A) Para incrementar aranceles
-B) Para garantizar una base tributaria justa y evitar subvaloraciones
-C) Para sancionar al importador
-D) Para sustituir la clasificación arancelaria
+CASO 148
+Una empresa exportadora de acero estructural ubicada en Dalian, China, vende un cargamento 
+completo de vigas y perfiles de acero a una empresa de ingeniería civil situada en San Diego, Estados 
+Unidos. La mercancía será transportada por vía marítima en buques de carga general y requiere 
+embalaje reforzado, flejado industrial y tratamiento anticorrosivo para soportar una travesía 
+oceánica prolongada. El vendedor asume los costos de embalaje, transporte interno desde la planta 
+hasta el puerto de Dalian, así como los gastos de manipulación portuaria, estiba y carga de la 
+mercancía a bordo del buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas. El contrato establece 
+que el riesgo por pérdida o daño se transfiere al comprador en el momento exacto en que la 
+mercancía queda cargada a bordo del buque en el puerto chino. En destino, el comprador se encarga 
+de la descarga, del transporte interno hasta la obra, del despacho de importación y del pago de 
+aranceles, impuestos federales y tasas portuarias conforme a la normativa estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-163.
-Una empresa planifica importar insumos que luego serán utilizados en productos de exportación. 
-Desde una perspectiva de planeación tributaria lícita, la mejor decisión sería:
-A) Omitir tributos en la importación
-B) Acogerse a regímenes e incentivos como drawback o devolución de IVA
-C) Declarar menor cantidad
-D) Evitar el registro en ECUAPASS
+CASO 149
+Una empresa productora de sorgo ubicada en Kaduna, Nigeria, vende un cargamento a granel a una 
+empresa procesadora de alimentos situada en Cotonú, Benín. El vendedor asume el transporte 
+interno desde los silos hasta el puerto de Lagos, la estiba y la carga del grano a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Cotonú.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de granos. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto nigeriano, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación beninesa.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 150
+Una empresa exportadora de ingredientes activos para la industria farmacéutica ubicada en 
+Leverkusen, Alemania, vende un lote de compuestos de alta pureza a una empresa farmacéutica 
+situada en Takamatsu, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control estricto de temperatura y cumplimiento de normas internacionales de 
+seguridad y calidad. El vendedor asume los costos de embalaje, transporte interno hasta el puerto 
+de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el transporte marítimo 
+internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 151
+Una empresa europea especializada en la fabricación de maquinaria para la industria del vidrio 
+ubicada en Leverkusen, Alemania, celebra un contrato de compraventa con una empresa de 
+procesamiento de vidrio arquitectónico situada en Querétaro, México. La maquinaria vendida 
+incluye hornos de templado, mesas de corte CNC, sistemas de lavado automático y líneas de 
+clasificación óptica, todos ellos equipos de gran tamaño, elevado peso y alto valor económico. 
+Debido a estas características, la mercancía requiere embalaje industrial reforzado con bastidores 
+metálicos, protección anticorrosiva, amortiguadores de vibración y una documentación técnica 
+exhaustiva para su posterior instalación, calibración y puesta en marcha. El vendedor se 
+compromete a fabricar los equipos conforme a las especificaciones contractuales, realizar pruebas 
+de funcionamiento completas y embalar adecuadamente la maquinaria, dejándola disponible dentro 
+de sus propias instalaciones en la fecha pactada contractualmente. Desde la negociación inicial se 
+deja claramente establecido que el vendedor no asumirá ninguna responsabilidad relacionada con la 
+carga de la mercancía, la contratación de transporte interno o internacional, la gestión de trámites 
+aduaneros ni la contratación de seguros, limitando su obligación exclusivamente a poner la 
+mercancía a disposición del comprador en origen.
+El comprador mexicano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para efectuar la carga de los equipos, organiza el 
+transporte interno desde Leverkusen hasta el puerto de Hamburgo, contrata el transporte marítimo 
+hasta el puerto de Veracruz y coordina la descarga portuaria y el transporte terrestre hasta la planta 
+industrial en Querétaro. Asimismo, el comprador gestiona y paga todos los trámites aduaneros de 
+exportación e importación, incluidos permisos industriales, certificados de origen, aranceles, IVA, 
+tasas portuarias y cualquier otro tributo exigido por la legislación mexicana. El seguro de transporte 
+internacional es contratado directamente por el comprador. El contrato establece de forma expresa 
+que el riesgo por pérdida o daño se transfiere al comprador desde el momento en que la mercancía 
+queda a su disposición dentro de las instalaciones del vendedor, incluso antes de cualquier 
+operación de carga.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-164.
-Los regímenes aduaneros especiales buscan principalmente:
-A) Aumentar la recaudación
-B) Facilitar operaciones productivas y comerciales específicas
-C) Eliminar controles
-D) Sustituir el régimen general
+CASO 152
+Una empresa fabricante de equipos de tratamiento de aguas industriales ubicada en Brescia, Italia, 
+vende un conjunto de reactores, filtros y sistemas de control a una empresa municipal de 
+saneamiento situada en Ica, Perú. Los equipos requieren embalaje técnico reforzado, protección 
+contra humedad y vibraciones, así como documentación ambiental y de conformidad para su 
+importación. El vendedor asume el embalaje especializado, el transporte interno desde su planta 
+hasta una plataforma logística situada en Génova y la preparación de toda la documentación 
+necesaria para el despacho aduanero de exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador peruano en la plataforma logística de Génova. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, y no asume ninguna obligación posterior a la 
+entrega al transportista. El comprador organiza y paga el transporte marítimo hasta el puerto del 
+Callao, la descarga, el transporte interno hasta la planta de tratamiento y el despacho de 
+importación, asumiendo aranceles, IGV y tasas aduaneras conforme a la legislación peruana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-165.
-Una empresa importa moldes para fabricar productos destinados exclusivamente a exportación. Al 
-finalizar el proceso productivo, decide vender los moldes en el mercado interno sin cambiar el 
-régimen. Esta acción implica:
-A) Operación regular sin consecuencias
-B) Infracción aduanera por incumplimiento del régimen
-C) Beneficio tributario adicional
-D) Exoneración automática
+CASO 153
+Una empresa exportadora de acero estructural ubicada en Hohhot, China, vende un cargamento 
+completo de vigas y perfiles de gran sección a una empresa de construcción de infraestructuras 
+situada en Seattle, Estados Unidos. La mercancía será transportada por vía marítima en buques de 
+carga general y requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para 
+soportar una travesía oceánica de larga duración. El vendedor asume los costos de embalaje, 
+transporte interno desde la planta hasta el puerto de Tianjin, así como los gastos de manipulación 
+portuaria, estiba y carga de la mercancía a bordo del buque.
+El comprador estadounidense selecciona la naviera, contrata y paga el transporte marítimo 
+internacional y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. 
+El contrato establece que el riesgo por pérdida o daño se transfiere al comprador en el momento 
+exacto en que la mercancía queda cargada a bordo del buque en el puerto chino. En destino, el 
+comprador se encarga de la descarga, del transporte interno hasta la obra, del despacho de 
+importación y del pago de aranceles, impuestos federales y tasas portuarias conforme a la normativa 
+estadounidense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-166.
-El control posterior en aduanas tiene como finalidad principal:
-A) Reemplazar el aforo
-B) Verificar cumplimiento luego del despacho
-C) Eliminar sanciones
-D) Sustituir el análisis de riesgo
+CASO 154
+Una empresa productora de cebada ubicada en Manitoba, Canadá, vende un cargamento a granel a 
+una empresa cervecera situada en Glasgow, Reino Unido. El vendedor asume el transporte interno 
+desde los silos hasta el puerto de Vancouver, la estiba y la carga de la mercancía a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de 
+Glasgow.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de cereales. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto canadiense, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos y tasas 
+portuarias conforme a la legislación británica.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 155
+Una empresa exportadora de ingredientes activos farmacéuticos ubicada en Wuppertal, Alemania, 
+vende un lote de compuestos de alta pureza a una empresa farmacéutica situada en Nagasaki, 
+Japón. La mercancía requiere embalaje homologado, manipulación especializada, control estricto de 
+temperatura y cumplimiento de normas internacionales de seguridad y calidad. El vendedor asume 
+los costos de embalaje, transporte interno hasta el puerto de Hamburgo, estiba y carga a bordo del 
+buque, y además contrata y paga el transporte marítimo internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 156
+Una empresa europea dedicada a la fabricación de maquinaria para la industria del cemento ubicada 
+en Duisburgo, Alemania, celebra un contrato de compraventa con una empresa constructora e 
+industrial situada en Antofagasta, Chile. La maquinaria vendida incluye molinos verticales, sistemas 
+de transporte por bandas, silos de almacenamiento y equipos de control automatizado, todos ellos 
+de gran tamaño, peso extremadamente elevado y alto valor económico. Debido a estas 
+características, la mercancía requiere embalaje industrial reforzado con estructuras metálicas 
+especiales, protección anticorrosiva, amarres certificados y una planificación logística detallada para 
+su manipulación. El vendedor se compromete a fabricar los equipos conforme a las especificaciones 
+técnicas pactadas, realizar pruebas de funcionamiento en planta y embalar adecuadamente la 
+maquinaria, dejándola disponible dentro de sus propias instalaciones en la fecha contractualmente 
+acordada. Desde el inicio de la negociación se deja expresamente establecido que el vendedor no 
+asumirá ninguna responsabilidad relacionada con la carga, la contratación de transporte interno o 
+internacional, los trámites aduaneros ni la contratación de seguros, limitando su obligación 
+exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador chileno contrata una empresa logística especializada en cargas sobredimensionadas 
+que envía personal técnico y grúas a la planta del vendedor para realizar la carga, organiza el 
+transporte interno hasta el puerto de Hamburgo, contrata el transporte marítimo hasta el puerto de 
+Antofagasta y coordina la descarga portuaria y el transporte terrestre hasta la planta cementera. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+permisos especiales, aranceles, IVA, tasas portuarias y cualquier otro tributo exigido por la 
+legislación chilena. El seguro de transporte internacional es contratado directamente por el 
+comprador. El contrato establece que el riesgo por pérdida o daño se transfiere al comprador desde 
+el momento en que la mercancía queda a su disposición dentro de las instalaciones del vendedor.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-167.
-Durante una auditoría posterior, se detecta que una empresa clasificó incorrectamente mercancías 
-durante varios años. La Aduana puede:
-A) Ignorar los períodos anteriores
-B) Exigir el pago de tributos omitidos más sanciones
-C) Cancelar tratados comerciales
-D) Proceder a abandono tácito retroactivo
+CASO 157
+Una empresa fabricante de equipos de control y automatización industrial ubicada en Linz, Austria, 
+vende un conjunto de paneles eléctricos, sensores y sistemas de supervisión a una empresa minera 
+situada en Cajamarca, Perú. Los equipos requieren embalaje técnico reforzado, protección contra 
+humedad y vibraciones, así como certificaciones técnicas para su importación. El vendedor asume el 
+embalaje especializado, el transporte interno desde su planta hasta una plataforma logística ubicada 
+en Salzburgo y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación conforme a la normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador peruano en la plataforma logística de Salzburgo. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte, ni asume ninguna obligación posterior a la 
+entrega. El comprador organiza y paga el transporte marítimo hasta el puerto del Callao, la descarga, 
+el transporte terrestre hasta Cajamarca y el despacho de importación, asumiendo aranceles, IGV, 
+tasas portuarias y costos asociados conforme a la legislación peruana.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-168.
-¿Por qué la facilitación del comercio no implica ausencia de control?
-A) Porque elimina riesgos
-B) Porque debe equilibrar agilidad con fiscalización efectiva
-C) Porque sustituye la normativa
-D) Porque elimina el análisis de riesgo
+CASO 158
+Una empresa exportadora de productos siderúrgicos ubicada en Rizhao, China, vende un 
+cargamento completo de planchas y vigas de acero a una empresa de infraestructura portuaria 
+situada en Rotterdam, Países Bajos. La mercancía será transportada por vía marítima en buques de 
+carga general y requiere embalaje reforzado, flejado industrial, tratamiento anticorrosivo y estiba 
+especializada. El vendedor asume los costos de embalaje, transporte interno desde la planta hasta el 
+puerto de Rizhao, así como los gastos de manipulación portuaria, estiba y carga de la mercancía a 
+bordo del buque.
+El comprador neerlandés selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro de transporte conforme a sus políticas corporativas de gestión de riesgos. El contrato 
+establece que el riesgo por pérdida o daño se transfiere al comprador en el momento exacto en que 
+la mercancía queda cargada a bordo del buque en el puerto chino. En destino, el comprador se 
+encarga de la descarga, del transporte interno hasta la obra portuaria, del despacho de importación 
+y del pago de aranceles, IVA y tasas portuarias conforme a la normativa comunitaria.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-169.
-Una empresa ecuatoriana exporta flores frescas. Retrasos en transporte afectan la calidad del 
-producto al llegar al destino. Desde una perspectiva estratégica, la prioridad debe ser:
-A) Reducir costos eliminando seguros
-B) Optimizar la cadena logística y medios de transporte
-C) Cambiar de producto
-D) Eliminar intermediarios aduaneros
+CASO 159
+Una empresa productora de maíz amarillo ubicada en Córdoba, Argentina, vende un cargamento a 
+granel a una empresa productora de alimentos balanceados situada en Guayaquil, Ecuador. El 
+vendedor asume el transporte interno desde los silos hasta el puerto de Rosario, la estiba y la carga 
+del maíz a bordo del buque. Además, el vendedor contrata y paga el transporte marítimo 
+internacional hasta el puerto de Guayaquil.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de granos. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto argentino, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, IVA y tasas portuarias 
+conforme a la legislación ecuatoriana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 160
+Una empresa exportadora de ingredientes activos para la industria farmacéutica ubicada en 
+Darmstadt, Alemania, vende un lote de compuestos de alta pureza a una empresa farmacéutica 
+situada en Shimonoseki, Japón. La mercancía requiere embalaje homologado, manipulación 
+especializada, control estricto de temperatura, monitoreo continuo y cumplimiento de normas 
+internacionales de seguridad y calidad. El vendedor asume los costos de embalaje, transporte 
+interno hasta el puerto de Hamburgo, estiba y carga a bordo del buque, y además contrata y paga el 
+transporte marítimo internacional hasta el puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 161
+Una empresa europea especializada en la fabricación de maquinaria para la industria del azúcar 
+ubicada en Magdeburgo, Alemania, celebra un contrato de compraventa con una empresa 
+agroindustrial situada en Santa Cruz de la Sierra, Bolivia. La maquinaria vendida incluye difusores, 
+evaporadores, centrifugadoras y sistemas automatizados de cristalización, todos ellos equipos de 
+gran tamaño, peso considerable y alto valor económico. Debido a estas características, la mercancía 
+requiere embalaje industrial reforzado, estructuras metálicas de soporte, protección anticorrosiva y 
+una planificación logística detallada para su manipulación. El vendedor fabrica los equipos conforme 
+a las especificaciones técnicas acordadas, realiza pruebas de funcionamiento en planta y embala 
+adecuadamente la maquinaria, dejándola disponible dentro de sus propias instalaciones en la fecha 
+pactada. Desde el inicio de la negociación se deja claramente establecido que el vendedor no 
+asumirá ninguna responsabilidad relacionada con la carga de la mercancía, la contratación de 
+transporte interno o internacional, los trámites aduaneros ni la contratación de seguros, limitando 
+su obligación exclusivamente a poner la mercancía a disposición del comprador en origen.
+El comprador boliviano contrata una empresa logística especializada en cargas industriales que envía 
+personal y equipos de izaje a la planta del vendedor para realizar la carga, organiza el transporte 
+interno hasta el puerto de Hamburgo, contrata el transporte marítimo hasta el puerto de Arica y 
+coordina el transporte terrestre hasta Santa Cruz. Asimismo, el comprador gestiona y paga todos los 
+trámites aduaneros de exportación e importación, permisos especiales, aranceles, IVA, tasas 
+portuarias y cualquier otro tributo exigido por la legislación boliviana. El seguro de transporte 
+internacional es contratado directamente por el comprador. El contrato establece que el riesgo por 
+pérdida o daño se transfiere al comprador desde el momento en que la mercancía queda a su 
+disposición en las instalaciones del vendedor.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-170.
-¿Por qué el comercio internacional de servicios presenta desafíos distintos al comercio de bienes?
-A) Porque no genera divisas
-B) Porque implica regulación, tributación y reconocimiento transfronterizo
-C) Porque no requiere contratos
-D) Porque no está sujeto a normas
+CASO 162
+Una empresa fabricante de equipos de climatización industrial ubicada en Brno, República Checa, 
+vende un conjunto de sistemas HVAC de gran capacidad a una empresa hospitalaria situada en San 
+Juan, Puerto Rico. Los equipos requieren embalaje técnico reforzado, protección contra humedad, 
+vibraciones y certificaciones eléctricas y sanitarias para su importación. El vendedor asume el 
+embalaje especializado, el transporte interno desde su planta hasta una plataforma logística ubicada 
+en Viena y la preparación de toda la documentación necesaria para el despacho aduanero de 
+exportación conforme a la normativa europea.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador puertorriqueño en la plataforma logística de Viena. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro de transporte. El comprador organiza y paga el transporte 
+marítimo hasta el puerto de San Juan, la descarga, el transporte interno hasta el hospital y el 
+despacho de importación, asumiendo aranceles, impuestos locales y tasas conforme a la normativa 
+aplicable.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-171.
-Una empresa multinacional decide instalar una planta en Ecuador para exportar a la región. El factor 
-más determinante para esta decisión será:
-A) El clima
-B) Acceso preferencial a mercados y estabilidad normativa
-C) La cercanía al mercado interno
-D) El nivel de consumo local
+CASO 163
+Una empresa exportadora de estructuras metálicas pesadas ubicada en Visakhapatnam, India, vende 
+un cargamento completo de módulos estructurales a una empresa de construcción de plataformas 
+offshore situada en Stavanger, Noruega. La mercancía será transportada por vía marítima en buques 
+multipropósito y requiere embalaje reforzado, flejado industrial, tratamiento anticorrosivo marino y 
+estiba especializada. El vendedor asume los costos de embalaje, transporte interno desde la planta 
+hasta el puerto de Visakhapatnam, así como los gastos de manipulación portuaria, estiba y carga de 
+la mercancía a bordo del buque.
+El comprador noruego selecciona la naviera, contrata y paga el transporte marítimo internacional y 
+el seguro de transporte conforme a sus políticas corporativas. El contrato establece que el riesgo por 
+pérdida o daño se transfiere al comprador en el momento exacto en que la mercancía queda 
+cargada a bordo del buque en el puerto indio. En destino, el comprador se encarga de la descarga, 
+del transporte interno hasta el astillero, del despacho de importación y del pago de aranceles, IVA y 
+tasas portuarias conforme a la normativa noruega.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-172.
-Los acuerdos comerciales modernos incluyen capítulos sobre servicios, inversiones y propiedad 
-intelectual porque:
-A) Buscan limitar el comercio
-B) Reflejan la complejidad actual del comercio internacional
-C) Sustituyen la OMC
-D) Eliminan regulaciones nacionales
+CASO 164
+Una empresa productora de trigo ubicada en Kansas, Estados Unidos, vende un cargamento a granel 
+a una empresa molinera situada en Callao, Perú. El vendedor asume el transporte interno desde los 
+silos hasta el puerto de Galveston, la estiba y la carga del trigo a bordo del buque. Además, el
+vendedor contrata y paga el transporte marítimo internacional hasta el puerto del Callao.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de granos. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto estadounidense, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno hasta el molino, del despacho de importación y del pago de aranceles, IGV y tasas 
+portuarias conforme a la legislación peruana.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
+
+CASO 165
+Una empresa exportadora de principios activos farmacéuticos ubicada en Reinach, Suiza, vende un 
+lote de compuestos de alta pureza a una empresa farmacéutica situada en Yokohama, Japón. La 
+mercancía requiere embalaje homologado, manipulación especializada, control estricto de 
+temperatura, monitoreo continuo y cumplimiento de normas internacionales de seguridad y calidad. 
+El vendedor asume los costos de embalaje, transporte interno hasta el puerto de Génova, estiba y 
+carga a bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el 
+puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
+
+CASO 166
+Una empresa europea dedicada a la fabricación de maquinaria para la industria textil ubicada en 
+Chemnitz, Alemania, celebra un contrato de compraventa con una empresa confeccionista situada 
+en Medellín, Colombia. La maquinaria vendida incluye telares industriales, máquinas de teñido 
+continuo, secadoras y sistemas automatizados de control de calidad, todos ellos equipos de gran 
+tamaño, elevado peso y alto valor económico. Debido a estas características, la mercancía requiere 
+embalaje industrial reforzado con estructuras metálicas, protección anticorrosiva, amortiguadores 
+de vibración y documentación técnica detallada para su posterior instalación y calibración. El 
+vendedor se compromete a fabricar los equipos conforme a las especificaciones contractuales, 
+realizar pruebas de funcionamiento completas y embalar adecuadamente la maquinaria, dejándola 
+disponible dentro de sus propias instalaciones en la fecha pactada. Desde la negociación inicial se 
+deja claramente establecido que el vendedor no asumirá ninguna responsabilidad relacionada con la 
+carga, la contratación de transporte interno o internacional, los trámites aduaneros ni la 
+contratación de seguros, limitando su obligación exclusivamente a poner la mercancía a disposición 
+del comprador en origen.
+El comprador colombiano contrata una empresa logística internacional especializada que envía 
+personal técnico a la planta del vendedor para realizar la carga, organiza el transporte interno desde 
+Chemnitz hasta el puerto de Hamburgo, contrata el transporte marítimo hasta el puerto de 
+Cartagena y coordina la descarga portuaria y el transporte terrestre hasta la planta en Medellín. 
+Asimismo, el comprador gestiona y paga todos los trámites aduaneros de exportación e importación, 
+incluidos certificados textiles, licencias de importación, aranceles, IVA y tasas portuarias conforme a 
+la legislación colombiana. El seguro de transporte internacional es contratado directamente por el 
+comprador. El contrato establece expresamente que el riesgo por pérdida o daño se transfiere al 
+comprador desde el momento en que la mercancía queda a su disposición en las instalaciones del 
+vendedor.
+Opciones:
+A. FCA
+B. EXW
+C. FOB
+D. CFR
 Respuesta correcta: B
 
-173.
-El Estado implementa programas de capacitación a exportadores y apoyo técnico. Desde la política 
-económica, esta medida busca:
-A) Sustituir a las empresas
-B) Fortalecer capacidades productivas y competitividad
-C) Incrementar tributos
-D) Reducir exportaciones
+CASO 167
+Una empresa fabricante de equipos de procesamiento de alimentos ubicada en Parma, Italia, vende 
+un conjunto de líneas automatizadas de producción de pasta a una empresa alimentaria situada en 
+San Miguel, El Salvador. Los equipos requieren embalaje técnico reforzado, protección contra 
+humedad y vibraciones, así como certificaciones sanitarias para su importación. El vendedor asume 
+el embalaje especializado, el transporte interno desde su planta hasta una plataforma logística 
+ubicada en Génova y la preparación de toda la documentación necesaria para el despacho aduanero 
+de exportación conforme a la normativa comunitaria.
+El contrato establece que la mercancía será entregada físicamente al transportista designado por el 
+comprador salvadoreño en la plataforma logística de Génova. En ese momento exacto, la 
+responsabilidad por pérdida o daño se transfiere al comprador. El vendedor no contrata ni paga el 
+transporte internacional ni el seguro. El comprador organiza y paga el transporte marítimo hasta el 
+puerto de Acajutla, la descarga, el transporte interno hasta la planta de producción y el despacho de 
+importación, asumiendo aranceles, IVA y tasas conforme a la legislación salvadoreña.
+Opciones:
+A. EXW
+B. FCA
+C. CPT
+D. DAP
 Respuesta correcta: B
 
-174.
-¿Por qué las exportaciones generan empleo formal de mejor calidad?
-A) Porque eliminan informalidad automáticamente
-B) Porque exigen estándares, trazabilidad y cumplimiento normativo
-C) Porque reducen salarios
-D) Porque eliminan competencia
+CASO 168
+Una empresa exportadora de acero estructural ubicada en Tangshan, China, vende un cargamento 
+completo de perfiles y vigas de acero a una empresa de infraestructura ferroviaria situada en 
+Vancouver, Canadá. La mercancía será transportada por vía marítima en buques de carga general y 
+requiere embalaje reforzado, flejado industrial y tratamiento anticorrosivo para resistir una travesía 
+prolongada. El vendedor asume los costos de embalaje, transporte interno desde la planta hasta el 
+puerto de Tianjin, así como los gastos de manipulación portuaria, estiba y carga a bordo del buque.
+El comprador canadiense selecciona la naviera, contrata y paga el transporte marítimo internacional 
+y el seguro conforme a sus políticas corporativas. El contrato establece que el riesgo por pérdida o 
+daño se transfiere al comprador en el momento exacto en que la mercancía queda cargada a bordo 
+del buque en el puerto chino. En destino, el comprador se encarga de la descarga, del transporte 
+interno hasta la obra ferroviaria, del despacho de importación y del pago de aranceles, GST y tasas 
+portuarias conforme a la normativa canadiense.
+Opciones:
+A. FCA
+B. FOB
+C. CFR
+D. CIF
 Respuesta correcta: B
 
-175.
-Una empresa exportadora enfrenta exigencias ambientales más estrictas en mercados desarrollados. 
-Para mantener acceso al mercado, la estrategia correcta es:
-A) Ignorar las normas
-B) Adaptar procesos productivos a estándares sostenibles
-C) Abandonar el mercado
-D) Solicitar exoneraciones
-Respuesta correcta: B
+CASO 169
+Una empresa productora de cebada ubicada en Moravia, República Checa, vende un cargamento a 
+granel a una empresa cervecera situada en Cork, Irlanda. El vendedor asume el transporte interno 
+desde los silos hasta el puerto de Hamburgo, la estiba y la carga de la mercancía a bordo del buque. 
+Además, el vendedor contrata y paga el transporte marítimo internacional hasta el puerto de Cork.
+El contrato establece que el seguro de transporte no será contratado por el vendedor, ya que el 
+comprador dispone de una póliza abierta que cubre sus importaciones de cereales. Se acuerda 
+expresamente que el riesgo por pérdida o daño se transfiere en el momento en que la mercancía 
+queda cargada a bordo del buque en el puerto de salida, aun cuando el vendedor continúe 
+asumiendo el costo del flete marítimo. En destino, el comprador se encarga de la descarga, del 
+transporte interno, del despacho de importación y del pago de aranceles, impuestos especiales y 
+tasas portuarias conforme a la legislación irlandesa.
+Opciones:
+A. FOB
+B. CIF
+C. CFR
+D. CPT
+Respuesta correcta: C
 
-176.
-El riesgo país influye en el comercio exterior porque:
-A) No afecta a exportaciones
-B) Incide en costos financieros e inversión extranjera
-C) Elimina tratados comerciales
-D) Sustituye la política fiscal
-Respuesta correcta: B
-
-177.
-Una empresa exportadora crece rápidamente pero sin planificación financiera. El mayor riesgo es:
-A) Mayor participación de mercado
-B) Problemas de liquidez y sostenibilidad
-C) Eliminación de impuestos
-D) Incremento automático de utilidades
-Respuesta correcta: B
-
-178.
-La integración económica regional favorece a las empresas porque:
-A) Elimina competencia
-B) Amplía mercados y reduce barreras comerciales
-C) Sustituir la política comercial
-D) Reduce la producción
-Respuesta correcta: B
-
-179.
-Una empresa decide falsear información para obtener beneficios arancelarios. Además de sanciones 
-legales, el mayor riesgo a largo plazo es:
-A) Incremento de utilidades
-B) Pérdida de reputación y acceso a mercados
-C) Eliminación de competencia
-D) Exoneración futura
-Respuesta correcta: B
-
-180.
-Desde una visión sistémica, el éxito del comercio exterior depende de:
-A) Empresas aisladas
-B) Coordinación entre Estado, empresas e instituciones
-C) Eliminación de normas
-D) Exclusivamente del comercio interno
-Respuesta correcta: B
-
-181.
-Una empresa ecuatoriana decide iniciar operaciones de exportación sin contar con un plan de 
-comercio exterior. Posteriormente enfrenta problemas de costos, incumplimiento normativo y 
-pérdida de clientes. Desde una perspectiva integral, el error principal fue:
-A) No contar con tratados comerciales
-B) No gestionar el comercio exterior como un proceso estratégico
-C) Elegir mal el medio de transporte
-D) No solicitar incentivos estatales
-Respuesta correcta: B
-
-182.
-¿Por qué la planeación estratégica en comercio exterior debe alinearse con la estrategia general de 
-la empresa?
-A) Porque sustituye la estrategia corporativa
-B) Porque el comercio exterior impacta finanzas, operaciones y posicionamiento
-C) Porque elimina riesgos
-D) Porque depende únicamente del Estado
-Respuesta correcta: B
-
-183.
-Un país destino endurece repentinamente sus requisitos técnicos para productos importados. ¿Cuál 
-debe ser la respuesta más adecuada de la empresa exportadora?
-A) Continuar exportando sin cambios
-B) Adaptar procesos y productos a la nueva normativa
-C) Abandonar inmediatamente el mercado
-D) Solicitar eliminación del tratado
-Respuesta correcta: B
-
-184.
-La identificación temprana de riesgos en comercio exterior permite principalmente:
-A) Eliminar totalmente la incertidumbre
-B) Anticipar escenarios y tomar decisiones preventivas
-C) Sustituir seguros
-D) Eliminar controles aduaneros
-Respuesta correcta: B
-
-185.
-Una empresa ofrece pagos irregulares para acelerar despachos aduaneros. Además de las sanciones 
-legales, el impacto más grave a largo plazo será:
-A) Ahorro de costos
-B) Daño reputacional y pérdida de confianza internacional
-C) Eliminación de trámites
-D) Mayor competitividad
-Respuesta correcta: B
-
-186.
-El concepto de comercio justo en el ámbito internacional implica:
-A) Maximizar ganancias sin restricciones
-B) Condiciones comerciales equitativas, sostenibles y éticas
-C) Eliminación de intermediarios
-D) Sustitución de tratados
-Respuesta correcta: B
-
-187.
-Una empresa introduce mejoras tecnológicas y certificaciones internacionales en sus productos de 
-exportación. El beneficio estratégico principal será:
-A) Incremento de costos
-B) Acceso a mercados exigentes y mayor valor agregado
-C) Eliminación de impuestos
-D) Reducción de producción
-Respuesta correcta: B
-
-188.
-¿Por qué las certificaciones internacionales son cada vez más relevantes en el comercio exterior?
-A) Porque sustituyen los tratados comerciales
-B) Porque facilitan el acceso a mercados y generan confianza
-C) Porque eliminan aranceles
-D) Porque reducen el control aduanero
-Respuesta correcta: B
-
-189.
-Una empresa implementa sistemas digitales para trazabilidad y gestión documental en 
-exportaciones. El impacto más relevante será:
-A) Incremento de trámites
-B) Mayor eficiencia, control y transparencia
-C) Eliminación de regulaciones
-D) Reducción del comercio
-Respuesta correcta: B
-
-190.
-El crecimiento del comercio electrónico transfronterizo exige principalmente:
-A) Eliminación de normas
-B) Adaptación normativa, logística y tributaria
-C) Sustitución del comercio tradicional
-D) Reducción de controles
-Respuesta correcta: B
-
-191.
-Ante una crisis económica global que reduce la demanda externa, la mejor estrategia para una 
-empresa exportadora sería:
-A) Mantener dependencia de un solo mercado
-B) Diversificar mercados y ajustar su estrategia comercial
-C) Reducir calidad del producto
-D) Abandonar exportaciones
-Respuesta correcta: B
-
-192.
-La resiliencia en comercio exterior se manifiesta cuando una empresa:
-A) Depende de incentivos
-B) Se adapta rápidamente a cambios del entorno internacional
-C) Elimina planificación
-D) Reduce su presencia internacional
-Respuesta correcta: B
-
-193.
-Una empresa exportadora invierte en buenas prácticas laborales y ambientales. Desde el punto de 
-vista del comercio internacional, esta decisión:
-A) Reduce competitividad
-B) Mejora acceso a mercados y sostenibilidad
-C) Elimina costos
-D) Sustituir políticas públicas
-Respuesta correcta: B
-
-194.
-¿Por qué los choques externos afectan directamente al comercio exterior de países abiertos?
-A) Porque no tienen políticas internas
-B) Porque están integrados a los mercados internacionales
-C) Porque eliminan exportaciones
-D) Porque sustituyen la producción local
-Respuesta correcta: B
-
-195.
-Un país busca posicionarse como exportador confiable. La política más coherente sería:
-A) Reducir controles aduaneros
-B) Fortalecer institucionalidad, calidad y cumplimiento normativo
-C) Eliminar requisitos sanitarios
-D) Limitar exportaciones
-Respuesta correcta: B
-
-196.
-La marca país en comercio exterior cumple principalmente la función de:
-A) Incrementar aranceles
-B) Posicionar productos y generar confianza internacional
-C) Sustituir tratados
-D) Eliminar competencia
-Respuesta correcta: B
-
-197.
-Una empresa exportadora prioriza solo beneficios inmediatos y descuida sostenibilidad y 
-cumplimiento. A largo plazo, el riesgo principal será:
-A) Mayor rentabilidad
-B) Exclusión de mercados y pérdida de competitividad
-C) Eliminación de impuestos
-D) Incremento de demanda
-Respuesta correcta: B
-
-198.
-¿Por qué el comercio exterior debe evaluarse con una visión de largo plazo?
-A) Porque elimina riesgos inmediatos
-B) Porque define posicionamiento, crecimiento y sostenibilidad
-C) Porque sustituye la producción local
-D) Porque depende solo del mercado externo
-Respuesta correcta: B
-
-199.
-La coordinación entre sector público y privado es clave porque:
-A) Elimina la competencia
-B) Permite diseñar políticas y estrategias más efectivas
-C) Sustituye la inversión privada
-D) Centraliza decisiones
-Respuesta correcta: B
-
-200.
-Desde una visión integral, el éxito del comercio exterior se mide principalmente por:
-A) El volumen de exportaciones únicamente
-B) El equilibrio entre crecimiento económico, desarrollo social y sostenibilidad
-C) La eliminación de importaciones
-D) La reducción del comercio
-Respuesta correcta: B
+CASO 170
+Una empresa exportadora de ingredientes farmacéuticos activos ubicada en Sankt Gallen, Suiza, 
+vende un lote de compuestos de alta pureza a una empresa farmacéutica situada en Osaka, Japón. 
+La mercancía requiere embalaje homologado, manipulación especializada, control estricto de 
+temperatura, monitoreo continuo y cumplimiento de normas internacionales de seguridad y calidad. 
+El vendedor asume los costos de embalaje, transporte interno hasta el puerto de Génova, estiba y 
+carga a bordo del buque, y además contrata y paga el transporte marítimo internacional hasta el 
+puerto japonés.
+Por exigencia contractual del comprador y por políticas internas de gestión de riesgos del vendedor, 
+también se contrata un seguro marítimo obligatorio con cobertura mínima, cuyo costo se incluye en 
+el precio de venta. El contrato establece claramente que el riesgo por pérdida o daño se transfiere al 
+comprador en el momento en que la mercancía queda cargada a bordo del buque en el puerto de 
+origen, aunque el vendedor continúe pagando el flete y el seguro. En destino, el comprador se 
+encarga de la descarga, del transporte interno y del despacho de importación, asumiendo el pago de 
+aranceles, impuestos y tasas locales conforme a la legislación japonesa.
+Opciones:
+A. CFR
+B. FOB
+C. CIF
+D. DAP
+Respuesta correcta: C
 `;
